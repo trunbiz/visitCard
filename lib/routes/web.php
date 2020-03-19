@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::group(['namespace'=>'Admin'],function(){
+   Route::group(['prefix'=>'admin'],function(){
+      Route::get('/','indexController@indexShow');
+   });
+   Route::get('login','indexController@showLogin');
+   Route::post('login','indexController@checkLogin');
+   Route::get('register','indexController@showRegister');
+   Route::post('register','indexController@register');
+});
