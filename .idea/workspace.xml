@@ -2,93 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a82cd3c-ff08-44cd-bca2-64a6f8fcbaa0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/render.vn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/render.vn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/Base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/Base.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/do-lotec79.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/do-lotec79.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giay.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giay02b0.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giay02b0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giay0787.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giay0787.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giay13d8.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giay13d8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giay6d6f.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giay6d6f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giayb1e9.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giayb1e9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giayb5bf.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giayb5bf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/giayec79.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/giayec79.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/hang-moi.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/hang-moi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/hang-moi3a69.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/hang-moi3a69.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/hang-moia58b.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/hang-moia58b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/hang-moic49e.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/hang-moic49e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/hang-moifb38.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/hang-moifb38.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/my-phamec79.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/my-phamec79.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/nha-thiet-ke.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/nha-thiet-ke.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/sale.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/sale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/sale41d3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/sale41d3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/sale5354.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/sale5354.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/sale95e1.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/sale95e1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/sale9c79.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/sale9c79.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/salec454.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/salec454.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/salecb64.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/salecb64.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/saledb5a.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/saledb5a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/salee579.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/salee579.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham05ec.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham05ec.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham07bb.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham07bb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham0bbc.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham0bbc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham0c4e.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham0c4e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham0d00.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham0d00.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham1485.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham1485.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham1741.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham1741.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham23d9.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham23d9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham2d7a.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham2d7a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham2de8.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham2de8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham2f13.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham2f13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham358c.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham358c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham36b0.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham36b0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham3d39.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham3d39.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham3e33.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham3e33.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham4033.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham4033.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham4608.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham4608.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham519c.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham519c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham525d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham525d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham554d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham554d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham57ba.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham57ba.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham6a71.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham6a71.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham6e40.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham6e40.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham7427.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham7427.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham7639.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham7639.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham7841.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham7841.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham7893.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham7893.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham8782.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham8782.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham8f43.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham8f43.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham925f.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham925f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham9339.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham9339.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham9a2d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham9a2d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham9b12.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham9b12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-pham9da2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-pham9da2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamb1e9.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamb1e9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamb32a.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamb32a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamb477.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamb477.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamb717.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamb717.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phambe9c.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phambe9c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamc11c.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamc11c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamc95a.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamc95a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamcdb6.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamcdb6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamd45d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamd45d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamd9ba.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamd9ba.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamdfd6.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamdfd6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phame7ab.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phame7ab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phame8af.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phame8af.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamec79.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamec79.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamef3a.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamef3a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamf042.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamf042.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamf14b.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamf14b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamf340.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamf340.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/san-phamf36b.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/san-phamf36b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/wishlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -141,8 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/Base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53822">
-              <caret line="3166" column="35" selection-start-line="3166" selection-start-column="24" selection-end-line="3166" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -166,6 +100,7 @@
         <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -267,7 +202,7 @@
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="94" />
     <option name="y" value="45" />
     <option name="width" value="1107" />
@@ -278,24 +213,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="render.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="render.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="rendervn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rendervn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rendervn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rendervn" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rendervn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -331,16 +271,19 @@
       <workItem from="1584769803811" duration="89000" />
       <workItem from="1584777203721" duration="1739000" />
       <workItem from="1584796028884" duration="869000" />
+      <workItem from="1584801234347" duration="356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2697000" />
+    <option name="totallyTimeSpent" value="3053000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="45" width="1107" height="688" extended-state="0" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25883478" />
+      <window_info id="npm" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21904762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -365,7 +308,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -393,10 +335,24 @@
     <entry file="file://$PROJECT_DIR$/resources/views/front/login.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/Base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53822">
-          <caret line="3166" column="35" selection-start-line="3166" selection-start-column="24" selection-end-line="3166" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>

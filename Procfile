@@ -1,1 +1,1 @@
-vendor/bin/heroku-php-apache2 public/ > Procfile
+vendor/bin/heroku-php-apache2 public/
