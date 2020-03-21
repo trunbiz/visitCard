@@ -11,6 +11,10 @@ class indexController extends Controller
     public function __construct()
     {
     }
+    public function indexShow()
+    {
+        return view('admin.index');
+    }
     public function showLogin()
     {
         return view('front.login');

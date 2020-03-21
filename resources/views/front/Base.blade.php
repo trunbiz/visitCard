@@ -186,7 +186,7 @@
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         <div class="detail item active">
-                                            <a style="color:#318f8f;" href="nha-thiet-ke/elise.html" title="Thời trang Elise - Đồng gi&aacute; chỉ từ 149K ">Thời trang Elise - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
+                                            <a style="color:#318f8f;" href="nha-thiet-ke/elise.html" title="Thời trang Render - Đồng gi&aacute; chỉ từ 149K ">Thời trang Render - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
@@ -205,7 +205,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-5 col-md-4 col-lg-3 visible-md-block hidden-md visible-sm-block hidden-sm visible-xs-block hidden-xs">
-                            <a href="index.blade.php" rel="nofollow"><img class="lazyload logo-RENDER" data-src="upload/files/RENDER%20logo_website.png" /></a>
+                            <a href="index.blade.php" rel="nofollow"><img class="lazyload logo-RENDER" style="background: none; width: 40px;margin-bottom: 2px;" data-src="images/logo.png" /></a>
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 col-lg-offset-3 col-md-offset-0">
@@ -318,10 +318,6 @@
 
                                                             <li>
                                                                 <a href="do-lotec79.html?sale=1" class="none-sub">Đồ lót & Đồ ngủ</a>
-                                                            </li>
-
-                                                            <li>
-                                                                <a href="my-phamec79.html?sale=1" class="none-sub">Mỹ phẩm</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -2003,368 +1999,6 @@
                                             </div>
                                         </div>
                                     </li>
-
-
-
-
-                                    <li class=" " id="product">
-                                        <a href="my-pham.html" id="product_href">MỸ PHẨM</a>
-                                        <div class="sub-menu" style="display: none;">
-                                            <div class="container">
-                                                <h3 class="heading back">Back</h3>
-                                                <span class="line-break"></span>
-                                                <div class="row">
-
-                                                    <div class="col-md-2">
-                                                        <h3 class="heading" style="text-align:left;">Chọn theo</h3>
-                                                        <ul class="">
-                                                            <li>
-                                                                <a href="my-pham5d91.html?types=suc-khoe-sac-dep,trang-diem" class="none-sub">Trang điểm</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="my-pham0814.html?types=suc-khoe-sac-dep,cham-soc-da" class="none-sub">Chăm s&oacute;c da mặt</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="my-pham44af.html?types=suc-khoe-sac-dep,tam-cham-soc-co-the" class="none-sub">Chăm s&oacute;c cơ thể</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="my-pham2ec1.html?types=suc-khoe-sac-dep,cham-soc-toc" class="none-sub">Chăm s&oacute;c t&oacute;c</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="col-md-4">
-                                                        <h3 class="heading" style="text-align:left;">Thương hiệu</h3>
-                                                        <ul>
-                                                            <li>
-                                                                <a class="none-sub" href="nha-thiet-ke.html" style="text-decoration:underline;">Xem tất cả...</a>
-                                                            </li>
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/3w-clinic.html">3W Clinic</a>
-                                                            </li>
-
-
-
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/aishitoto.html">AISHITOTO</a>
-                                                            </li>
-
-
-
-
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/arcancil.html">ARCANCIL</a>
-                                                            </li>
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/aroma.html">AROMA</a>
-                                                            </li>
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/beauskin.html">BEAUSKIN</a>
-                                                            </li>
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/beauty-buffet.html">BEAUTY BUFFET</a>
-                                                            </li>
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/bioderma.html">Bioderma</a>
-                                                            </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/elly.html">Elly</a>
-                                                            </li>
-
-
-
-                                                            <li>
-                                                                <a href="nha-thiet-ke/happyskin.html">Emmi&eacute; by Happy Skin</a>
-                                                            </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="col-md-6">
-                                                        <div class="row">
-
-                                                            <div class="col-md-6 prod-img-new">
-                                                                <div class="prod-img1">
-                                                                    <a href="my-pham172d.html?types=https://RENDER.vn/my-pham,cham-soc-da">
-                                                                        <img src="upload/images/Beta/d%c6%b0%e1%bb%a1ng%20da.jpg" style="height:150px;">
-                                                                    </a>
-                                                                    <div class="content">
-                                                                        <a href="my-pham172d.html?types=https://RENDER.vn/my-pham,cham-soc-da">
-                                                                            <div class="title">
-                                                                                <span>Chăm s&oacute;c da mặt</span>
-                                                                            </div>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6 prod-img-new">
-                                                                <div class="prod-img1">
-                                                                    <a href="my-phamcd19.html?types=https://RENDER.vn/my-pham,cham-soc-toc">
-                                                                        <img src="upload/images/Beta/_t%c3%b3cjpg.jpg" style="height:150px;">
-                                                                    </a>
-                                                                    <div class="content">
-                                                                        <a href="my-phamcd19.html?types=https://RENDER.vn/my-pham,cham-soc-toc">
-                                                                            <div class="title">
-                                                                                <span>Chăm s&oacute;c t&oacute;c</span>
-                                                                            </div>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- END -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-
-
-
                                     <li class=" " id="collection">
                                         <a href="bo-suu-tap.html" id="collection_href">Bộ sưu tập</a>
                                         <div class="sub-menu" style="display: none;">
@@ -2679,7 +2313,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="prod-img1">
                                                                     <a href="bo-suu-tap/chan-vay-2020.html">
-                                                                        <img data-src="https://RENDER.vn/upload/files/navigations/920x1380-01.jpg" class="lazyload " />
+                                                                        <img data-src="images/suutap1.jpg" class="lazyload " />
                                                                     </a>
                                                                     <div class="content min-h-60">
                                                                         <a href="chan-vay-2020.html">
@@ -2693,7 +2327,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="prod-img1">
                                                                     <a href="bo-suu-tap/ao-khoac-2020.html">
-                                                                        <img data-src="https://RENDER.vn/upload/files/navigations/ao-khoac.jpg" class="lazyload " />
+                                                                        <img data-src="images/suutap1.jpg" class="lazyload " />
                                                                     </a>
                                                                     <div class="content min-h-60">
                                                                         <a href="ao-khoac-2020.html">
@@ -2707,7 +2341,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="prod-img1">
                                                                     <a href="bo-suu-tap/cong-so-022020.html">
-                                                                        <img data-src="https://RENDER.vn/upload/files/navigations/cong-so.jpg" class="lazyload " />
+                                                                        <img data-src="images/suutap1.jpg" class="lazyload " />
                                                                     </a>
                                                                     <div class="content min-h-60">
                                                                         <a href="cong-so-022020.html">
