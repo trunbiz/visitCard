@@ -10,16 +10,16 @@
             <div class="container">
                 <div class="slider-carousel owl-carousel owl-theme">
                                                                                       <a href="bo-suu-tap/thoi-trang-tre.html">
-                          <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/1170X500%20(10).jpg" data-srcset="https://ferosh.vn/upload/files/1170X500%20(10)-480w.jpg 480w, https://ferosh.vn/upload/files/1170X500%20(10)-1080w.jpg 1080w" sizes="50vw" alt="Ferosh - Thời trang thiết kế cao cấp"/>
+                          <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/1170X500%20(10).jpg" data-srcset="https://RENDER.vn/upload/files/1170X500%20(10)-480w.jpg 480w, https://RENDER.vn/upload/files/1170X500%20(10)-1080w.jpg 1080w" sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
                         </a>
                                                                                                             <a href="bo-suu-tap/dong-gia.html">
-                          <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/slides/10-03-2020/dong-gia-149.jpeg" data-srcset="https://ferosh.vn/upload/files/slides/10-03-2020/dong-gia-149-480w.jpeg 480w, https://ferosh.vn/upload/files/slides/10-03-2020/dong-gia-149-1080w.jpeg 1080w" sizes="50vw" alt="Ferosh - Thời trang thiết kế cao cấp"/>
+                          <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/slides/10-03-2020/dong-gia-149.jpeg" data-srcset="https://RENDER.vn/upload/files/slides/10-03-2020/dong-gia-149-480w.jpeg 480w, https://RENDER.vn/upload/files/slides/10-03-2020/dong-gia-149-1080w.jpeg 1080w" sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
                         </a>
                                                                                                             <a href="sale.html">
-                          <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/1170x500%20(6).jpg" data-srcset="https://ferosh.vn/upload/files/1170x500%20(6)-480w.jpg 480w, https://ferosh.vn/upload/files/1170x500%20(6)-1080w.jpg 1080w" sizes="50vw" alt="Ferosh - Thời trang thiết kế cao cấp"/>
+                          <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/1170x500%20(6).jpg" data-srcset="https://RENDER.vn/upload/files/1170x500%20(6)-480w.jpg 480w, https://RENDER.vn/upload/files/1170x500%20(6)-1080w.jpg 1080w" sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
                         </a>
                                                                                                             <a href="bo-suu-tap/my-pham-02.html">
-                          <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/1170x500%20(12).jpg" data-srcset="https://ferosh.vn/upload/files/1170x500%20(12)-480w.jpg 480w, https://ferosh.vn/upload/files/1170x500%20(12)-1080w.jpg 1080w" sizes="50vw" alt="Ferosh - Thời trang thiết kế cao cấp"/>
+                          <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/1170x500%20(12).jpg" data-srcset="https://RENDER.vn/upload/files/1170x500%20(12)-480w.jpg 480w, https://RENDER.vn/upload/files/1170x500%20(12)-1080w.jpg 1080w" sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
                         </a>
                                                                               </div>
             </div>
@@ -615,7 +615,7 @@
                     <div class="row">
                                                 <div class="col-md-6 col-xs-12 col-sm-6">
                             <a href="nha-thiet-ke/elise.html">
-                                <img data-src="https://ferosh.vn/upload/files/deals/10-3-2020/dong-gia-149.jpeg" srcset="https://ferosh.vn/upload/files/deals/10-3-2020/dong-gia-149-480w.jpeg 480w, https://ferosh.vn/upload/files/deals/10-3-2020/dong-gia-149-1080w.jpeg 1080w" sizes="50vw" alt="To&agrave;n bộ thiết kế thời thượng đến từ thương hiệu thời trang cao cấp Elise đồng gi&aacute; chỉ từ 149K - 549K" style="width: 100%" class="lazyload"/>
+                                <img data-src="https://RENDER.vn/upload/files/deals/10-3-2020/dong-gia-149.jpeg" srcset="https://RENDER.vn/upload/files/deals/10-3-2020/dong-gia-149-480w.jpeg 480w, https://RENDER.vn/upload/files/deals/10-3-2020/dong-gia-149-1080w.jpeg 1080w" sizes="50vw" alt="To&agrave;n bộ thiết kế thời thượng đến từ thương hiệu thời trang cao cấp Elise đồng gi&aacute; chỉ từ 149K - 549K" style="width: 100%" class="lazyload"/>
                             </a>
 
                             <div class="text-left">
@@ -631,7 +631,7 @@
                         </div>
                                                 <div class="col-md-6 col-xs-12 col-sm-6">
                             <a href="bo-suu-tap/giay-2020.html">
-                                <img data-src="https://ferosh.vn/upload/files/deals/16-03-2020/giam-ngay-50-all-items.jpeg" srcset="https://ferosh.vn/upload/files/deals/16-03-2020/giam-ngay-50-all-items-480w.jpeg 480w, https://ferosh.vn/upload/files/deals/16-03-2020/giam-ngay-50-all-items-1080w.jpeg 1080w" sizes="50vw" alt="100+ mẫu gi&agrave;y cao g&oacute;t, gi&agrave;y bệt được thiết kế bằng chất liệu da cao cấp n&acirc;ng niu bước đi của n&agrave;ng" style="width: 100%" class="lazyload"/>
+                                <img data-src="https://RENDER.vn/upload/files/deals/16-03-2020/giam-ngay-50-all-items.jpeg" srcset="https://RENDER.vn/upload/files/deals/16-03-2020/giam-ngay-50-all-items-480w.jpeg 480w, https://RENDER.vn/upload/files/deals/16-03-2020/giam-ngay-50-all-items-1080w.jpeg 1080w" sizes="50vw" alt="100+ mẫu gi&agrave;y cao g&oacute;t, gi&agrave;y bệt được thiết kế bằng chất liệu da cao cấp n&acirc;ng niu bước đi của n&agrave;ng" style="width: 100%" class="lazyload"/>
                             </a>
 
                             <div class="text-left">
@@ -647,7 +647,7 @@
                         </div>
                                                 <div class="col-md-6 col-xs-12 col-sm-6">
                             <a href="nha-thiet-ke/lagu.html">
-                                <img data-src="https://ferosh.vn/upload/files/deals/16-03-2020/bo-suu-tap-xuan-he.jpeg" srcset="https://ferosh.vn/upload/files/deals/16-03-2020/bo-suu-tap-xuan-he-480w.jpeg 480w, https://ferosh.vn/upload/files/deals/16-03-2020/bo-suu-tap-xuan-he-1080w.jpeg 1080w" sizes="50vw" alt="BST Xu&acirc;n - H&egrave; được thiết kế bởi NTK Lagu với chất liệu Linen chủ đạo gi&uacute;p n&agrave;ng dẫn đầu xu hướng" style="width: 100%" class="lazyload"/>
+                                <img data-src="https://RENDER.vn/upload/files/deals/16-03-2020/bo-suu-tap-xuan-he.jpeg" srcset="https://RENDER.vn/upload/files/deals/16-03-2020/bo-suu-tap-xuan-he-480w.jpeg 480w, https://RENDER.vn/upload/files/deals/16-03-2020/bo-suu-tap-xuan-he-1080w.jpeg 1080w" sizes="50vw" alt="BST Xu&acirc;n - H&egrave; được thiết kế bởi NTK Lagu với chất liệu Linen chủ đạo gi&uacute;p n&agrave;ng dẫn đầu xu hướng" style="width: 100%" class="lazyload"/>
                             </a>
 
                             <div class="text-left">
@@ -1254,7 +1254,7 @@
                 	<div class="owl-carousel owl-theme styles-carousel brand-lg styles-box">
                                                     <div class="item">
                                 <a href="san-pham/index8126.html?styles=10&amp;tag=collection">
-                                    <img src="upload/files/styles/phong-cach-cong-so.jpg" alt="C&ocirc;ng sở" srcset="https://ferosh.vn/upload/files/styles/phong-cach-cong-so-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-cong-so-1080w.jpeg 1080w" sizes="50vw" />
+                                    <img src="upload/files/styles/phong-cach-cong-so.jpg" alt="C&ocirc;ng sở" srcset="https://RENDER.vn/upload/files/styles/phong-cach-cong-so-480w.jpeg 480w, https://RENDER.vn/upload/files/styles/phong-cach-cong-so-1080w.jpeg 1080w" sizes="50vw" />
                                 </a>
                                 <div class="description">
                                 	<a href="san-pham/index8126.html?styles=10&amp;tag=collection">
@@ -1266,7 +1266,7 @@
                             </div>
                                                     <div class="item">
                                 <a href="san-pham/indexb8ad.html?styles=2&amp;tag=collection">
-                                    <img src="upload/files/styles/phong-cach-dao-pho.jpg" alt="Dạo phố" srcset="https://ferosh.vn/upload/files/styles/phong-cach-dao-pho-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-dao-pho-1080w.jpeg 1080w" sizes="50vw" />
+                                    <img src="upload/files/styles/phong-cach-dao-pho.jpg" alt="Dạo phố" srcset="https://RENDER.vn/upload/files/styles/phong-cach-dao-pho-480w.jpeg 480w, https://RENDER.vn/upload/files/styles/phong-cach-dao-pho-1080w.jpeg 1080w" sizes="50vw" />
                                 </a>
                                 <div class="description">
                                 	<a href="san-pham/indexb8ad.html?styles=2&amp;tag=collection">
@@ -1278,7 +1278,7 @@
                             </div>
                                                     <div class="item">
                                 <a href="san-pham/indexc812.html?styles=1&amp;tag=collection">
-                                    <img src="upload/files/styles/phong-cach-du-lich.jpg" alt="Du lịch" srcset="https://ferosh.vn/upload/files/styles/phong-cach-du-lich-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-du-lich-1080w.jpeg 1080w" sizes="50vw" />
+                                    <img src="upload/files/styles/phong-cach-du-lich.jpg" alt="Du lịch" srcset="https://RENDER.vn/upload/files/styles/phong-cach-du-lich-480w.jpeg 480w, https://RENDER.vn/upload/files/styles/phong-cach-du-lich-1080w.jpeg 1080w" sizes="50vw" />
                                 </a>
                                 <div class="description">
                                 	<a href="san-pham/indexc812.html?styles=1&amp;tag=collection">
@@ -1290,7 +1290,7 @@
                             </div>
                                                     <div class="item">
                                 <a href="san-pham/index30a9.html?styles=7&amp;tag=collection">
-                                    <img src="upload/files/styles/phong-cach-du-tiec.jpg" alt="Tiệc t&ugrave;ng" srcset="https://ferosh.vn/upload/files/styles/phong-cach-du-tiec-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-du-tiec-1080w.jpeg 1080w" sizes="50vw" />
+                                    <img src="upload/files/styles/phong-cach-du-tiec.jpg" alt="Tiệc t&ugrave;ng" srcset="https://RENDER.vn/upload/files/styles/phong-cach-du-tiec-480w.jpeg 480w, https://RENDER.vn/upload/files/styles/phong-cach-du-tiec-1080w.jpeg 1080w" sizes="50vw" />
                                 </a>
                                 <div class="description">
                                 	<a href="san-pham/index30a9.html?styles=7&amp;tag=collection">
@@ -1308,25 +1308,11 @@
                         <div class="prod-collection-highlight">
                             <div class="container">
                                 <div class="slider-carousel owl-carousel owl-theme">
-                                    <a href="https://ferosh.vn/bo-suu-tap/bst-tui-xach-2020">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/2000X668%20(12)(2).jpg" title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
+                                    <a href="https://RENDER.vn/bo-suu-tap/bst-tui-xach-2020">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/2000X668%20(12)(2).jpg" title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
                                     </a>
-                                    <a href="https://ferosh.vn/bo-suu-tap/bst-tui-xach-2020">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn" title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            	                                        <div class="row mtb-30">
-                        <div class="prod-collection-highlight">
-                            <div class="container">
-                                <div class="slider-carousel owl-carousel owl-theme">
-                                    <a href="https://ferosh.vn/bo-suu-tap/chan-vay-2020">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/2000x668%20(4)(5).jpg" title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020" alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
-                                    </a>
-                                    <a href="https://ferosh.vn/bo-suu-tap/chan-vay-2020">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn" title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020" alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
+                                    <a href="https://RENDER.vn/bo-suu-tap/bst-tui-xach-2020">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn" title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
                                     </a>
                                 </div>
                             </div>
@@ -1336,11 +1322,11 @@
                         <div class="prod-collection-highlight">
                             <div class="container">
                                 <div class="slider-carousel owl-carousel owl-theme">
-                                    <a href="https://ferosh.vn/bo-suu-tap/my-pham-01">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/2000x668(47).jpg" title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch" alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
+                                    <a href="https://RENDER.vn/bo-suu-tap/chan-vay-2020">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/2000x668%20(4)(5).jpg" title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020" alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
                                     </a>
-                                    <a href="https://ferosh.vn/bo-suu-tap/my-pham-01">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn" title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch" alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
+                                    <a href="https://RENDER.vn/bo-suu-tap/chan-vay-2020">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn" title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020" alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
                                     </a>
                                 </div>
                             </div>
@@ -1350,11 +1336,25 @@
                         <div class="prod-collection-highlight">
                             <div class="container">
                                 <div class="slider-carousel owl-carousel owl-theme">
-                                    <a href="https://ferosh.vn/bo-suu-tap/am-young-0320">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn/upload/files/2000X668(9).jpg" title="Am Young 0320" alt="Am Young 0320"/>
+                                    <a href="https://RENDER.vn/bo-suu-tap/my-pham-01">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/2000x668(47).jpg" title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch" alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
                                     </a>
-                                    <a href="https://ferosh.vn/bo-suu-tap/am-young-0320">
-                                      <img class="owl-lazy" data-src="https://ferosh.vn" title="Am Young 0320" alt="Am Young 0320"/>
+                                    <a href="https://RENDER.vn/bo-suu-tap/my-pham-01">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn" title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch" alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            	                                        <div class="row mtb-30">
+                        <div class="prod-collection-highlight">
+                            <div class="container">
+                                <div class="slider-carousel owl-carousel owl-theme">
+                                    <a href="https://RENDER.vn/bo-suu-tap/am-young-0320">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn/upload/files/2000X668(9).jpg" title="Am Young 0320" alt="Am Young 0320"/>
+                                    </a>
+                                    <a href="https://RENDER.vn/bo-suu-tap/am-young-0320">
+                                      <img class="owl-lazy" data-src="https://RENDER.vn" title="Am Young 0320" alt="Am Young 0320"/>
                                     </a>
                                 </div>
                             </div>
@@ -1367,7 +1367,7 @@
                             <div class="container">
                                 <div class="">
                                     <a href="bo-suu-tap/bst-tui-xach-2020.html">
-                                      <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000X668%20(12)(2).jpg" title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
+                                      <img class="lazyload" data-src="https://RENDER.vn/upload/files/2000X668%20(12)(2).jpg" title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
                                     </a>
                                 </div>
                             </div>
@@ -1378,7 +1378,7 @@
                             <div class="container">
                                 <div class="">
                                     <a href="bo-suu-tap/chan-vay-2020.html">
-                                      <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000x668%20(4)(5).jpg" title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020" alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
+                                      <img class="lazyload" data-src="https://RENDER.vn/upload/files/2000x668%20(4)(5).jpg" title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020" alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
                                     </a>
                                 </div>
                             </div>
@@ -1389,7 +1389,7 @@
                             <div class="container">
                                 <div class="">
                                     <a href="bo-suu-tap/my-pham-01.html">
-                                      <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000x668(47).jpg" title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch" alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
+                                      <img class="lazyload" data-src="https://RENDER.vn/upload/files/2000x668(47).jpg" title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch" alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
                                     </a>
                                 </div>
                             </div>
@@ -1400,7 +1400,7 @@
                             <div class="container">
                                 <div class="">
                                     <a href="bo-suu-tap/am-young-0320.html">
-                                      <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000X668(9).jpg" title="Am Young 0320" alt="Am Young 0320"/>
+                                      <img class="lazyload" data-src="https://RENDER.vn/upload/files/2000X668(9).jpg" title="Am Young 0320" alt="Am Young 0320"/>
                                     </a>
                                 </div>
                             </div>
@@ -1490,34 +1490,34 @@
                 <div class="container">
                     <div class="row">
                                                                         <div class="col-md-6 col-xs-12 col-sm-6">
-                            <a href="https://blog.ferosh.vn/tips-mix-do-hang-hieu-voi-gia-sieu-yeu" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U" target="_blank">
-                                <img data-src="https://blog.ferosh.vn/wp-content/uploads/2020/03/MIX-ĐỒ-H&Agrave;NG-HIỆU-VỚI-GI&Aacute;-CỰC-CHẤT.png" class="lazyload" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U"/>
+                            <a href="https://blog.RENDER.vn/tips-mix-do-hang-hieu-voi-gia-sieu-yeu" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U" target="_blank">
+                                <img data-src="https://blog.RENDER.vn/wp-content/uploads/2020/03/MIX-ĐỒ-H&Agrave;NG-HIỆU-VỚI-GI&Aacute;-CỰC-CHẤT.png" class="lazyload" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U"/>
                             </a>
 
                             <div class="text-left">
-                                <a href="https://blog.ferosh.vn/tips-mix-do-hang-hieu-voi-gia-sieu-yeu" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U" target="_blank">
+                                <a href="https://blog.RENDER.vn/tips-mix-do-hang-hieu-voi-gia-sieu-yeu" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U" target="_blank">
                                     <h3>
                                         <span class="upcase up-case">TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U</span>
                                     </h3>
                                 </a>
                                 <h5>
-                                    <span>H&agrave;ng hiệu gi&aacute; tốt ai m&agrave; chẳng m&ecirc;. Sau đ&acirc;y, Ferosh sẽ m&aacute;ch bạn tips phối đồ h&agrave;ng hiệu cao cấp thật thời trang m&agrave;... <a href="https://blog.ferosh.vn/tips-mix-do-hang-hieu-voi-gia-sieu-yeu" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U" target="_blank" style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
+                                    <span>H&agrave;ng hiệu gi&aacute; tốt ai m&agrave; chẳng m&ecirc;. Sau đ&acirc;y, RENDER sẽ m&aacute;ch bạn tips phối đồ h&agrave;ng hiệu cao cấp thật thời trang m&agrave;... <a href="https://blog.RENDER.vn/tips-mix-do-hang-hieu-voi-gia-sieu-yeu" title="TIPS MIX ĐỒ H&Agrave;NG HIỆU VỚI GI&Aacute; SI&Ecirc;U Y&Ecirc;U" target="_blank" style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
                                 </h5>
                             </div>
                         </div>
                                                                         <div class="col-md-6 col-xs-12 col-sm-6">
-                            <a href="https://blog.ferosh.vn/anh-huong-cua-covid19-den-nganh-thoi-trang" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ." target="_blank">
-                                <img data-src="https://blog.ferosh.vn/wp-content/uploads/2020/03/1200x630.jpg" class="lazyload" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ."/>
+                            <a href="https://blog.RENDER.vn/anh-huong-cua-covid19-den-nganh-thoi-trang" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ." target="_blank">
+                                <img data-src="https://blog.RENDER.vn/wp-content/uploads/2020/03/1200x630.jpg" class="lazyload" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ."/>
                             </a>
 
                             <div class="text-left">
-                                <a href="https://blog.ferosh.vn/anh-huong-cua-covid19-den-nganh-thoi-trang" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ." target="_blank">
+                                <a href="https://blog.RENDER.vn/anh-huong-cua-covid19-den-nganh-thoi-trang" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ." target="_blank">
                                     <h3>
                                         <span class="upcase up-case">ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ.</span>
                                     </h3>
                                 </a>
                                 <h5>
-                                    <span>Corvid-19 đ&atilde; lan to&agrave;n cầu, với hơn 98k nhiễm bệnh. Ng&agrave;nh thời trang b&aacute;n lẻ bị ảnh hưởng nặng nề. C&ugrave;ng xem c&aacute;c nh&atilde;n h&agrave;ng... <a href="https://blog.ferosh.vn/anh-huong-cua-covid19-den-nganh-thoi-trang" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ." target="_blank" style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
+                                    <span>Corvid-19 đ&atilde; lan to&agrave;n cầu, với hơn 98k nhiễm bệnh. Ng&agrave;nh thời trang b&aacute;n lẻ bị ảnh hưởng nặng nề. C&ugrave;ng xem c&aacute;c nh&atilde;n h&agrave;ng... <a href="https://blog.RENDER.vn/anh-huong-cua-covid19-den-nganh-thoi-trang" title="ẢNH HƯỞNG CỦA COVID19 ĐẾN NG&Agrave;NH THỜI TRANG B&Aacute;N LẺ." target="_blank" style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
                                 </h5>
                             </div>
                         </div>
@@ -1542,8 +1542,8 @@
                                     <div class="prod-img1">
                                         <a href="san-pham/c-est-la-v-dam-suong-xoe-duoi-ca.html"
                                             class="">
-                                                                                                                                                                                                                            <img data-src="https://ferosh.vn/uploads/09-11-2018/Hey-Cloud-2.jpg" class="lazyload" />
-                                                                                                                                                                                <img data-src="https://ferosh.vn/uploads/09-11-2018/Hey-Cloud.PNG" class="lazyload" />
+                                                                                                                                                                                                                            <img data-src="https://RENDER.vn/uploads/09-11-2018/Hey-Cloud-2.jpg" class="lazyload" />
+                                                                                                                                                                                <img data-src="https://RENDER.vn/uploads/09-11-2018/Hey-Cloud.PNG" class="lazyload" />
                                                                                                                                                                             </a>
                                     </div>
                                     <div
@@ -1566,8 +1566,8 @@
                                     <div class="prod-img1">
                                         <a href="san-pham/clara-mare-chan-vay-chong-than-mot-cuc-nau-dat.html"
                                             class="">
-                                                                                                                                                                                                                            <img data-src="https://ferosh.vn/uploads/19-09-2019/BLS1031-2(1).jpg" class="lazyload" />
-                                                                                                                                                                                <img data-src="https://ferosh.vn/uploads/19-09-2019/BLS1031-1(1).jpg" class="lazyload" />
+                                                                                                                                                                                                                            <img data-src="https://RENDER.vn/uploads/19-09-2019/BLS1031-2(1).jpg" class="lazyload" />
+                                                                                                                                                                                <img data-src="https://RENDER.vn/uploads/19-09-2019/BLS1031-1(1).jpg" class="lazyload" />
                                                                                                                                                                             </a>
                                     </div>
                                     <div
@@ -1594,8 +1594,8 @@
                                     <div class="prod-img1">
                                         <a href="san-pham/eternite-dam-suong-dai-tay-co-tim-melisa-den.html"
                                             class="">
-                                                                                                                                                                                                                            <img data-src="https://ferosh.vn/uploads/18-01-2019/Enternite1688.jpg" class="lazyload" />
-                                                                                                                                                                                <img data-src="https://ferosh.vn/uploads/18-01-2019/Enternite1684.jpg" class="lazyload" />
+                                                                                                                                                                                                                            <img data-src="https://RENDER.vn/uploads/18-01-2019/Enternite1688.jpg" class="lazyload" />
+                                                                                                                                                                                <img data-src="https://RENDER.vn/uploads/18-01-2019/Enternite1684.jpg" class="lazyload" />
                                                                                                                                                                             </a>
                                     </div>
                                     <div
@@ -1622,8 +1622,8 @@
                                     <div class="prod-img1">
                                         <a href="san-pham/vien-tran-ao-buoc-vat-vai-chom-vang.html"
                                             class="">
-                                                                                                                                                                                                                            <img data-src="https://ferosh.vn/uploads/07-09-2019/V61B19Q011-VOD27--V62T19Q004-RIS14---2-(1)(2).jpg" class="lazyload" />
-                                                                                                                                                                                <img data-src="https://ferosh.vn/uploads/07-09-2019/V61B19Q011-VOD27--5-(1).jpg" class="lazyload" />
+                                                                                                                                                                                                                            <img data-src="https://RENDER.vn/uploads/07-09-2019/V61B19Q011-VOD27--V62T19Q004-RIS14---2-(1)(2).jpg" class="lazyload" />
+                                                                                                                                                                                <img data-src="https://RENDER.vn/uploads/07-09-2019/V61B19Q011-VOD27--5-(1).jpg" class="lazyload" />
                                                                                                                                                                             </a>
                                     </div>
                                     <div

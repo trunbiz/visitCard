@@ -91,7 +91,7 @@ function register_receive_email(id) {
                         });
                         $('.dlg-notify .modal-title').html('THÔNG BÁO NHẬN BẢN TIN');
                         /*$('.dlg .modal-body').html('Bạn vừa đăng ký cập nhật xu hướng thời trang và các ưu đãi đặc biệt thành công!');*/
-                        $('.dlg-notify .modal-body').html('<br><b>Quý khách đã đăng ký nhận bản tin từ Ferosh thành công. Nếu muốn thay đổi các thông tin nhận qua email đã đăng ký, Quý khách vui lòng Đăng ký tài khoản với Ferosh và lựa chọn các thông tin muốn nhận. <br><br><br> <i>FEROSH XIN CHÂN THÀNH CẢM ƠN QUÝ KHÁCH! </i></b> <br><br>');
+                        $('.dlg-notify .modal-body').html('<br><b>Quý khách đã đăng ký nhận bản tin từ RENDER thành công. Nếu muốn thay đổi các thông tin nhận qua email đã đăng ký, Quý khách vui lòng Đăng ký tài khoản với RENDER và lựa chọn các thông tin muốn nhận. <br><br><br> <i>RENDER XIN CHÂN THÀNH CẢM ƠN QUÝ KHÁCH! </i></b> <br><br>');
                     }
                     var email = param.email;
 
@@ -172,7 +172,7 @@ function register_email(id) {
                     $('.designer-info .collapse-toogle').removeClass('in');
                     $("body").removeClass("loading");
                     if (id == '.btnEmail') {
-                        $(".divright .text-center").html('Xác nhận đăng ký thành công. Cảm ơn bạn đã để lại thông tin, các chương trình mới nhất sẽ được Ferosh cập nhập trong thời gian tới!');
+                        $(".divright .text-center").html('Xác nhận đăng ký thành công. Cảm ơn bạn đã để lại thông tin, các chương trình mới nhất sẽ được RENDER cập nhập trong thời gian tới!');
                         $(".box-label-alert-registeremail").removeClass('hide');
                     } else {
                         $('.dlg-notify').modal({
@@ -181,7 +181,7 @@ function register_email(id) {
                         });
                         $('.dlg-notify .modal-title').html('THÔNG BÁO NHẬN BẢN TIN');
                         /*$('.dlg .modal-body').html('Bạn vừa đăng ký cập nhật xu hướng thời trang và các ưu đãi đặc biệt thành công!');*/
-                        $('.dlg-notify .modal-body').html('<br><b>Quý khách đã đăng ký nhận bản tin từ Ferosh thành công. Nếu muốn thay đổi các thông tin nhận qua email đã đăng ký, Quý khách vui lòng Đăng ký tài khoản với Ferosh và lựa chọn các thông tin muốn nhận. <br><br><br> <i>FEROSH XIN CHÂN THÀNH CẢM ƠN QUÝ KHÁCH! </i></b> <br><br>');
+                        $('.dlg-notify .modal-body').html('<br><b>Quý khách đã đăng ký nhận bản tin từ RENDER thành công. Nếu muốn thay đổi các thông tin nhận qua email đã đăng ký, Quý khách vui lòng Đăng ký tài khoản với RENDER và lựa chọn các thông tin muốn nhận. <br><br><br> <i>RENDER XIN CHÂN THÀNH CẢM ƠN QUÝ KHÁCH! </i></b> <br><br>');
                     }
                     var email = param.email;
 
@@ -794,7 +794,7 @@ var frontEnd =
 					brandName: value['brand_name'], // bắt buộc
 					desc: value['category_name'],
 					imageUrl: value['image'], // bắt buộc
-					link: "https://ferosh.vn/san-pham/"+value['alias']+".html" // bắt buộc			  
+					link: "https://RENDER.vn/san-pham/"+value['alias']+".html" // bắt buộc			  
 				});
 			});
 			//console.log(products);

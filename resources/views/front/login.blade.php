@@ -17,11 +17,11 @@
                                 <a href="size-guide.html">Size Guide</a>
                             </div>
             <div class="row box-gray relative">
-                <form action="https://ferosh.vn/signin.html?url=https://ferosh.vn"
+                <form action="https://RENDER.vn/signin.html?url=https://RENDER.vn"
                     method="POST" id="frmregister">
                     <div class="col-md-9">
                         <p class="title">KHÁCH HÀNG ĐÃ CÓ TÀI KHOẢN</p>
-                        <p>Nếu bạn đã có tài khoản tại FEROSH, vui lòng đăng nhập tại đây.<br>
+                        <p>Nếu bạn đã có tài khoản tại RENDER, vui lòng đăng nhập tại đây.<br>
                             Chú ý: Nếu bạn mới chỉ đăng ký theo dõi bản tin hàng tuần mà vẫn chưa đăng ký tài khoản
                             thành viên, vui lòng đăng ký bên dưới.</p>
 
@@ -53,7 +53,7 @@
             <div class="row box-gray relative">
                 <div class="col-md-9">
                     <p class="title">BẠN CHƯA ĐĂNG KÝ TÀI KHOẢN?</p>
-                    <p>Nếu bạn mới đến FEROSH, vui lòng chọn “ĐĂNG KÝ NGAY”</p>
+                    <p>Nếu bạn mới đến RENDER, vui lòng chọn “ĐĂNG KÝ NGAY”</p>
                 </div>
                 <a href="register.html">
                     <button class="btn btn-black" type="button" style="min-width: 184px;">ĐĂNG KÝ NGAY</button>
