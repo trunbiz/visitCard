@@ -205,7 +205,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-5 col-md-4 col-lg-3 visible-md-block hidden-md visible-sm-block hidden-sm visible-xs-block hidden-xs">
-                            <a href="index.html" rel="nofollow"><img class="lazyload logo-ferosh" data-src="upload/files/Ferosh%20logo_website.png" /></a>
+                            <a href="index.blade.php" rel="nofollow"><img class="lazyload logo-ferosh" data-src="upload/files/Ferosh%20logo_website.png" /></a>
                         </div>
 
                         <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 col-lg-offset-3 col-md-offset-0">
@@ -217,9 +217,9 @@
                                         </li>
 
                                         <li class="visible-lg-block hidden-lg" style="float:left; border:0; margin-left:35px;">
-                                            <a href="index.html"><img class="lazyload"
-                                                                      data-src="upload/files/Ferosh%20logo_website.png"
-                                                                      style="max-height:15px;" /></a>
+                                            <a href="index.blade.php"><img class="lazyload"
+                                                                           data-src="upload/files/Ferosh%20logo_website.png"
+                                                                           style="max-height:15px;" /></a>
                                         </li>
                                         <li class="nav--search-v2">
                                             <a href="javascript:;" id="btn__toggle_search"><i class="demo-icon feroshic-search"></i></a>
@@ -3383,13 +3383,13 @@
                                     if(redirect_url) {
                                         return window.location.href = redirect_url;
                                     } else {
-                                        return window.location.href = 'index.html';
+                                        return window.location.href = 'index.blade.php';
                                     }
                                     //location.reload('/');
                                 }
                             },error: function(xhr, err) {
                                 console.log("Error Login");
-                                return location.reload('index.html');
+                                return location.reload('index.blade.php');
                             }
                         });
 
