@@ -8,6 +8,7 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     <base href="{{asset('public')}}/">
+    <meta name="google-site-verification" content="1ZmmdFqf8YYS19y0dwjSKpu8-nBtXcn16MKeVUky_bg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="RENDER.VN - website thương mại điện tử đầu ti&ecirc;n tại Việt Nam tập trung v&agrave;o h&agrave;ng thời trang thiết kế cao cấp. RENDER cung cấp c&aacute;c sản phẩm thời trang thiết kế trực tiếp từ c&aacute;c nh&agrave; thiết kế c&oacute; t&ecirc;n tuổi tại Việt Nam tới c&aacute;c kh&aacute;ch h&agrave;ng muốn khẳng định vị tr&iacute; v&agrave; tầm v&oacute;c của m&igrave;nh trong x&atilde; hội th&ocirc;ng qua c&aacute;ch ăn mặc. Ch&uacute;ng t&ocirc;i cũng hi vọng sẽ g&oacute;p phần củng cố hơn nữa gi&aacute; trị của thời trang trong cuộc sống của con người, đặc biệt đến th&agrave;nh c&ocirc;ng của người phụ nữ Việt Nam, đồng thời l&agrave; cầu nối vững chắc giữa đội ngũ c&aacute;c nh&agrave; thiết kế trẻ của Việt Nam v&agrave; c&aacute;c kh&aacute;ch h&agrave;ng tiềm năng." />
