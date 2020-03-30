@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['namespace'=>'Front'],function (){
     Route::get('/','indexController@indexShow');
+
 });
 Route::group(['namespace'=>'Admin'],function(){
    Route::group(['prefix'=>'admin'],function(){
