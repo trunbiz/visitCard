@@ -35,11 +35,16 @@ class indexController extends Controller
 
         if (Auth::attempt($arr)) {
 
-            return view('admin.index');
+            return redirect()->intended('admin');
         } else {
 
-           return view('front.login');
+            return redirect()->intended('login');
         }
+    }
+    public function logout()
+    {
+        Auth::logout();
+        Return redirect()->intended('login');
     }
     public function showRegister()
     {
