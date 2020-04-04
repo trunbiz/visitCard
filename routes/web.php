@@ -26,9 +26,15 @@ Route::group(['namespace'=>'Admin'],function(){
        Route::group(['prefix'=>'category'],function (){
            Route::get('/','categoryController@listAll');
            Route::post('/','categoryController@addItem');
-           Route::get('update/{id}','categoryController@updateShow');
-           Route::post('update/{id}','categoryController@updateItem');
+           Route::get('update','categoryController@updateItem');
            Route::get('delete/{id}','categoryController@deleteItem');
+       });
+       Route::group(['prefix'=>'product'],function(){
+            Route::get('/','productController@listAll');
+            Route::get('add','productController@addShow');
+            Route::post('add','productController@addItem');
+            Route::get('update','productController@updateItem');
+
        });
    });
 

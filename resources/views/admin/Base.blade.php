@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Render - Quản trị website</title>
     <base href="{{asset('public/admin')}}/" />
+
+
+
+
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/datepicker3.css" rel="stylesheet">
@@ -16,6 +21,9 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -101,16 +109,17 @@
     </form>
     <ul class="nav menu">
         <li class="active"><a href="index.blade.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+        <li><a href="{{asset('admin/product')}}"><em class="fa fa-calendar">&nbsp;</em> Product</a></li>
         <li><a href="widgets.html"><em class="fa fa-calendar">&nbsp;</em> Widgets</a></li>
         <li><a href="charts.html"><em class="fa fa-bar-chart">&nbsp;</em> Charts</a></li>
         <li><a href="elements.html"><em class="fa fa-toggle-off">&nbsp;</em> UI Elements</a></li>
         <li><a href="panels.html"><em class="fa fa-clone">&nbsp;</em> Alerts &amp; Panels</a></li>
         <li class="parent "><a data-toggle="collapse" href="#sub-item-1">
-                <em class="fa fa-navicon">&nbsp;</em> Multilevel <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+                <em class="fa fa-navicon">&nbsp;</em> Option <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
             </a>
             <ul class="children collapse" id="sub-item-1">
-                <li><a class="" href="#">
-                        <span class="fa fa-arrow-right">&nbsp;</span> Sub Item 1
+                <li><a class="" href="{{asset('admin/category')}}">
+                        <span class="fa fa-arrow-right">&nbsp;</span> Category
                     </a></li>
                 <li><a class="" href="#">
                         <span class="fa fa-arrow-right">&nbsp;</span> Sub Item 2

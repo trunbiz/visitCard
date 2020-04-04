@@ -76,13 +76,13 @@
             <li><a href="#">
                     <em class="fa fa-home"></em>
                 </a></li>
-            <li class="active">Forms</li>
+            <li class="active">product</li>
         </ol>
     </div><!--/.row-->
 
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Category</h1>
+            <h1 class="page-header">Product</h1>
         </div>
     </div><!--/.row-->
 
@@ -90,30 +90,11 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Create Category</div>
+                <div class="panel-heading">
+                    <a href="{{asset('admin/product/add')}}">Add Product</a>
+                </div>
                 <div class="panel-body">
-                    <div class="col-md-3">
-                        <form method="POST" action="{{asset('admin/category')}}">
-                            {{csrf_field()}}
-                            <div class="form-group">
-                                <label>Category name</label>
-                                <input class="form-control" placeholder="Category name" name="title">
-                            </div>
-                            <div class="form-group">
-                                <label>Describe</label>
-                                <input class="form-control" placeholder="describe" name="describe">
-                            </div>
-                            <div class="form-group">
-                                <label>Status</label>
-                                <select class="form-control form-control-sm" name="status">
-                                    <option value="1">Hoạt động</option>
-                                    <option value="0">Không hoạt động</option>
-                                </select>
-                            </div>
-                            <button class="btn btn-lg btn-primary">Add</button>
-                        </form>
-                    </div>
-                    <div class="col-md-9">
+
                         <table id="tb1" class="table table-striped">
                             <thead>
                             <tr>
@@ -126,21 +107,20 @@
                             </thead>
 
                             <tbody>
-                                @foreach($items as $item)
-                                <tr class="onRow">
-                                    <td scope="row">{{$item->id}}</td>
-                                    <td>{{$item->title}}</td>
-                                    <td>{{$item->describe}}</td>
-                                    <td>{{$item->status==1?'Action':'No Action'}}</td>
-                                    <td>
-                                        <a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Edit</a>
-                                        <a href="{{asset('admin/category/delete/'.$item->id)}}">Delete</a>
-                                    </td>
-                                </tr>
-                                @endforeach
+                            {{--@foreach($items as $item)--}}
+                                {{--<tr class="onRow">--}}
+                                    {{--<td scope="row">{{$item->id}}</td>--}}
+                                    {{--<td>{{$item->title}}</td>--}}
+                                    {{--<td>{{$item->describe}}</td>--}}
+                                    {{--<td>{{$item->status==1?'Action':'No Action'}}</td>--}}
+                                    {{--<td>--}}
+                                        {{--<a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Edit</a>--}}
+                                        {{--<a href="{{asset('admin/category/delete/'.$item->id)}}">Delete</a>--}}
+                                    {{--</td>--}}
+                                {{--</tr>--}}
+                            {{--@endforeach--}}
                             </tbody>
                         </table>
-                    </div>
                 </div>
             </div>
         </div><!-- /.panel-->
@@ -148,5 +128,5 @@
     <div class="col-sm-12">
         <p class="back-link">Render Theme by <a href="https://kipo.vn">Kipo</a></p>
     </div>
-</div><!-- /.row -->
+    </div><!-- /.row -->
 @stop
