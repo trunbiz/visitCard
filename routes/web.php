@@ -17,6 +17,7 @@ use App\Http\Middleware\CheckLogin;
 
 Route::group(['namespace'=>'Front'],function (){
     Route::get('/','indexController@indexShow');
+    Route::get('search/{search}','indexController@searchItem');
 
 });
 Route::group(['namespace'=>'Admin'],function(){
@@ -33,8 +34,9 @@ Route::group(['namespace'=>'Admin'],function(){
             Route::get('/','productController@listAll');
             Route::get('add','productController@addShow');
             Route::post('add','productController@addItem');
-            Route::get('update','productController@updateItem');
-
+            Route::get('update/{id}','productController@updateShow');
+            Route::post('update/{id}','productController@updateItem');
+            Route::get('delete/{id}','productController@deleteItem');
        });
    });
 

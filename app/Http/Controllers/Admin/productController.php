@@ -18,7 +18,8 @@ class productController extends Controller
     }
     public function listAll()
     {
-        return view('admin.product');
+        $data['items']=$this->product->listAll();
+        return view('admin.product',$data);
     }
     public function addShow()
     {
@@ -29,6 +30,22 @@ class productController extends Controller
     {
         $this->product->addItem($request);
         return redirect()->intended('admin/product');
+    }
+    public function updateShow($id)
+    {
+        $data['listCate']=$this->category->listAll();
+        $data['item']=$this->product->showItem($id);
+        return view('admin.editProduct',$data);
+    }
+    public function updateItem(Request $request, $id)
+    {
+        $this->product->updateItem($request,$id);
+        return redirect()->intended('admin/product');
+    }
+    public function deleteItem($id)
+    {
+        $this->product->deleteItem($id);
+        return back();
     }
 
 }

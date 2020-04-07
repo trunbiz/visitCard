@@ -98,27 +98,36 @@
                         <table id="tb1" class="table table-striped">
                             <thead>
                             <tr>
-                                <th>No</th>
+                                <th>ID</th>
                                 <th>Title</th>
-                                <th>Describe</th>
-                                <th>Status</th>
+                                <th>Price</th>
+                                <th>Sale</th>
+                                <th>Size</th>
+                                <th>Color</th>
+                                <th>Content</th>
+                                <th>Img Cover</th>
+                                <th>Count</th>
                                 <th>Option</th>
                             </tr>
                             </thead>
-
                             <tbody>
-                            {{--@foreach($items as $item)--}}
-                                {{--<tr class="onRow">--}}
-                                    {{--<td scope="row">{{$item->id}}</td>--}}
-                                    {{--<td>{{$item->title}}</td>--}}
-                                    {{--<td>{{$item->describe}}</td>--}}
-                                    {{--<td>{{$item->status==1?'Action':'No Action'}}</td>--}}
-                                    {{--<td>--}}
-                                        {{--<a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Edit</a>--}}
-                                        {{--<a href="{{asset('admin/category/delete/'.$item->id)}}">Delete</a>--}}
-                                    {{--</td>--}}
-                                {{--</tr>--}}
-                            {{--@endforeach--}}
+                            @foreach($items as $item)
+                                <tr class="onRow">
+                                    <td scope="row">{{$item->id}}</td>
+                                    <td>{{$item->title}}</td>
+                                    <td>{{$item->price}}</td>
+                                    <td>{{$item->sale}}</td>
+                                    <td>{{$item->size}}</td>
+                                    <td>{{$item->color}}</td>
+                                    <td>{{$item->content}}</td>
+                                    <td><img class="thumbnail" width="100px" src="{{isset($item->coverimg)?asset('../storage/app/media/'.$item->coverimg):asset('public/images/shirt-render.jpg')}}" ></td>
+                                    <td>{{$item->count}}</td>
+                                    <td>
+                                        <a href="{{asset('admin/product/update/'.$item->id)}}">Edit</a>
+                                        <a href="{{asset('admin/product/delete/'.$item->id)}}">Delete</a>
+                                    </td>
+                                </tr>
+                            @endforeach
                             </tbody>
                         </table>
                 </div>
