@@ -27,7 +27,8 @@ class mediaModel extends Model
                         $item->idblog=$idblog;
                         $filename=$file->getClientOriginalName();
                         $item->url = $filename;
-                        $file->storeAs('media',$filename);
+                        //$file->storeAs('media',$filename);
+                        $file->move('public/media',$filename);
                         $item->save();
                     }
                 }

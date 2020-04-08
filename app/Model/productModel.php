@@ -59,7 +59,8 @@ class productModel extends Model
             {
                 $filename=$request->coverimg->getClientOriginalName();
                 $item->coverimg=$filename;
-                $request->coverimg->storeAs('media',$filename);
+                $request->coverimg->move('public/media',$filename);
+                //$request->coverimg->storeAs('media',$filename);
             }
             $item->save();
             $this->cate_product->addItem($item->id,$request->idcategory);
@@ -110,7 +111,8 @@ class productModel extends Model
             {
                 $filename=$request->coverimg->getClientOriginalName();
                 $item->coverimg=$filename;
-                $request->coverimg->storeAs('media',$filename);
+                $request->coverimg->move('public/media',$filename);
+                //$request->coverimg->storeAs('media',$filename);
             }
             $item->save();
             $this->cate_product->addItem($item->id,$request->idcategory);

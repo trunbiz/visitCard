@@ -49,7 +49,7 @@
                                             <div class="prod-img1">
                                                 <a href="{{asset('product-Render{id}')}}" class="">
                                                     <img class="owl-lazy"
-                                                         data-src="{{asset('../storage/app/media/'.$item1->coverimg)}}"/>
+                                                         data-src="{{asset('public/media/'.$item1->coverimg)}}"/>
                                                 </a>
                                             </div>
                                             <div class="content productnew">
