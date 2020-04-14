@@ -19,8 +19,8 @@ class CreateCartProductTable extends Migration
             $table->integer('idproduct')->nullable();
             $table->integer('countsale')->nullable();
             $table->integer('pricesale')->nullable();
-            $table->integer('size')->nullable();
-            $table->integer('color')->nullable();
+            $table->string('size')->nullable();
+            $table->string('color')->nullable();
             $table->timestamps();
         });
     }

@@ -136,16 +136,27 @@ class productModel extends Model
             return false;
         }
     }
+    public function product()
+    {
+        $items = DB::table('product')
+            ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
+            ->join('category', 'category.id', '=', 'cate_product.idcategory')
+            ->select('product.*')
+            ->get();
+        return $items;
+    }
     public function searchItem($search)
     {
         $items = DB::table('product')
-//            ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
-//            ->join('category', 'category.id', '=', 'cate_product.idcategory')
+            ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
+            ->join('category', 'category.id', '=', 'cate_product.idcategory')
             ->where('product.title', 'like', '%'.$search.'%')
-//            ->orwhere('product.price', 'like', '%'.$search.'%')
-//            ->orwhere('category.title', 'like', '%'.$search.'%')
-//            ->select('product.*')
+            ->select('product.*')
             ->get();
+        if(is_array($items)==false)
+        {
+            $items=$this->searchCategoryProduct($search);
+        }
         return $items;
     }
     public function searchCategoryProduct($search)
@@ -153,8 +164,16 @@ class productModel extends Model
         $items = DB::table('product')
             ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
             ->join('category', 'category.id', '=', 'cate_product.idcategory')
-            ->orwhere('category.title', 'like', '%'.$search.'%')
+            ->where('category.title', 'like', '%'.$search.'%')
             ->select('product.*')
+            ->get();
+        return $items;
+    }
+    public function listProductCate($id)
+    {
+        $items = DB::table('cate_product')
+            ->join('product','cate_product.idproduct','=','product.id')
+            ->where('cate_product.idcategory',$id)
             ->get();
         return $items;
     }

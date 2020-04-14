@@ -3,14 +3,17 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Model\usersModel;
 use Illuminate\Http\Request;
 use Auth; //use thư viện auth
 
 class indexController extends Controller
 {
     //
+    private $user;
     public function __construct()
     {
+        $this->user=new usersModel();
     }
     public function indexShow()
     {
@@ -48,10 +51,23 @@ class indexController extends Controller
     }
     public function showRegister()
     {
-
+        return view('front.register');
     }
-    public function register()
+    public function register(Request $request)
     {
+        $this->user->addItem($request);
+        $arr = [
+            'email' => $request->email,
+            'password' => $request->password,
+        ];
+        Auth::attempt($arr);
+        if(Auth::user()->lever==1)
+        {
+            return redirect()->intended('/');
+        }
+        else{
+            return redirect()->intended('admin');
+        }
 
     }
 }

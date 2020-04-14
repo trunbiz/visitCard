@@ -50,4 +50,9 @@ class mediaModel extends Model
             return false;
         }
     }
+    public function listMedia($id)
+    {
+        $items=mediaModel::where('idproduct',$id)->get();
+        return $items;
+    }
 }

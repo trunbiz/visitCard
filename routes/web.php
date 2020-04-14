@@ -13,12 +13,20 @@ use App\Http\Middleware\CheckLogin;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
 Route::group(['namespace'=>'Front'],function (){
     Route::get('/','indexController@indexShow');
     Route::get('search/{search}','indexController@searchItem');
-
+    Route::get('search','indexController@getsearch');
+    Route::get('product','indexController@product');
+    Route::get('product-render-{id}','indexController@productDetail');
+    Route::get('list-product-render-{id}','indexController@listProduct');
+    Route::get('blog-{id}','indexController@blog');
+    Route::group(['prefix'=>'cart'],function (){
+        Route::get('/','cartController@cartShow');
+        Route::post('/','cartController@addItem');
+        Route::get('delete/{id}','cartController@deleteItem');
+        Route::get('pay','cartController@pay');
+    });
 });
 Route::group(['namespace'=>'Admin'],function(){
    Route::group(['prefix'=>'admin','middleware'=>'checklogin'],function(){
@@ -38,13 +46,15 @@ Route::group(['namespace'=>'Admin'],function(){
             Route::post('update/{id}','productController@updateItem');
             Route::get('delete/{id}','productController@deleteItem');
        });
+       Route::group(['prefix'=>'blog'],function (){
+           Route::get('/','blogController@listAll');
+           Route::get('add','blogController@addShow');
+           Route::post('add','blogController@addItem');
+           Route::get('update/{id}','blogController@updateShow');
+           Route::post('update/{id}','blogController@updateItem');
+           Route::get('delete/{id}','blogController@deleteItem');
+       });
    });
-
-
-
-
-
-
 
    //-------------------------------------------
    Route::group(['prefix'=>'login','middleware'=>'checklogout'],function(){
@@ -52,6 +62,6 @@ Route::group(['namespace'=>'Admin'],function(){
        Route::post('/','indexController@checkLogin');
     });
    Route::get('logout','indexController@logout');
-   Route::get('register','indexController@showRegister');
+       Route::get('register','indexController@showRegister');
    Route::post('register','indexController@register');
 });

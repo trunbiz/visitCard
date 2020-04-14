@@ -16,7 +16,13 @@ class CheckLogin
     public function handle($request, Closure $next)
     {
         if (Auth::check()) {
-            return $next($request);
+            if(Auth::user()->lever==0)
+            {
+                return $next($request);
+            }
+            else{
+                return redirect()->intended('/');
+            }
         } else {
             return redirect("login");
         }

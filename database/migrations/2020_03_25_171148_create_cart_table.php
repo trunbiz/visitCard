@@ -17,6 +17,7 @@ class CreateCartTable extends Migration
             $table->id();
             $table->integer('iduser')->nullable();
             $table->integer('total')->nullable();
+            $table->integer('status')->nullable();
             $table->timestamps();
         });
     }
