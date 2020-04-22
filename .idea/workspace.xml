@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a82cd3c-ff08-44cd-bca2-64a6f8fcbaa0" name="Default Changelist" comment="louis commit">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/render.vn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/render.vn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/asm89/stack-cors/" />
     <ignored path="$PROJECT_DIR$/vendor/bumbummen99/shoppingcart/" />
@@ -273,6 +271,25 @@
     <option name="height" value="688" />
   </component>
   <component name="ProjectId" id="1afoBDOpRGqgDwaAwBcTKKBGawF" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rendervn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rendervn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -361,7 +378,7 @@
       <workItem from="1587216727437" duration="615000" />
       <workItem from="1587284769800" duration="22000" />
       <workItem from="1587348779357" duration="47000" />
-      <workItem from="1587537215501" duration="257000" />
+      <workItem from="1587537215501" duration="839000" />
     </task>
     <task id="LOCAL-00001" summary="louis commit">
       <created>1585063309002</created>
@@ -444,7 +461,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257000" />
+    <option name="totallyTimeSpent" value="839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,6 +505,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
