@@ -3,7 +3,7 @@
 namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
-
+use DB;
 class cart_productModel extends Model
 {
     //
@@ -66,5 +66,13 @@ class cart_productModel extends Model
             report ($ex);
             return false;
         }
+    }
+    public function productCart($id)
+    {
+        $items=DB::table('cart')
+            ->join('cart_product', 'cart.id', '=', 'cart_product.idcart')
+            ->where('cart.id',$id)
+            ->get();
+        return $items;
     }
 }

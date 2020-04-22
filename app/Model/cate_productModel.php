@@ -3,7 +3,7 @@
 namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
-
+use DB;
 class cate_productModel extends Model
 {
     //
@@ -63,4 +63,5 @@ class cate_productModel extends Model
             return false;
         }
     }
+
 }

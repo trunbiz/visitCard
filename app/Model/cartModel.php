@@ -3,6 +3,7 @@
 namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
+use DB;
 
 class cartModel extends Model
 {
@@ -27,8 +28,6 @@ class cartModel extends Model
             report($ex);
             return false;
         }
-
-
     }
     public function showItem($id)
     {
@@ -61,5 +60,19 @@ class cartModel extends Model
             report ($ex);
             return false;
         }
+    }
+    public function listCart()
+    {
+        $items= DB::table('users')
+            ->join('cart', 'users.id', '=', 'cart.iduser')
+            ->get();
+        return $items;
+    }
+    public function detailCart($id)
+    {
+        $item= DB::table('users')
+            ->join('cart', 'users.id', '=', 'cart.iduser')
+            ->where('cart.id',$id)->get();
+        return $item;
     }
 }

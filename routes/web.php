@@ -54,6 +54,11 @@ Route::group(['namespace'=>'Admin'],function(){
            Route::post('update/{id}','blogController@updateItem');
            Route::get('delete/{id}','blogController@deleteItem');
        });
+       Route::group(['prefix'=>'cart'],function (){
+            Route::get('/','cartController@listAll');
+            Route::get('delete/{id}','cartController@deleteItem');
+            Route::get('detail/{id}','cartController@detailItem');
+       });
    });
 
    //-------------------------------------------

@@ -87,13 +87,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-xs-12 col-sm-6">
-                        <a href="nha-thiet-ke/elise.html">
+                        <a href="{{asset('product')}}">
                             <img src="{{asset('public/images/sp-qc1.jfif')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
-                            <a href="nha-thiet-ke/elise.html" title="THỜI TRANG Render - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
+                            <a href="{{asset('product')}}" title="THỜI TRANG Render - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
                                     <span class="upcase up-case box-title-nondecoration">THỜI TRANG Render - ĐỒNG GI&Aacute; CHỈ TỪ 149K</span>
                                 </h3>
@@ -107,13 +107,13 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-6">
-                        <a href="bo-suu-tap/giay-2020.html">
+                        <a href="{{asset('product')}}">
                             <img src="{{asset('public/images/sp-qc2.jfif')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
-                            <a href="bo-suu-tap/giay-2020.html" title="BST GI&Agrave;Y: SALE UP TO 50%">
+                            <a href="{{asset('product')}}" title="BST GI&Agrave;Y: SALE UP TO 50%">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
                                     <span class="upcase up-case box-title-nondecoration">BST GI&Agrave;Y: SALE UP TO 50%</span>
                                 </h3>
@@ -126,13 +126,13 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-6">
-                        <a href="nha-thiet-ke/lagu.html">
+                        <a href="{{asset('product')}}">
                             <img src="{{asset('public/images/sp-qc3.jfif')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
-                            <a href="nha-thiet-ke/lagu.html" title="ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF">
+                            <a href="{{asset('product')}}" title="ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
                                     <span class="upcase up-case box-title-nondecoration">ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF</span>
                                 </h3>
