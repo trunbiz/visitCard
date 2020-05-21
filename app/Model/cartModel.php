@@ -34,6 +34,19 @@ class cartModel extends Model
         $item=cartModel::find($id);
         return $item;
     }
+    public function updateStatus($id,$status)
+    {
+        try{
+            $item=cartModel::find($id);
+            $item->status=$status;
+            $item->save();
+            return true;
+        }catch (Exception $ex)
+        {
+            report($ex);
+            return false;
+        }
+    }
     public function updateItem(Request $request, $id)
     {
         try{
@@ -48,7 +61,6 @@ class cartModel extends Model
             report($ex);
             return false;
         }
-
     }
     public function deleteItem($id)
     {

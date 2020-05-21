@@ -32,4 +32,9 @@ class cartController extends Controller
         $this->cart->deleteItem($id);
         return back();
     }
+    public function updateStatus($id,$status)
+    {
+        $this->cart->updateStatus($id,$status);
+        return back();
+    }
 }

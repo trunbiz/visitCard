@@ -58,6 +58,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
+                        <div class="col-sm-6">
                             <div class="group">
                                 <div class="relative row-control form-group">
                                     <label>Họ tên *</label><input class="form-control" value="" name="username"

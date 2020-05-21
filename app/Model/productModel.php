@@ -139,8 +139,6 @@ class productModel extends Model
     public function product()
     {
         $items = DB::table('product')
-            ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
-            ->join('category', 'category.id', '=', 'cate_product.idcategory')
             ->select('product.*')
             ->get();
         return $items;
@@ -148,12 +146,10 @@ class productModel extends Model
     public function searchItem($search)
     {
         $items = DB::table('product')
-            ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
-            ->join('category', 'category.id', '=', 'cate_product.idcategory')
             ->where('product.title', 'like', '%'.$search.'%')
             ->select('product.*')
             ->get();
-        if(is_array($items)==false)
+        if(count($items) == 0)
         {
             $items=$this->searchCategoryProduct($search);
         }
@@ -165,7 +161,8 @@ class productModel extends Model
             ->join('cate_product', 'product.id', '=', 'cate_product.idproduct')
             ->join('category', 'category.id', '=', 'cate_product.idcategory')
             ->where('category.title', 'like', '%'.$search.'%')
-            ->select('product.*')
+            ->groupBy('product.id','product.coverimg','product.title','product.content','product.price','product.sale')
+            ->select('product.id','product.coverimg','product.title','product.content','product.price','product.sale')
             ->get();
         return $items;
     }
@@ -174,6 +171,14 @@ class productModel extends Model
         $items = DB::table('cate_product')
             ->join('product','cate_product.idproduct','=','product.id')
             ->where('cate_product.idcategory',$id)
+            ->get();
+        return $items;
+    }
+    public function searchPrice($min, $max)
+    {
+        $items = DB::table('product')
+            ->select('product.*', 'product.id')
+            ->whereBetween('price', [$min, $max])
             ->get();
         return $items;
     }

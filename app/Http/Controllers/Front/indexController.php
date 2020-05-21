@@ -61,5 +61,10 @@ class indexController extends Controller
         $data['items']=$this->product->product();
         return view('front.sanpham',$data);
     }
+    public function searchPrice(Request $request)
+    {
+        $data['items']=$this->product->searchPrice($request->min,$request->max);
+        return view('front.sanpham',$data);
+    }
 
 }

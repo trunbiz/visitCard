@@ -62,20 +62,6 @@
 
     <script src="../cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 
-    <script type="text/javascript">
-        /*var showImage;
-          while (showImage--) {
-            window.clearTimeout(showImage); // will do nothing if no timeout with id is present
-          }*/
-        /*(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-82113589-1', 'auto');
-        ga('send', 'pageview');*/
-    </script>
-
     <!-- Google Tag Manager -->
     <script>
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -187,7 +173,7 @@
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         <div class="detail item active">
-                                            <a style="color:#318f8f;" href="nha-thiet-ke/elise.html" title="Thời trang Render - Đồng gi&aacute; chỉ từ 149K ">Thời trang Render - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
+                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Thời trang Render - Đồng gi&aacute; chỉ từ 149K ">Thời trang Render - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
@@ -236,18 +222,12 @@
                                             </div>
                                         </li>
                                         <li class="btntooltip" id="lstitems" data-toggle="tooltip" data-placement="left" title="Giỏ hàng">
-                                            <a class="btntooltip prod-cart-href" href="cart.blade.php">
+                                            <a class="btntooltip prod-cart-href" href="{{asset('cart')}}">
                                                 <i class="demo-icon RENDERic-shopping-bag"></i>
                                                 <span class="prod-cart-qty"></span>
                                             </a>
                                         </li>
-                                        <li class="btntooltip" id="lstwishlist" data-toggle="tooltip" data-placement="top" title="Yêu thích">
-                                            <a href="wishlist.html">
-                                                <i class="demo-icon RENDERic-stars"></i>
-                                                <span class="prod-wish-qty"></span>
-                                            </a>
-                                        </li>
-                                        <li data-toggle="tooltip" data-placement="left" title="Tài khoản"><a href="signin8ef2.html?url=https://RENDER.vn/signin.html"><i class="demo-icon RENDERic-user-1"></i></a></li>
+                                        <li data-toggle="tooltip" data-placement="left" title="Tài khoản"><a href="{{asset('admin')}}"><i class="demo-icon RENDERic-user-1"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -268,7 +248,7 @@
                                         <a href="{{asset('search/Sale')}}" id="sale_href">SALE</a>
                                     </li>
                                     <li class=" " id="new">
-                                        <a href="{{asset('search/HÀNG MỚI')}}" id="new_href">H&Agrave;NG MỚI</a>
+                                        <a href="{{asset('search/Hàng mới')}}" id="new_href">H&Agrave;NG MỚI</a>
                                     </li>
                                     <li class=" " id="product">
                                         <a href="{{asset('search/Trang phục')}}" id="product_href">Trang phục</a>
@@ -374,30 +354,6 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <!--<div class="col-md-3 col-sm-6 footer-wiget-last">
-                                <h3 class="heading">Thanh toán</h3>
-                                <ul class="list-inline">
-                                    <li class="footer-spaces payMasterCard"></li>
-                                    <li class="footer-spaces payVISA"></li>
-                                    <li class="footer-spaces payCOD"></li>
-                                </ul>
-                                <h3 class="heading">Dịch vụ vận chuyển</h3>
-                                <ul class="list-inline">
-                                    <li class="footer-spaces shipTTC"></li>
-                                    <li class="footer-spaces shipVTP"></li>
-                                </ul>
-                                <h3 class="heading">Được chứng nhận</h3>
-                                <ul class="list-inline">
-                                    <li>
-                                        <a target="_blank" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=24501">
-                                            <img src="https://RENDER.vn/images/BCT-seal-red.png">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>-->
-
-
                         </div>
                     </div>
                 </div>
@@ -423,7 +379,6 @@
             <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="modal-header text-center">
-                        <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
                         <h4 class="modal-title upcase"></h4>
                     </div>
                     <div class="modal-body text-center">
@@ -433,25 +388,6 @@
         </div>
 
         <script>
-            // This is called with the results from from FB.getLoginStatus().
-            /*function statusChangeCallback(response) {
-              console.log('statusChangeCallback');
-              console.log(response);
-              if (response.status === 'connected') {
-                loginAPI();
-              } else if (response.status === 'not_authorized') {
-                console.log('Please log into this app.');
-              } else {
-                console.log('Please log into Facebook.');
-              }
-            }
-
-            function checkLoginState() {
-              FB.getLoginStatus(function(response) {
-                  statusChangeCallback(response);
-              });
-            }*/
-
             window.fbAsyncInit = function() {
                 FB.init({
                     appId      : "344562976437007",
@@ -460,10 +396,6 @@
                     xfbml      : true,  // parse social plugins on this page
                     version    : 'v2.8' // use graph api version 2.8
                 });
-
-                /*FB.getLoginStatus(function(response) {
-          statusChangeCallback(response);
-      });*/
             };
 
             (function ($) {

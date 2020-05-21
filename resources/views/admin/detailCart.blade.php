@@ -56,7 +56,7 @@
                             </tr>
                             <tr class="onRow">
                                 <td scope="row">Status Cart</td>
-                                <td>{{$itemCart[0]->status==1?'Chưa giao hàng':'Đã giao hàng'}}</td>
+                                <td><a class="btn btn-info" href="{{asset('admin/cart/update/'.$itemCart[0]->id.'/'.($itemCart[0]->status==1?'0':'1'))}}">{{$itemCart[0]->status==1?'Chưa giao hàng':'Đã giao hàng'}}</a></td>
                             </tr>
                         </tbody>
                     </table>

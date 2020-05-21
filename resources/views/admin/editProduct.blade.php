@@ -29,7 +29,7 @@
             <li class="active">Product/Add</li>
         </ol>
     </div><!--/.row-->
-
+    {{$item}}
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">Add Product</h1>
@@ -44,12 +44,33 @@
                         {{csrf_field()}}
                         <div class="row">
                         <div class="form-group col-sm-6">
-                            <label>Product category</label>
-                            <select id="boot-multiselect-demo" multiple="multiple" class="form-control" rows="5" name="idcategory[]">
-                                @foreach($listCate as $itemCate)
-                                <option value="{{$itemCate->id}}">{{$itemCate->title}}</option>
-                                @endforeach
-                            </select>
+                            <label>Product category</label><br>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Danh mục
+                                    sản phẩm <span class="caret"></span></button>
+                                <ul class="dropdown-menu" style="color: black !important;">
+                                    @foreach($listCate as $itemCate)
+                                        @if($itemCate->status==1)
+                                            <?php $check = 0?>
+                                            @if(isset($itemCatecheck))
+                                                @foreach($itemCatecheck as $itemCheck)
+                                                    @if($itemCate->id==$itemCheck->idca)
+                                                        <?php $check = 1;?>
+                                                        <li><input type="checkbox" value="{{$itemCate->id}}"
+                                                                   checked="checked"
+                                                                   name="idcategory[]">{{$itemCate->title}}</li>
+                                                        @break
+                                                    @endif
+                                                @endforeach
+                                            @endif
+                                            @if($check==0)
+                                                <li><input type="checkbox" value="{{$itemCate->id}}"
+                                                           name="idcategory[]">{{$itemCate->title}}</li>
+                                            @endif
+                                        @endif
+                                    @endforeach
+                                </ul>
+                            </div>
                         </div>
                         <div class="form-group col-sm-6">
                             <label>Product name</label>
@@ -69,21 +90,22 @@
                         <div class="row">
                         <div class="form-group col-sm-6">
                             <label>Product size</label><br>
+                            {{strpos($item->size,'S')}}
                             <select id="boot-multiselect-demo" class="form-control" rows="5" multiple="multiple" name="size[]">
-                                <option value="S">S</option>
-                                <option value="M">M</option>
-                                <option value="L">L</option>
-                                <option value="XL" >XL</option>
+                                <option {{isset($item->size)?(strpos($item->size,'S')>=0?'selected':''):''}} value="S">S</option>
+                                <option {{isset($item->size)?(strpos($item->size,'M')>=0?'selected':''):''}} value="M">M</option>
+                                <option {{isset($item->size)?(strpos($item->size,'L')>=0?'selected':''):''}} value="L">L</option>
+                                <option {{isset($item->size)?(strpos($item->size,'XL')>=0?'selected':''):''}} value="XL" >XL</option>
                             </select>
 
                         </div>
                         <div class="form-group col-sm-6">
                             <label>Product Color</label>
                             <select id="boot-multiselect-demo" multiple="multiple" class="form-control" rows="5" name="color[]">
-                                <option value="red">Red</option>
-                                <option value="white">White</option>
-                                <option value="yellow">Yellow</option>
-                                <option value="black" >Black</option>
+                                <option {{isset($item->color)?(strpos($item->color,'red')>=0?'selected':''):''}} value="red">Red</option>
+                                <option {{isset($item->color)?(strpos($item->color,'white')>=0?'selected':''):''}} value="white">White</option>
+                                <option {{isset($item->color)?(strpos($item->color,'yellow')>=0?'selected':''):''}} value="yellow">Yellow</option>
+                                <option {{isset($item->color)?(strpos($item->color,'black')>=0?'selected':''):''}} value="black" >Black</option>
                             </select>
                         </div>
                         </div>
@@ -105,9 +127,32 @@
                                 <img id="avatar" class="thumbnail" width="300px" src="{{isset($item->coverimg)?asset('public/media/'.$item->coverimg):asset('public/images/shirt-render.jpg')}}" >
                                 <p class="help-block">Ảnh đại diện.</p>
                             </div>
+                            <script>
+                                function preview_image() {
+                                    var total_file = document.getElementById("upload_file").files.length;
+                                    for (var i = 0; i < total_file; i++) {
+                                        $('#image_preview').append("<img class='col-sm-3 click-hide' src='" + URL.createObjectURL(event.target.files[i]) + "'>");
+                                    }
+                                }
+
+                                $(document).ready(function () {
+                                    $("#upload_file").click(function () {
+                                        $(".click-hide").hide();
+                                    });
+                                });
+                            </script>
                             <div class="form-group col-sm-6">
                                 <label>Product Img</label>
-                                <input multiple type="file" name="media[]" value="" class="form-control">
+                                <input id="upload_file" multiple type="file" name="media[]"
+                                       onchange="preview_image();" value="" class="form-control">
+                                <div id="image_preview" class="row">
+                                    @if(isset($media))
+                                        @foreach($media as $mediaItem)
+                                            <img class='col-sm-3 click-hide'
+                                                 src='{{asset('public/media/'.$mediaItem->url)}}'>
+                                        @endforeach
+                                    @endif
+                                </div>
                             </div>
                         </div>
                         <button class="btn btn-lg btn-primary">Add</button>

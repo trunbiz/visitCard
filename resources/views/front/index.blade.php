@@ -60,10 +60,10 @@
                                                             {{$item1->content}}
                                                                                                                             <br>
                                                                                                                                 <strike class="color-red"><span
-                                                                                                                                            class="color-black">{{$item1->price}}</span></strike>
+                                                                                                                                            class="color-black">{{number_format($item1->price,0,',','.')}} VNĐ</span></strike>
                                                                 <br>
                                                                 <span class="color-red">
-                                                                    {{$item1->sale}} VND | Giảm
+                                                                    {{number_format($item1->sale,0,',','.')}} VND | Giảm
                                                                     {{100-($item1->sale/$item1->price)*100}}%</span>
                                                                                                                                 </span>
                                                         </span>
@@ -178,10 +178,10 @@
                                                             {{$item2->content}}
                                                                                                                             <br>
                                                                                                                                 <strike class="color-red"><span
-                                                                                                                                            class="color-black">{{$item1->price}}</span></strike>
+                                                                                                                                            class="color-black">{{number_format($item2->price,0,',','.')}} VNĐ</span></strike>
                                                                 <br>
                                                                 <span class="color-red">
-                                                                    {{$item2->sale}} VND | Giảm
+                                                                    {{number_format($item2->price,0,',','.')}} VND | Giảm
                                                                     {{100-($item2->sale/$item2->price)*100}}%</span>
                                                                                                                                 </span>
                                                         </span>
@@ -329,28 +329,29 @@
             <div class="container">
                 <div class="row">
                     @foreach($itemsBlog->slice(0, 2) as $itemblog)
-                    <div class="col-md-6 col-xs-12 col-sm-6">
-                        <a href="{{asset('blog-'.$itemblog->id)}}"
-                           title="" target="_blank">
-                            <img data-src="{{asset('public/media/'.$itemblog->img)}}"
-                                 class="lazyload"
-                                 title=""/>
-                        </a>
-
-                        <div class="text-left">
+                        <div class="col-md-6 col-xs-12 col-sm-6">
                             <a href="{{asset('blog-'.$itemblog->id)}}"
                                title="" target="_blank">
-                                <h3>
-                                    <span class="upcase up-case">{{$itemblog->title}}</span>
-                                </h3>
+                                <img data-src="{{asset('public/media/'.$itemblog->img)}}"
+                                     class="lazyload"
+                                     title=""/>
                             </a>
-                            <h5>
+
+                            <div class="text-left">
+                                <a href="{{asset('blog-'.$itemblog->id)}}"
+                                   title="" target="_blank">
+                                    <h3>
+                                        <span class="upcase up-case">{{$itemblog->title}}</span>
+                                    </h3>
+                                </a>
+                                <h5>
                                 <span>{{$itemblog->describe}}<a href="{{asset('blog-'.$itemblog->id)}}"
-                                            title=""
-                                            target="_blank" style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
-                            </h5>
+                                                                title=""
+                                                                target="_blank"
+                                                                style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
+                                </h5>
+                            </div>
                         </div>
-                    </div>
                     @endforeach
                 </div>
             </div>
@@ -370,26 +371,27 @@
                     <div class="col-md-12">
                         <div class="row">
                             @foreach($items5 as $item5)
-                            <div class="col-sm-3 col-xs-6">
-                                <div class="prod-img1">
-                                    <a href="{{asset('product-render-'.$item5->id)}}"
-                                       class="">
-                                        <img data-src="{{asset('public/media/'.$item5->coverimg)}}"/>
-                                        <img data-src="{{asset('public/media/'.$item5->coverimg)}}" class="lazyload" style="display: block !important;"/>
-                                    </a>
+                                <div class="col-sm-3 col-xs-6">
+                                    <div class="prod-img1">
+                                        <a href="{{asset('product-render-'.$item5->id)}}"
+                                           class="">
+                                            <img data-src="{{asset('public/media/'.$item5->coverimg)}}"/>
+                                            <img data-src="{{asset('public/media/'.$item5->coverimg)}}" class="lazyload"
+                                                 style="display: block !important;"/>
+                                        </a>
+                                    </div>
+                                    <div
+                                            class="content ">
+                                        <a href="{{asset('product-render-'.$item5->id)}}">
+                                            <div class="title"><span>{{$item5->title}}</span></div>
+                                            <div class="desc">
+                                                <span>{{$item5->content}}<br>{{$item5->price}} VND </span>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <!-- <span class="status">Exclusive</span> -->
+                                    </div>
                                 </div>
-                                <div
-                                        class="content ">
-                                    <a href="{{asset('product-render-'.$item5->id)}}">
-                                        <div class="title"><span>{{$item5->title}}</span></div>
-                                        <div class="desc">
-                                            	<span>{{$item5->content}}<br>{{$item5->price}} VND </span>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <!-- <span class="status">Exclusive</span> -->
-                                </div>
-                            </div>
                             @endforeach
                         </div>
                     </div>

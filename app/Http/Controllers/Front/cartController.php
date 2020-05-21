@@ -7,6 +7,7 @@ use App\Model\cart_productModel;
 use App\Model\cartModel;
 use App\Model\cate_productModel;
 use App\Model\productModel;
+use App\Model\usersModel;
 use Illuminate\Http\Request;
 //use Gloudemans\Shoppingcart\Facades\Cart;
 //use Cart;
@@ -16,13 +17,14 @@ use Auth; //use thư viện auth
 class cartController extends Controller
 {
     //
-    private $cartItem,$product,$cart,$cart_product;
+    private $cartItem,$product,$cart,$cart_product,$user;
     public function __construct()
     {
         $this->cartItem = app(Cart::class);
         $this->product= new productModel();
         $this->cart= new cartModel();
         $this->cart_product= new cart_productModel();
+        $this->user=new usersModel();
     }
     public function cartShow()
     {
@@ -61,6 +63,31 @@ class cartController extends Controller
         if(Auth::check())
         {
             $idcart=$this->cart->addItem(Auth::user()->id,$total,1);
+            foreach ($data as $item)
+            {
+                $cart_product=array('idcart'=>$idcart,'idproduct'=>$item->id,'countsale'=>$item->qty,'pricesale'=>$item->price,'size'=>$item->options->size,'color'=>$item->options->color);
+                $this->cart_product->addItem($cart_product);
+            }
+        }
+        else{
+            return redirect()->intended('register');
+        }
+        $this->deleteAll();
+        return back();
+    }
+    public function payPost(Request $request)
+    {
+        $total=0;
+        $id=0;
+        $data=$this->cartItem->content();
+        foreach ($data as $item)
+        {
+            $total+=$item->price*$item->weight;
+        }
+        $id=$this->user->addItem($request);
+        if($id!=0)
+        {
+            $idcart=$this->cart->addItem($id,$total,1);
             foreach ($data as $item)
             {
                 $cart_product=array('idcart'=>$idcart,'idproduct'=>$item->id,'countsale'=>$item->qty,'pricesale'=>$item->price,'size'=>$item->options->size,'color'=>$item->options->color);

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Model\blogModel;
+use App\Model\cartModel;
+use App\Model\productModel;
 use App\Model\usersModel;
 use Illuminate\Http\Request;
 use Auth; //use thư viện auth
@@ -10,14 +13,21 @@ use Auth; //use thư viện auth
 class indexController extends Controller
 {
     //
-    private $user;
+    private $user,$product,$cart,$blog;
     public function __construct()
     {
+        $this->product=new productModel();
+        $this->cart=new cartModel();
+        $this->blog=new blogModel();
         $this->user=new usersModel();
     }
     public function indexShow()
     {
-        return view('admin.index');
+        $data['countproduct']=count($this->product->listAll());
+        $data['countcart']=count($this->cart->listAll());
+        $data['countblog']=count($this->blog->listAll());
+        $data['countuser']=count($this->user->listAll());
+        return view('admin.index',$data);
     }
     public function showLogin()
     {

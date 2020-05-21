@@ -62,11 +62,11 @@
                                 <div class="desc">
                                     <input type="hidden" id="price" value="780000.0000">
                                     <input type="hidden" id="txtAlias" value="vay-nhun-sat-nach-cotton">
-                                    <strike class="color-red"><span class="color-black">{{$item->price}}
+                                    <strike class="color-red"><span class="color-black">{{number_format($item->price,0,',','.')}}
                                     VND</span></strike>
                                     <br>
                                     <span class="color-red">
-                                {{$item->sale}} VND | Giảm
+                                {{number_format($item->sale,0,',','.')}} VND | Giảm
                                 {{100-($item->sale/$item->price)*100}}%</span>
                                 </div>
                             </li>

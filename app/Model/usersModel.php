@@ -32,7 +32,7 @@ class usersModel extends Model
                 $request->img->move('public/media',$filename);
             }
             $item->save();
-            return true;
+            return $item->id;
         }
         catch (Exception $ex){
             report($ex);

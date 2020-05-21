@@ -4,6 +4,7 @@ namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
+use DB;
 
 class mediaModel extends Model
 {
@@ -53,6 +54,13 @@ class mediaModel extends Model
     public function listMedia($id)
     {
         $items=mediaModel::where('idproduct',$id)->get();
+        return $items;
+    }
+    public function listItem($id)
+    {
+        $items=DB::table('media')
+            ->where('idproduct',$id)
+            ->get();
         return $items;
     }
 }
