@@ -1,5 +1,5 @@
 @extends('front.Base')
-@section('title','Render | Thế giới thời trang Render')
+@section('title','Gym Store | Thế giới thời trang Gym Store')
 @section('main')
     <script type="text/javascript">
         var route = "sanpham.blade.php";
@@ -11,19 +11,19 @@
                 <div class="slider-carousel owl-carousel owl-theme">
                     <a href="bo-suu-tap/thoi-trang-tre.html">
                         <img class="owl-lazy" data-src="images/banner1.jpeg" data-srcset="images/banner1.jpeg"
-                             sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
+                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
                     </a>
                     <a href="bo-suu-tap/dong-gia.html">
                         <img class="owl-lazy" data-src="images/banner2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
+                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
                     </a>
                     <a href="sale.html">
                         <img class="owl-lazy" data-src="images/banner3.jpg" data-srcset="images/banner3.jpg"
-                             sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
+                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
                     </a>
                     <a href="bo-suu-tap/my-pham-02.html">
                         <img class="owl-lazy" data-src="images/banner2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="RENDER - Thời trang thiết kế cao cấp"/>
+                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
                     </a>
                 </div>
             </div>
@@ -93,15 +93,15 @@
                         </a>
 
                         <div class="text-left">
-                            <a href="{{asset('product')}}" title="THỜI TRANG Render - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
+                            <a href="{{asset('product')}}" title="THỜI TRANG Gym Store - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
-                                    <span class="upcase up-case box-title-nondecoration">THỜI TRANG Render - ĐỒNG GI&Aacute; CHỈ TỪ 149K</span>
+                                    <span class="upcase up-case box-title-nondecoration">THỜI TRANG Gym Store - ĐỒNG GI&Aacute; CHỈ TỪ 149K</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
                                 <span>To&agrave;n bộ thiết kế thời thượng đến từ thương hiệu thời trang cao cấp Elise đồng gi&aacute; chỉ từ 149K - 549K <a
                                             href="nha-thiet-ke/elise.html"
-                                            title="THỜI TRANG Render - ĐỒNG GI&Aacute; CHỈ TỪ 149K"
+                                            title="THỜI TRANG Gym Store - ĐỒNG GI&Aacute; CHỈ TỪ 149K"
                                             style="text-decoration:underline;"><strong>MUA NGAY</strong></a></span>
                             </h5>
                         </div>

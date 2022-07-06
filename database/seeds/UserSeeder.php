@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
         $data = [
             [
                 'email' => 'admin@gmail.com',
-                'username'=>'tran_trung',
+                'username'=>'admin',
                 'lever'=>0,
                 'password' => bcrypt('123456'),
             ],

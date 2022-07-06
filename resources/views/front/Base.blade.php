@@ -15,11 +15,11 @@
     <link href="signin.html" rel="canonical" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Đăng nhập | RENDER | Thời trang thiết kế cao cấp" />
+    <meta property="og:title" content="Đăng nhập | Gym Store | Thời trang thiết kế cao cấp" />
     <meta property="og:description" content="RENDER.VN - website thương mại điện tử đầu ti&ecirc;n tại Việt Nam tập trung v&agrave;o h&agrave;ng thời trang thiết kế cao cấp. RENDER cung cấp c&aacute;c sản phẩm thời trang thiết kế trực tiếp từ c&aacute;c nh&agrave; thiết kế c&oacute; t&ecirc;n tuổi tại Việt Nam tới c&aacute;c kh&aacute;ch h&agrave;ng muốn khẳng định vị tr&iacute; v&agrave; tầm v&oacute;c của m&igrave;nh trong x&atilde; hội th&ocirc;ng qua c&aacute;ch ăn mặc. Ch&uacute;ng t&ocirc;i cũng hi vọng sẽ g&oacute;p phần củng cố hơn nữa gi&aacute; trị của thời trang trong cuộc sống của con người, đặc biệt đến th&agrave;nh c&ocirc;ng của người phụ nữ Việt Nam, đồng thời l&agrave; cầu nối vững chắc giữa đội ngũ c&aacute;c nh&agrave; thiết kế trẻ của Việt Nam v&agrave; c&aacute;c kh&aacute;ch h&agrave;ng tiềm năng." />
     <meta property="og:url" content="signin.html" />
-    <meta property="og:site_name" content="RENDER | Thời trang thiết kế cao cấp" />
-    <meta property="article:author" content="©2016 RENDER | Số ĐKKD: 0107469891 do Sở kế hoạch và Đầu tư TP Hà Nội, cấp ngày 10/06/2016">
+    <meta property="og:site_name" content="Gym Store | Thời trang thiết kế cao cấp" />
+    <meta property="article:author" content="©2016 Gym Store | Số ĐKKD: 0107469891 do Sở kế hoạch và Đầu tư TP Hà Nội, cấp ngày 10/06/2016">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="content-language" content="vi">
     <meta name="keywords" content="">
@@ -173,7 +173,7 @@
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         <div class="detail item active">
-                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Thời trang Render - Đồng gi&aacute; chỉ từ 149K ">Thời trang Render - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
+                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Thời trang Render - Đồng gi&aacute; chỉ từ 149K ">Thời trang Gym Store - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
@@ -293,7 +293,7 @@
                                     <li><a href="http://careers.RENDER.vn/">Tuyển dụng</a></li>
                                     <li><a href="chinh-sach-bao-mat.html">Ch&iacute;nh s&aacute;ch bảo mật</a></li>
                                     <li><a href="dieu-kien-dieu-khoan.html">Điều kiện &amp; Điều khoản</a></li>
-                                    <li><a href="do-you-know.html">#RENDERdoyouknow</a></li>
+                                    <li><a href="do-you-know.html">#Gym Storedoyouknow</a></li>
                                     <li><a href="chuong-trinh-quan-tri-thuc-tap-sinh.html">Ecommerce Graduate Programme</a></li>
                                 </ul>
                             </div>
@@ -325,7 +325,7 @@
                                                  style="padding-top:10px;">
                                                 <p class="small"
                                                    style="padding: 10px 0; border-top: dashed 1px #f00; color: #F00; border-bottom: dashed 1px #f00;">
-                                                    Quý khách đã đăng nhận bản tin thành công từ www.RENDER.vn!
+                                                    Quý khách đã đăng nhận bản tin thành công từ www.Gym Store.vn!
                                                 </p>
                                             </div>
                                         </div>
@@ -361,7 +361,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-3 col-md-5 col-lg-6">
-                                ©2016 RENDER | Số ĐKKD: 0107469891 do Sở kế hoạch và Đầu tư TP Hà Nội, cấp ngày 10/06/2016
+                                ©2016 Gym Store | Số ĐKKD: 0107469891 do Sở kế hoạch và Đầu tư TP Hà Nội, cấp ngày 10/06/2016
                             </div>
                             <div class="col-sm-5 col-md-4 col-lg-3 text-left">
                             </div>
