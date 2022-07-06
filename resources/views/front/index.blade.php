@@ -10,20 +10,20 @@
             <div class="container">
                 <div class="slider-carousel owl-carousel owl-theme">
                     <a href="bo-suu-tap/thoi-trang-tre.html">
-                        <img class="owl-lazy" data-src="images/banner1.jpeg" data-srcset="images/banner1.jpeg"
-                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
+                        <img class="owl-lazy" data-src="images/gym/banner_1.jpg" data-srcset="images/banner1.jpeg"
+                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
                     </a>
                     <a href="bo-suu-tap/dong-gia.html">
-                        <img class="owl-lazy" data-src="images/banner2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
+                        <img class="owl-lazy" data-src="images/gym/banner_2.jpg" data-srcset="images/banner2.jpg"
+                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
                     </a>
                     <a href="sale.html">
-                        <img class="owl-lazy" data-src="images/banner3.jpg" data-srcset="images/banner3.jpg"
-                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
+                        <img class="owl-lazy" data-src="images/gym/banner_3.jpg" data-srcset="images/banner3.jpg"
+                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
                     </a>
                     <a href="bo-suu-tap/my-pham-02.html">
-                        <img class="owl-lazy" data-src="images/banner2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="Gym Store - Thời trang thiết kế cao cấp"/>
+                        <img class="owl-lazy" data-src="images/gym/banner_2.jpg" data-srcset="images/banner2.jpg"
+                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
                     </a>
                 </div>
             </div>
