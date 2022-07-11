@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="544f57ca-2fb4-49b0-acc8-e077d43b8947" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/Base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/Base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/sanpham.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/sanpham.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,25 +26,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="jpg" value="3" />
           <entry key="json" value="1" />
-          <entry key="php" value="9" />
+          <entry key="php" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="4" />
+          <entry key="Blade" value="7" />
+          <entry key="Image" value="3" />
           <entry key="JSON" value="1" />
           <entry key="PHP" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="223" />
+          <entry key="php" value="301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="213" />
+          <entry key="Blade" value="291" />
           <entry key="PHP" value="10" />
         </counts>
       </usages-collector>
@@ -61,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -93,21 +95,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/productModel.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/Base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+            <state relative-caret-position="161">
+              <caret line="221" column="50" lean-forward="true" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/Base.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/cart.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="263" column="30" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/sanpham.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="47" column="106" lean-forward="true" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/public/images/gym/banner_1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/public/images/gym/banner_2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/public/images/gym/banner_3.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -124,17 +150,22 @@
       <find>Product Img</find>
       <find>SẢN PHẨM BÁN CHẠY</find>
       <find>Sale</find>
-      <find>W2-10-NA-2000X668-02.jpg</find>
-      <find>col-md-6 col-xs-12 col-sm-6</find>
       <find>shirt-render.jpg</find>
       <find>RENDER</find>
       <find>Shoppingcart</find>
       <find>XE ĐẠP TẬP</find>
       <find>Cart::</find>
+      <find>ShoppingcartServiceProvider</find>
+      <find>tìm</find>
+      <find>bumbummen99</find>
+      <find>GIỎ HÀNG</find>
+      <find>col-md-6 col-xs-12 col-sm-6</find>
+      <find>W2-10-NA-2000X668-02.jpg</find>
     </findStrings>
     <replaceStrings>
       <replace>Gym Store</replace>
       <replace>logo.png</replace>
+      <replace>by</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -151,8 +182,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/productController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/editProduct.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/Base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/Base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/cart.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/sanpham.blade.php" />
       </list>
     </option>
   </component>
@@ -306,7 +339,15 @@
               <item name="gymStore" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gymStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gymStore" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gymStore" type="b2602c69:ProjectViewProjectNode" />
@@ -358,18 +399,18 @@
       <updated>1657077243676</updated>
       <workItem from="1657077244873" duration="8031000" />
       <workItem from="1657125782046" duration="1340000" />
-      <workItem from="1657551800840" duration="3571000" />
+      <workItem from="1657551800840" duration="4383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12942000" />
+    <option name="totallyTimeSpent" value="13754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -384,7 +425,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/Base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="263" column="30" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -512,8 +546,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/public/images/gym/banner_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/public/images/gym/banner_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/public/images/gym/banner_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/Base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="221" column="50" lean-forward="true" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/cart.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/sanpham.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="47" column="106" lean-forward="true" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
         </state>
       </provider>
     </entry>

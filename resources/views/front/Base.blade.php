@@ -216,7 +216,7 @@
                                                 <form method="GET" action="{{asset('search')}}">
                                                     <input type="text" id="txtSearch" class="search" name="search"
                                                            value=""
-                                                           placeholder="Tìm kiếm sản phẩm, nhà thiết kế.." autocomplete="off" />
+                                                           placeholder="Tìm kiếm sản phẩm ..." autocomplete="off" />
                                                     <button class="btnsearch"><i class="demo-icon RENDERic-search"></i></button>
                                                 </form>
                                             </div>

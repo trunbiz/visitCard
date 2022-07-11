@@ -21,10 +21,6 @@
                         <a href="size-guide.html">Size Guide</a>
                     </div>
                     <div>
-                        <div class="margin-top30 text-right visible-xs-block hidden-xs">
-                            <a href="https://ferosh.vn/checkout/shipping.html"
-                               class="btn btn-black btn--modal-login" type="button">Thanh toán</a>
-                        </div>
                         <div class="margin-top10">
                             <div class="table-responsive lstproducts visible-xs-block hidden-xs">
                                 <table class="table">
