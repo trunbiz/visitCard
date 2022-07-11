@@ -120,7 +120,7 @@
                                     <td>{{$item->size}}</td>
                                     <td>{{$item->color}}</td>
                                     <td>{{$item->content}}</td>
-                                    <td><img class="thumbnail" width="100px" src="{{isset($item->coverimg)?asset('public/media/'.$item->coverimg):asset('public/images/shirt-render.jpg')}}" ></td>
+                                    <td><img class="thumbnail" width="100px" src="{{isset($item->coverimg)?asset('public/media/'.$item->coverimg):asset('public/images/logo.png')}}" ></td>
                                     <td>{{$item->count}}</td>
                                     <td>
                                         <a href="{{asset('admin/product/update/'.$item->id)}}">Edit</a>

@@ -29,7 +29,6 @@
             <li class="active">Product/Add</li>
         </ol>
     </div><!--/.row-->
-    {{$item}}
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">Add Product</h1>
@@ -88,26 +87,25 @@
                         </div>
                         </div>
                         <div class="row">
-                        <div class="form-group col-sm-6">
-                            <label>Product size</label><br>
-                            {{strpos($item->size,'S')}}
-                            <select id="boot-multiselect-demo" class="form-control" rows="5" multiple="multiple" name="size[]">
-                                <option {{isset($item->size)?(strpos($item->size,'S')>=0?'selected':''):''}} value="S">S</option>
-                                <option {{isset($item->size)?(strpos($item->size,'M')>=0?'selected':''):''}} value="M">M</option>
-                                <option {{isset($item->size)?(strpos($item->size,'L')>=0?'selected':''):''}} value="L">L</option>
-                                <option {{isset($item->size)?(strpos($item->size,'XL')>=0?'selected':''):''}} value="XL" >XL</option>
-                            </select>
+                        {{--<div class="form-group col-sm-6">--}}
+                            {{--<label>Product size</label><br>--}}
+                            {{--<select id="boot-multiselect-demo" class="form-control" rows="5" multiple="multiple" name="size[]">--}}
+                                {{--<option {{isset($item->size)?(strpos($item->size,'S')>=0?'selected':''):''}} value="S">S</option>--}}
+                                {{--<option {{isset($item->size)?(strpos($item->size,'M')>=0?'selected':''):''}} value="M">M</option>--}}
+                                {{--<option {{isset($item->size)?(strpos($item->size,'L')>=0?'selected':''):''}} value="L">L</option>--}}
+                                {{--<option {{isset($item->size)?(strpos($item->size,'XL')>=0?'selected':''):''}} value="XL" >XL</option>--}}
+                            {{--</select>--}}
 
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label>Product Color</label>
-                            <select id="boot-multiselect-demo" multiple="multiple" class="form-control" rows="5" name="color[]">
-                                <option {{isset($item->color)?(strpos($item->color,'red')>=0?'selected':''):''}} value="red">Red</option>
-                                <option {{isset($item->color)?(strpos($item->color,'white')>=0?'selected':''):''}} value="white">White</option>
-                                <option {{isset($item->color)?(strpos($item->color,'yellow')>=0?'selected':''):''}} value="yellow">Yellow</option>
-                                <option {{isset($item->color)?(strpos($item->color,'black')>=0?'selected':''):''}} value="black" >Black</option>
-                            </select>
-                        </div>
+                        {{--</div>--}}
+                        {{--<div class="form-group col-sm-6">--}}
+                            {{--<label>Product Color</label>--}}
+                            {{--<select id="boot-multiselect-demo" multiple="multiple" class="form-control" rows="5" name="color[]">--}}
+                                {{--<option {{isset($item->color)?(strpos($item->color,'red')>=0?'selected':''):''}} value="red">Red</option>--}}
+                                {{--<option {{isset($item->color)?(strpos($item->color,'white')>=0?'selected':''):''}} value="white">White</option>--}}
+                                {{--<option {{isset($item->color)?(strpos($item->color,'yellow')>=0?'selected':''):''}} value="yellow">Yellow</option>--}}
+                                {{--<option {{isset($item->color)?(strpos($item->color,'black')>=0?'selected':''):''}} value="black" >Black</option>--}}
+                            {{--</select>--}}
+                        {{--</div>--}}
                         </div>
                         <div class="row">
                         <div class="form-group col-sm-6">
@@ -122,9 +120,9 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                <label>Product Img</label>
+                                <label>Ảnh đại diện</label>
                                 <input id="img" type="file" name="coverimg" value="" class="form-control" onchange="changeImg(this)">
-                                <img id="avatar" class="thumbnail" width="300px" src="{{isset($item->coverimg)?asset('public/media/'.$item->coverimg):asset('public/images/shirt-render.jpg')}}" >
+                                <img id="avatar" class="thumbnail" width="300px" src="{{isset($item->coverimg)?asset('public/media/'.$item->coverimg):asset('public/images/logo.png')}}" >
                                 <p class="help-block">Ảnh đại diện.</p>
                             </div>
                             <script>
@@ -142,7 +140,7 @@
                                 });
                             </script>
                             <div class="form-group col-sm-6">
-                                <label>Product Img</label>
+                                <label>Chọn nhiều ảnh</label>
                                 <input id="upload_file" multiple type="file" name="media[]"
                                        onchange="preview_image();" value="" class="form-control">
                                 <div id="image_preview" class="row">

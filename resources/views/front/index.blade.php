@@ -1,5 +1,5 @@
 @extends('front.Base')
-@section('title','Gym Store | Thế giới thời trang Gym Store')
+@section('title','Gym Store | Thế giới Gym Store')
 @section('main')
     <script type="text/javascript">
         var route = "sanpham.blade.php";
@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="text-center mtb-30">
                     <h3>
-                        <span class="upcase up-case box-title">SẢN PHẨM B&Aacute;N CHẠY</span>
+                        <span class="upcase up-case box-title">MÁY CHẠY BỘ</span>
                     </h3>
                 </div>
                 <!-------------------------------- slide show ------------------->
@@ -88,7 +88,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xs-12 col-sm-6">
                         <a href="{{asset('product')}}">
-                            <img src="{{asset('public/images/sp-qc1.jfif')}}"
+                            <img src="{{asset('public/images/gym/slide_1.jpg')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
@@ -108,18 +108,18 @@
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-6">
                         <a href="{{asset('product')}}">
-                            <img src="{{asset('public/images/sp-qc2.jfif')}}"
+                            <img src="{{asset('public/images/gym/slide_2.jpg')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
                             <a href="{{asset('product')}}" title="BST GI&Agrave;Y: SALE UP TO 50%">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
-                                    <span class="upcase up-case box-title-nondecoration">BST GI&Agrave;Y: SALE UP TO 50%</span>
+                                    <span class="upcase up-case box-title-nondecoration">Tăng cơ khủng: SALE UP TO 50%</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>100+ mẫu gi&agrave;y cao g&oacute;t, gi&agrave;y bệt được thiết kế bằng chất liệu da cao cấp n&acirc;ng niu bước đi của n&agrave;ng <a
+                                <span>100+ nước tăng lực <a
                                             href="bo-suu-tap/giay-2020.html" title="BST GI&Agrave;Y: SALE UP TO 50%"
                                             style="text-decoration:underline;"><strong>MUA NGAY</strong></a></span>
                             </h5>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-6">
                         <a href="{{asset('product')}}">
-                            <img src="{{asset('public/images/sp-qc3.jfif')}}"
+                            <img src="{{asset('public/images/gym/slide_3.jpg')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
@@ -154,7 +154,7 @@
             <div class="container">
                 <div class="text-center mtb-30">
                     <h3>
-                        <span class="upcase up-case box-title">H&Agrave;NG MỚI</span>
+                        <span class="upcase up-case box-title">XE ĐẠP TẬP</span>
                     </h3>
                 </div>
                 <div class="row prod_bestsale">
@@ -200,130 +200,6 @@
         </div>
     </div>
     </div>
-
-    <div class="content-area home-content-area">
-        <div class="container">
-            <div class="text-center mtb-30">
-                <h3>
-                    <span class="upcase up-case box-title">PHONG C&Aacute;CH</span>
-                </h3>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme styles-carousel brand-lg styles-box">
-                        <div class="item">
-                            <a href="{{asset('search/Công sở')}}">
-                                <img src="upload/files/styles/phong-cach-cong-so.jpg" alt="C&ocirc;ng sở"
-                                     srcset="https://ferosh.vn/upload/files/styles/phong-cach-cong-so-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-cong-so-1080w.jpeg 1080w"
-                                     sizes="50vw"/>
-                            </a>
-                            <div class="description">
-                                <a href="{{asset('search/Công sở')}}">
-                                    <h3>
-                                        <span class="upcase up-case">Công sở</span>
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <a href="{{asset('search/Dạo phố')}}">
-                                <img src="upload/files/styles/phong-cach-dao-pho.jpg" alt="Dạo phố"
-                                     srcset="https://ferosh.vn/upload/files/styles/phong-cach-dao-pho-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-dao-pho-1080w.jpeg 1080w"
-                                     sizes="50vw"/>
-                            </a>
-                            <div class="description">
-                                <a href="{{asset('search/Dạo phố')}}">
-                                    <h3>
-                                        <span class="upcase up-case">Dạo phố</span>
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <a href="{{asset('search/Du lịch')}}">
-                                <img src="upload/files/styles/phong-cach-du-lich.jpg" alt="Du lịch"
-                                     srcset="https://ferosh.vn/upload/files/styles/phong-cach-du-lich-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-du-lich-1080w.jpeg 1080w"
-                                     sizes="50vw"/>
-                            </a>
-                            <div class="description">
-                                <a href="{{asset('search/Du lịch')}}">
-                                    <h3>
-                                        <span class="upcase up-case">Du lịch</span>
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <a href="{{asset('search/Tiệc tùng')}}">
-                                <img src="upload/files/styles/phong-cach-du-tiec.jpg" alt="Tiệc t&ugrave;ng"
-                                     srcset="https://ferosh.vn/upload/files/styles/phong-cach-du-tiec-480w.jpeg 480w, https://ferosh.vn/upload/files/styles/phong-cach-du-tiec-1080w.jpeg 1080w"
-                                     sizes="50vw"/>
-                            </a>
-                            <div class="description">
-                                <a href="{{asset('search/Tiệc tùng')}}">
-                                    <h3>
-                                        <span class="upcase up-case">Tiệc tùng</span>
-                                    </h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mtb-30">
-                <div class="prod-collection-highlight">
-                    <div class="container">
-                        <div class="">
-                            <a href="bo-suu-tap/bst-tui-xach-2020.html">
-                                <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000X668%20(12)(2).jpg"
-                                     title="BST T&Uacute;I X&Aacute;CH 2020" alt="BST T&Uacute;I X&Aacute;CH 2020"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mtb-30">
-                <div class="prod-collection-highlight">
-                    <div class="container">
-                        <div class="">
-                            <a href="bo-suu-tap/chan-vay-2020.html">
-                                <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000x668%20(4)(5).jpg"
-                                     title="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"
-                                     alt="TOP CH&Acirc;N V&Aacute;Y B&Aacute;N CHẠY NHẤT 2020"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mtb-30">
-                <div class="prod-collection-highlight">
-                    <div class="container">
-                        <div class="">
-                            <a href="bo-suu-tap/my-pham-01.html">
-                                <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000x668(47).jpg"
-                                     title="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"
-                                     alt="Mỹ Phẩm - Đẹp Xuy&ecirc;n M&ugrave;a Dịch"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mtb-30">
-                <div class="prod-collection-highlight">
-                    <div class="container">
-                        <div class="">
-                            <a href="bo-suu-tap/am-young-0320.html">
-                                <img class="lazyload" data-src="https://ferosh.vn/upload/files/2000X668(9).jpg"
-                                     title="Am Young 0320" alt="Am Young 0320"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="box-landing box-blogs">
         <div class="content-area home-content-area">
             <div class="container">
@@ -363,7 +239,7 @@
             <div class="container">
                 <div class="text-center mtb-30">
                     <h3>
-                        <span class="upcase up-case box-title">Dành riêng cho bạn</span>
+                        <span class="upcase up-case box-title">GHẾ MASSAGE</span>
                     </h3>
                 </div>
 

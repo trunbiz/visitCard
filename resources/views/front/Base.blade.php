@@ -248,16 +248,16 @@
                                         <a href="{{asset('search/Sale')}}" id="sale_href">SALE</a>
                                     </li>
                                     <li class=" " id="new">
-                                        <a href="{{asset('search/Hàng mới')}}" id="new_href">H&Agrave;NG MỚI</a>
+                                        <a href="{{asset('search/Máy chạy bộ')}}" id="new_href">Máy chạy bộ</a>
                                     </li>
                                     <li class=" " id="product">
-                                        <a href="{{asset('search/Trang phục')}}" id="product_href">Trang phục</a>
+                                        <a href="{{asset('search/Xe đạp tập')}}" id="product_href">Xe đạp tập</a>
                                     </li>
                                     <li class=" " id="collection">
-                                        <a href="{{asset('search/Bộ sưu tập')}}" id="collection_href">Bộ sưu tập</a>
+                                        <a href="{{asset('search/Máy tập bụng')}}" id="collection_href">Máy tập bụng</a>
                                     </li>
                                     <li class=" " id="designer">
-                                        <a href="{{asset('search/SALE')}}" id="designer_href">Nh&agrave; thiết kế</a>
+                                        <a href="{{asset('search/Dụng cụ tập Gym')}}" id="designer_href">Dụng cụ tập Gym</a>
                                     </li>
                                 </ul>
                             </div>

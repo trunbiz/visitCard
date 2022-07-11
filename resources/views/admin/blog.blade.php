@@ -42,7 +42,7 @@
                                 <td scope="row">{{$item->id}}</td>
                                 <td>{{$item->title}}</td>
                                 <td>{{$item->describe}}</td>
-                                <td><img class="thumbnail" width="100px" src="{{isset($item->img)?asset('public/media/'.$item->img):asset('public/images/shirt-render.jpg')}}" ></td>
+                                <td><img class="thumbnail" width="100px" src="{{isset($item->img)?asset('public/media/'.$item->img):asset('public/images/logo.png')}}" ></td>
                                 <td>{{$item->status==1?'Hiện thị':'Ẩn'}}</td>
                                 <td>
                                     <a href="{{asset('admin/blog/update/'.$item->id)}}">Edit</a>

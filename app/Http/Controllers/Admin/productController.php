@@ -27,7 +27,7 @@ class productController extends Controller
     }
     public function addShow()
     {
-        $data['listCate']=$this->category->listAll();
+        $data['listCate']= $this->category->listAll();
         return view('admin.editProduct',$data);
     }
     public function addItem(Request $request)
