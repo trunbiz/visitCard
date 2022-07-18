@@ -29,6 +29,8 @@ Route::group(['namespace' => 'Front'], function () {
         Route::get('pay', 'cartController@pay');
         Route::post('pay', 'cartController@payPost');
     });
+
+    Route::post('review', 'indexController@productReview');
 });
 Route::group(['namespace' => 'Admin'], function () {
     Route::group(['prefix' => 'admin', 'middleware' => 'checklogin'], function () {

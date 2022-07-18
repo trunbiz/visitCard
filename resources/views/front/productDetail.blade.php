@@ -1,6 +1,7 @@
 @extends('front.Base')
 @section('title','Gym Store | Thế giới thời trang Gym Store')
 @section('main')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="content-area home-content-area top-area">
         <div class="container">
             <div class="navigation margin-top20">
@@ -27,13 +28,13 @@
                                              src="{{asset('public/media/'.$item->coverimg)}}">
                                     </li>
                                     @foreach($itemsMedia as $media)
-                                    <li color-id="22286" class="show">
-                                        <img class="lazyload"
-                                             data-src="{{asset('public/media/'.$media->url)}}"
-                                             data-image="{{asset('public/media/'.$media->url)}}"
-                                             data-zoom-image="{{asset('public/media/'.$media->url)}}"
-                                             src="{{asset('public/media/'.$media->url)}}">
-                                    </li>
+                                        <li color-id="22286" class="show">
+                                            <img class="lazyload"
+                                                 data-src="{{asset('public/media/'.$media->url)}}"
+                                                 data-image="{{asset('public/media/'.$media->url)}}"
+                                                 data-zoom-image="{{asset('public/media/'.$media->url)}}"
+                                                 src="{{asset('public/media/'.$media->url)}}">
+                                        </li>
                                     @endforeach
                                 </ul>
                             </div>
@@ -63,11 +64,11 @@
                                     <input type="hidden" id="price" value="780000.0000">
                                     <input type="hidden" id="txtAlias" value="vay-nhun-sat-nach-cotton">
                                     <strike class="color-red"><span class="color-black">{{number_format($item->price,0,',','.')}}
-                                    VND</span></strike>
+                                            VND</span></strike>
                                     <br>
                                     <span class="color-red">
                                 {{number_format($item->sale,0,',','.')}} VND | Giảm
-                                {{100-($item->sale/$item->price)*100}}%</span>
+                                        {{number_format(100-($item->sale/$item->price)*100, 2)}}%</span>
                                 </div>
                             </li>
 
@@ -80,7 +81,8 @@
                                 <div id="size" class="content">
                                     @foreach($colorSize as $size)
                                         <div class="radio" style="display: inline-block; margin-right: 10px;">
-                                            <label size-id="1" class="box"><input type="radio" name="size" value="{{$size}}">{{$size}}</label>
+                                            <label size-id="1" class="box"><input type="radio" name="size"
+                                                                                  value="{{$size}}">{{$size}}</label>
                                         </div>
                                     @endforeach
                                     <div class="clear"></div>
@@ -97,10 +99,21 @@
                                     @foreach($colorItems as $color)
                                         <div class="radio" style="display: inline-block; margin-right: 10px;">
                                             <label size-id="1" class="box" style="background: {{$color}};">
-                                                <input style="background-color:{{$color}};" type="radio" name="color" value="{{$color}}"></label>
+                                                <input style="background-color:{{$color}};" type="radio" name="color"
+                                                       value="{{$color}}"></label>
                                             </label>
                                         </div>
                                     @endforeach
+                                </div>
+                            </li>
+                            <li>
+                                <div class="upcase">Đánh giá</div>
+                                <div class="ratting">
+                                    <span class="fa fa-star {{$rate >= 1 ? 'checked' : ''}}"></span>
+                                    <span class="fa fa-star {{$rate >= 2 ? 'checked' : ''}}"></span>
+                                    <span class="fa fa-star {{$rate >= 3 ? 'checked' : ''}}"></span>
+                                    <span class="fa fa-star {{$rate >= 4 ? 'checked' : ''}}"></span>
+                                    <span class="fa fa-star {{$rate >= 5 ? 'checked' : ''}}"></span>
                                 </div>
                             </li>
                             <li>
@@ -167,9 +180,38 @@
                 </div>
             </div>
 
-
+            {{--Review sản phẩm--}}
+            <div class="row product-review">
+                <h3>Feedback sản phẩm</h3>
+                <ul>
+                    @foreach($reviews as $itemReview)
+                        <li class="collapse-toogle">
+                            <b>{{$itemReview->getUserReview->username ?? 'Người dùng ẩn danh'}}</b>
+                            <p>{{$itemReview->review}}</p>
+                            <hr style=" border: none; border-top: 1px dotted black;">
+                        </li>
+                    @endforeach
+                </ul>
+                <form method="POST" action="{{asset('/review')}}">
+                    {{ csrf_field() }}
+                    <input name="product_id" hidden value="{{$item->id}}">
+                    <input name="user_id" hidden value="{{\Illuminate\Support\Facades\Auth::user()->id ?? ''}}">
+                    <textarea class="form-control" id="review" name="review"
+                              placeholder="Please enter your feedback here..." rows="5"></textarea>
+                    <br>
+                    <button class="btn btn-black" style="float: right;">Phản hồi</button>
+                </form>
+            </div>
         </div>
     </div>
+    <style>
+        .ratting .checked {
+            color: orange;
+        }
 
+        ul {
+            list-style-type: none !important;
+        }
+    </style>
 
 @stop

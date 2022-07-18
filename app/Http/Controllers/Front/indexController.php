@@ -6,17 +6,23 @@ use App\Http\Controllers\Controller;
 use App\Model\blogModel;
 use App\Model\mediaModel;
 use App\Model\productModel;
+use App\Model\productRateModel;
+use App\Model\productReviewModel;
 use Illuminate\Http\Request;
 
 class indexController extends Controller
 {
     //
     private $product,$media,$blog;
+    private $productReviewModel;
+    private $productRateModel;
     public function __construct()
     {
         $this->product= new productModel();
         $this->media= new mediaModel();
         $this->blog= new blogModel();
+        $this->productReviewModel = new productReviewModel();
+        $this->productRateModel = new productRateModel();
     }
     public function indexShow()
     {
@@ -40,11 +46,14 @@ class indexController extends Controller
         $data['items']=$this->product->searchItem($key);
         return view('front.sanpham',$data);
     }
+
     public function productDetail($id)
     {
-        $data['item']=$this->product->showItem($id);
-        $data['itemsMedia']=$this->media->listMedia($id);
-        return view('front.productDetail',$data);
+        $data['item'] = $this->product->showItem($id);
+        $data['itemsMedia'] = $this->media->listMedia($id);
+        $data['reviews'] = $this->productReviewModel->getReviewProduct($id);
+        $data['rate'] = (int)$this->productRateModel->getRateProduct($id);
+        return view('front.productDetail', $data);
     }
     public function listProduct($id)
     {
@@ -65,6 +74,13 @@ class indexController extends Controller
     {
         $data['items']=$this->product->searchPrice($request->min,$request->max);
         return view('front.sanpham',$data);
+    }
+
+    public function productReview(Request $request)
+    {
+        $request = $request->all();
+        $data = $this->productReviewModel->insertData($request);
+        return back();
     }
 
 }

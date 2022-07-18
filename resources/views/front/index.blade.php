@@ -63,8 +63,8 @@
                                                                                                                                             class="color-black">{{number_format($item1->price,0,',','.')}} VNĐ</span></strike>
                                                                 <br>
                                                                 <span class="color-red">
-                                                                    {{number_format($item1->sale,0,',','.')}} VND | Giảm
-                                                                    {{100-($item1->sale/$item1->price)*100}}%</span>
+                                                                        {{number_format($item1->sale,0,',','.')}} VND | Giảm
+                                                                    {{number_format(100-($item1->sale/$item1->price)*100, 2)}}%</span>
                                                                                                                                 </span>
                                                         </span>
                                                     </div>
@@ -181,8 +181,8 @@
                                                                                                                                             class="color-black">{{number_format($item2->price,0,',','.')}} VNĐ</span></strike>
                                                                 <br>
                                                                 <span class="color-red">
-                                                                    {{number_format($item2->price,0,',','.')}} VND | Giảm
-                                                                    {{100-($item2->sale/$item2->price)*100}}%</span>
+                                                                    {{number_format($item2->sale,0,',','.')}} VND | Giảm
+                                                                    {{number_format(100-($item2->sale/$item2->price)*100,2)}}%</span>
                                                                                                                                 </span>
                                                         </span>
                                                     </div>
