@@ -28,9 +28,19 @@ Route::group(['namespace' => 'Front'], function () {
         Route::get('delete/{id}', 'cartController@deleteItem');
         Route::get('pay', 'cartController@pay');
         Route::post('pay', 'cartController@payPost');
+        Route::get('detail/{id}', 'cartController@detail');
     });
-
+    // Đơn hàng đã đặt
+    Route::get('order-placed', 'cartController@orderPlaced');
     Route::post('review', 'indexController@productReview');
+
+    // page
+    Route::get('gioi-thieu', function (){
+       return view('front.gioi_thieu');
+    });
+    Route::get('lien-he', function (){
+        return view('front.lien_he');
+    });
 });
 Route::group(['namespace' => 'Admin'], function () {
     Route::group(['prefix' => 'admin', 'middleware' => 'checklogin'], function () {

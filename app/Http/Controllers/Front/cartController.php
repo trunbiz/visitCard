@@ -101,4 +101,18 @@ class cartController extends Controller
         return back();
     }
 
+    public function orderPlaced(Request $request)
+    {
+        $data['items'] = [];
+        if (Auth::check()) {
+            $data['items'] = cartModel::where('iduser', Auth::user()->id)->get();
+        }
+        return view('front.orderPlaced', $data);
+    }
+
+    public function detail($id)
+    {
+
+    }
+
 }

@@ -259,6 +259,12 @@
                                     <li class=" " id="designer">
                                         <a href="{{asset('search/Dụng cụ tập Gym')}}" id="designer_href">Dụng cụ tập Gym</a>
                                     </li>
+                                    <li class=" ">
+                                        <a href="{{asset('gioi-thieu')}}">Giới thiệu</a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="{{asset('lien-he')}}">Liên hệ</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

@@ -13,12 +13,8 @@
                 <div>
                     <p class="text-center upcase size-20 times-new-roman">Giỏ hàng</p>
                     <div class="text-center nav-horizontal box-help-cart">
-                        <span class="upcase">TRỢ GIÚP? </span><span class="bold"
-                                                                    style="margin-right: 10px;">1900 636 517</span>
-                        <a href="chinh-sach-doi-tra.html">Ch&iacute;nh s&aacute;ch đổi trả</a>
-                        <a href="chinh-sach-giao-hang.html">Ch&iacute;nh s&aacute;ch giao h&agrave;ng</a>
-                        <a href="chinh-sach-thanh-toan.html">Ch&iacute;nh s&aacute;ch thanh to&aacute;n</a>
-                        <a href="size-guide.html">Size Guide</a>
+                        <span class="upcase">TRỢ GIÚP? </span><span class="bold" style="margin-right: 10px;">1900 636 517</span>
+                        <a href="{{asset('order-placed')}}">Đơn hàng đã đặt</a>
                     </div>
                     <div>
                         <div class="margin-top10">

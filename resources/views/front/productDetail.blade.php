@@ -164,14 +164,6 @@
                                         chi tiết</a></div>
                             </div>
                         </li>
-                        <!-- <li>
-<div class="upcase share">
-<span>Share</span>
-<a class="icon icon-fb" href="#"></a>
-<a class="icon icon-in" href="#"></a>
-<a class="icon icon-mail" href="#"></a>
-</div>
-</li> -->
                         <li>
                             <ul class="product-other">
                             </ul>
@@ -181,17 +173,19 @@
             </div>
 
             {{--Review sản phẩm--}}
-            <div class="row product-review">
-                <h3>Feedback sản phẩm</h3>
-                <ul>
+            <div class="row product-review row" style="background: #20644d0d">
+                <div class="col-sm-12">
+                    <h4>Comments</h4>
                     @foreach($reviews as $itemReview)
-                        <li class="collapse-toogle">
-                            <b>{{$itemReview->getUserReview->username ?? 'Người dùng ẩn danh'}}</b>
-                            <p>{{$itemReview->review}}</p>
-                            <hr style=" border: none; border-top: 1px dotted black;">
-                        </li>
+                    <div class="comment mt-4 text-justify float-left">
+                        <img src="https://i.imgur.com/yTFUilP.jpg" alt="" class="rounded-circle" width="40" height="40">
+                        <b>{{$itemReview->getUserReview->username ?? 'Người dùng ẩn danh'}}</b><br>
+                        {{--<span>- {{$itemReview->created_at   }}</span>--}}
+                        <br>
+                        <p>{{$itemReview->review}}</p>
+                    </div>
                     @endforeach
-                </ul>
+                </div>
                 <form method="POST" action="{{asset('/review')}}">
                     {{ csrf_field() }}
                     <input name="product_id" hidden value="{{$item->id}}">
@@ -209,9 +203,6 @@
             color: orange;
         }
 
-        ul {
-            list-style-type: none !important;
-        }
     </style>
 
 @stop
