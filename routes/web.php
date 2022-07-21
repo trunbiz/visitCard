@@ -29,6 +29,7 @@ Route::group(['namespace' => 'Front'], function () {
         Route::get('pay', 'cartController@pay');
         Route::post('pay', 'cartController@payPost');
         Route::get('detail/{id}', 'cartController@detail');
+        Route::get('detail-star/{id}/{star}', 'cartController@detailStar');
     });
     // Đơn hàng đã đặt
     Route::get('order-placed', 'cartController@orderPlaced');
@@ -45,6 +46,10 @@ Route::group(['namespace' => 'Front'], function () {
 Route::group(['namespace' => 'Admin'], function () {
     Route::group(['prefix' => 'admin', 'middleware' => 'checklogin'], function () {
         Route::get('/', 'indexController@indexShow');
+        Route::group(['prefix' => 'profile'], function () {
+            Route::get('/', 'indexController@profileInfo');
+            Route::post('/', 'indexController@profileUpdate');
+        });
 
         Route::group(['prefix' => 'category'], function () {
             Route::get('/', 'categoryController@listAll');

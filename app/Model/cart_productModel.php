@@ -75,4 +75,14 @@ class cart_productModel extends Model
             ->get();
         return $items;
     }
+
+    public function infoProduct()
+    {
+        return $this->hasOne(productModel::class, 'id', 'idproduct');
+    }
+
+    public function infoCart()
+    {
+        return $this->hasOne(cartModel::class,'id', 'idcart');
+    }
 }

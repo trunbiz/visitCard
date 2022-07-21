@@ -80,4 +80,34 @@ class indexController extends Controller
         }
 
     }
+
+    public function profileInfo(Request $request)
+    {
+        $data['item'] = usersModel::find(\Illuminate\Support\Facades\Auth::user()->id);
+        return view('admin.profile', $data);
+    }
+
+    public function profileUpdate(Request $request)
+    {
+        $request = $request->all();
+        $userInfo = usersModel::find($request['id']);
+        $userInfo->email = $request['email'] ?? null;
+        $userInfo->phone = $request['phone'] ?? null;
+        $userInfo->city = $request['city'] ?? null;
+        $userInfo->address = $request['address'] ?? null;
+        $userInfo->email = $request['email'] ?? null;
+        if (!empty($request['password']))
+        {
+            $userInfo->password = bcrypt($request['password']) ?? null;
+        }
+        if(!empty($request['img']))
+        {
+            $filename=$request['img']->getClientOriginalName();
+            $userInfo->img=$filename;
+            $request['img']->move('public/media',$filename);
+        }
+        $userInfo->save();
+        $data['item'] = $userInfo;
+        return view('admin.profile', $data);
+    }
 }

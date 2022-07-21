@@ -7,6 +7,7 @@ use App\Model\cart_productModel;
 use App\Model\cartModel;
 use App\Model\cate_productModel;
 use App\Model\productModel;
+use App\Model\productRateModel;
 use App\Model\usersModel;
 use Illuminate\Http\Request;
 //use Gloudemans\Shoppingcart\Facades\Cart;
@@ -112,7 +113,22 @@ class cartController extends Controller
 
     public function detail($id)
     {
+        $data['items'] = cart_productModel::where('idcart', $id)->get();
+        return view('front.orderPlacedDetail', $data);
+    }
 
+    public function detailStar($id, $star)
+    {
+        $infoCartProduct = cart_productModel::find($id);
+        $infoCartProduct->star = $star;
+        $infoCartProduct->save();
+
+        productRateModel::create([
+            'product_id' => $infoCartProduct->idproduct,
+            'user_id' => Auth::user()->id,
+            'rate' => $star,
+        ]);
+        return back();
     }
 
 }

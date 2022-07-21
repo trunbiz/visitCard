@@ -45,19 +45,33 @@
     </div>
     <div class="divider"></div>
     <ul class="nav menu">
-        <li class="{{ (request()->is('admin')) ? 'active' : '' }}"><a href="{{asset('admin')}}"><em class="fa fa-dashboard">&nbsp;</em>Dashboard</a></li>
-        <li class="{{ (request()->is('admin/product')) ? 'active' : '' }}"><a href="{{asset('admin/product')}}"><i class="fa fa-cubes" aria-hidden="true"></i> Product</a></li>
-        <li class="{{ (request()->is('admin/blog')) ? 'active' : '' }}"><a href="{{asset('admin/blog')}}"><i class="fa fa-rss-square" aria-hidden="true"></i> Blog</a></li>
-        <li class="{{ (request()->is('admin/cart')) ? 'active' : '' }}"><a href="{{asset('admin/cart')}}"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a></li>
-        <li class="parent "><a data-toggle="collapse" href="#sub-item-1">
-                <em class="fa fa-navicon">&nbsp;</em> Option <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
-            </a>
-            <ul class="children collapse" id="sub-item-1">
-                <li class="{{ (request()->is('admin/category')) ? 'active' : '' }}"><a class="" href="{{asset('admin/category')}}">
-                        <span class="fa fa-arrow-right">&nbsp;</span> Category
-                    </a></li>
-            </ul>
-        </li>
+        @if(Auth::user()->lever == 0)
+            <li class="{{ (request()->is('admin')) ? 'active' : '' }}"><a href="{{asset('admin')}}"><em
+                            class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>@endif
+        <li class="{{ (request()->is('admin/profile')) ? 'active' : '' }}"><a href="{{asset('admin/profile')}}"><i
+                        class="fa fa-address-card-o"></i> Profile</a></li>
+        @if(Auth::user()->lever == 0)
+            <li class="{{ (request()->is('admin/product')) ? 'active' : '' }}"><a href="{{asset('admin/product')}}"><i
+                            class="fa fa-cubes" aria-hidden="true"></i> Product</a></li>@endif
+        @if(Auth::user()->lever == 0)
+            <li class="{{ (request()->is('admin/blog')) ? 'active' : '' }}"><a href="{{asset('admin/blog')}}"><i
+                            class="fa fa-rss-square" aria-hidden="true"></i> Blog</a></li>@endif
+        @if(Auth::user()->lever == 0)
+            <li class="{{ (request()->is('admin/cart')) ? 'active' : '' }}"><a href="{{asset('admin/cart')}}"><i
+                            class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a></li>@endif
+        @if(Auth::user()->lever == 0)
+            <li class="parent "><a data-toggle="collapse" href="#sub-item-1">
+                    <em class="fa fa-navicon">&nbsp;</em> Option <span data-toggle="collapse" href="#sub-item-1"
+                                                                       class="icon pull-right"><em
+                                class="fa fa-plus"></em></span>
+                </a>
+                <ul class="children collapse" id="sub-item-1">
+                    <li class="{{ (request()->is('admin/category')) ? 'active' : '' }}"><a class=""
+                                                                                           href="{{asset('admin/category')}}">
+                            <span class="fa fa-arrow-right">&nbsp;</span> Category
+                        </a></li>
+                </ul>
+            </li>@endif
         <li><a href="{{asset('logout')}}"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
     </ul>
 </div><!--/.sidebar-->
