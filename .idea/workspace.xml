@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="544f57ca-2fb4-49b0-acc8-e077d43b8947" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/Base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/Base.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/cardSuccess.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/cardSuccess.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/productDetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/productDetail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cart.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,27 +35,27 @@
           <entry key="env" value="2" />
           <entry key="jpg" value="3" />
           <entry key="json" value="1" />
-          <entry key="php" value="62" />
+          <entry key="php" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="32" />
+          <entry key="Blade" value="33" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="30" />
+          <entry key="PHP" value="31" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="4" />
-          <entry key="php" value="5049" />
+          <entry key="php" value="5111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="2808" />
+          <entry key="Blade" value="2870" />
           <entry key="PHP" value="2241" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -70,8 +67,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="211">
+              <caret line="78" column="43" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/cartController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/cart.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -88,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/cardSuccess.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+            <state relative-caret-position="289">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -150,8 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>row margin-top20</find>
-      <find>Auth::user()-&gt;img</find>
       <find>Màu</find>
       <find>Đặt mua</find>
       <find>{{asset</find>
@@ -180,6 +193,8 @@
       <find>cartShow</find>
       <find>review'</find>
       <find>SESSION_DOMAIN</find>
+      <find>Cart</find>
+      <find>listAll</find>
     </findStrings>
     <replaceStrings>
       <replace>Gym Store</replace>
@@ -228,6 +243,7 @@
         <option value="$PROJECT_DIR$/resources/views/front/Base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/productDetail.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/cardSuccess.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/cart.blade.php" />
       </list>
     </option>
   </component>
@@ -402,7 +418,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="cardSuccess&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/cardSuccess.blade.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/.env&#10;cart.bl&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/cart.blade.php&#10;cartController&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/app/Http/Controllers/Front/cartController.php&#10;blog&#9;null&#9;null&#10;indexController&#9;null&#9;null&#10;front/orderPlaced&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/orderPlaced.blade.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/composer.json&#10;front/Base&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/Base.blade.php&#10;front/index&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/index.blade.php&#10;front.index&#9;ACTION&#9;null&#10;admin/product&#9;null&#9;null&#10;admin/editProduct.blade.php&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/admin/editProduct.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="admin/cart&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/admin/cart.blade.php&#10;cartController&#9;null&#9;null&#10;cardSuccess&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/cardSuccess.blade.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/.env&#10;cart.bl&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/cart.blade.php&#10;blog&#9;null&#9;null&#10;indexController&#9;null&#9;null&#10;front/orderPlaced&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/orderPlaced.blade.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/composer.json&#10;front/Base&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/Base.blade.php&#10;front/index&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/front/index.blade.php&#10;front.index&#9;ACTION&#9;null&#10;admin/product&#9;null&#9;null&#10;admin/editProduct.blade.php&#9;FILE&#9;file://C:/xampp/htdocs/gymStore/resources/views/admin/editProduct.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../kowalski.local" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -447,12 +463,12 @@
       <workItem from="1658246727327" duration="6393000" />
       <workItem from="1658330886105" duration="1672000" />
       <workItem from="1658437629415" duration="11893000" />
-      <workItem from="1658492968418" duration="3553000" />
+      <workItem from="1658492968418" duration="3903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49432000" />
+    <option name="totallyTimeSpent" value="49782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -473,7 +489,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -781,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -835,8 +844,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/cardSuccess.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/cartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/cart.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="48" column="92" selection-start-line="48" selection-start-column="92" selection-end-line="48" selection-end-column="92" />
         </state>
       </provider>
     </entry>

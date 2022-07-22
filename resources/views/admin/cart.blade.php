@@ -32,6 +32,7 @@
                             <th>Address</th>
                             <th>Total</th>
                             <th>Status</th>
+                            <th>Payment</th>
                             <th>Option</th>
                         </tr>
                         </thead>
@@ -45,6 +46,7 @@
                                 <td>{{$item->address}}</td>
                                 <td>{{$item->total}}</td>
                                 <td>{{$item->status==1?'Chưa giao hàng':'Đã giao hàng'}}</td>
+                                <td>{{$item->pay=='SUCCESS'?'Đã thanh toán':'Chưa thanh toán'}}</td>
                                 <td>
                                     <a href="{{asset('admin/cart/detail/'.$item->id)}}">Detail</a>
                                     <a href="{{asset('admin/cart/delete/'.$item->id)}}">Delete</a>
