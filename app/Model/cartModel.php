@@ -14,13 +14,14 @@ class cartModel extends Model
         $item=cartModel::orderBy('created_at','DESC')->get();
         return $item;
     }
-    public function addItem($iduser,$total,$status)
+    public function addItem($iduser,$total,$status, $pay=null)
     {
         try{
             $item= new cartModel();
             $item->iduser=$iduser;
             $item->total=$total;
             $item->status=$status;
+            $item->pay=$pay;
             $item->save();
             return $item->id;
         }

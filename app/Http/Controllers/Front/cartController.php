@@ -53,7 +53,7 @@ class cartController extends Controller
         }
         return redirect('cart');
     }
-    public function pay()
+    public function pay($pay = null)
     {
         $total=0;
         $data=$this->cartItem->content();
@@ -63,7 +63,7 @@ class cartController extends Controller
         }
         if(Auth::check())
         {
-            $idcart=$this->cart->addItem(Auth::user()->id,$total,1);
+            $idcart=$this->cart->addItem(Auth::user()->id,$total,1, $pay);
             foreach ($data as $item)
             {
                 $cart_product=array('idcart'=>$idcart,'idproduct'=>$item->id,'countsale'=>$item->qty,'pricesale'=>$item->price,'size'=>$item->options->size,'color'=>$item->options->color);
@@ -129,6 +129,17 @@ class cartController extends Controller
             'rate' => $star,
         ]);
         return back();
+    }
+
+    public function payOnline()
+    {
+        return view('front.cardOnline');
+    }
+
+    public function payOnlineSuccess()
+    {
+        $this->pay('SUCCESS');
+        return view('front.cardSuccess');
     }
 
 }

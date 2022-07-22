@@ -27,6 +27,8 @@ Route::group(['namespace' => 'Front'], function () {
         Route::post('/', 'cartController@addItem');
         Route::get('delete/{id}', 'cartController@deleteItem');
         Route::get('pay', 'cartController@pay');
+        Route::get('pay/online', 'cartController@payOnline');
+        Route::post('pay/online', 'cartController@payOnlineSuccess');
         Route::post('pay', 'cartController@payPost');
         Route::get('detail/{id}', 'cartController@detail');
         Route::get('detail-star/{id}/{star}', 'cartController@detailStar');
