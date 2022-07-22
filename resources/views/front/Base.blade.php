@@ -174,7 +174,7 @@
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         <div class="detail item active">
-                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Thời trang GYM STORE - Đồng gi&aacute; chỉ từ 149K ">Thời trang Gym Store - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
+                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Sản phẩm GYM STORE - Đồng gi&aacute; chỉ từ 149K ">Sản phẩm Gym Store - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
