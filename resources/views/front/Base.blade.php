@@ -37,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="../maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/fonts-telo/css/fontello.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <style type="text/css">
         .buyonegetonefree:before {
             content: "";

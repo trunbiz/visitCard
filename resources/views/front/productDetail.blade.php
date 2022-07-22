@@ -173,9 +173,9 @@
             </div>
 
             {{--Review sản phẩm--}}
+            <h4>Comments</h4>
             <div class="row product-review row" style="background: #20644d0d">
-                <div class="col-sm-12">
-                    <h4>Comments</h4>
+                <div class="col-sm-12" style="max-height: 200px;overflow-y: scroll;">
                     @foreach($reviews as $itemReview)
                     <div class="comment mt-4 text-justify float-left">
                         <img src="https://i.imgur.com/yTFUilP.jpg" alt="" class="rounded-circle" width="40" height="40">
@@ -184,6 +184,7 @@
                         <br>
                         <p>{{$itemReview->review}}</p>
                     </div>
+                        <hr>
                     @endforeach
                 </div>
                 <form method="POST" action="{{asset('/review')}}">
