@@ -11,12 +11,12 @@
     <meta name="google-site-verification" content="1ZmmdFqf8YYS19y0dwjSKpu8-nBtXcn16MKeVUky_bg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="RENDER.VN - website thương mại điện tử đầu tiênn tại Việt Nam tập trung v&agrave;o h&agrave;ng thời trang thiết kế cao cấp. RENDER cung cấp c&aacute;c sản phẩm thời trang thiết kế trực tiếp từ c&aacute;c nh&agrave; thiết kế c&oacute; t&ecirc;n tuổi tại Việt Nam tới c&aacute;c kh&aacute;ch h&agrave;ng muốn khẳng định vị tr&iacute; v&agrave; tầm v&oacute;c của m&igrave;nh trong x&atilde; hội th&ocirc;ng qua c&aacute;ch ăn mặc. Ch&uacute;ng t&ocirc;i cũng hi vọng sẽ g&oacute;p phần củng cố hơn nữa gi&aacute; trị của thời trang trong cuộc sống của con người, đặc biệt đến th&agrave;nh c&ocirc;ng của người phụ nữ Việt Nam, đồng thời l&agrave; cầu nối vững chắc giữa đội ngũ c&aacute;c nh&agrave; thiết kế trẻ của Việt Nam v&agrave; c&aacute;c kh&aacute;ch h&agrave;ng tiềm năng." />
+    <meta name="description" content="GYM STORE.VN - website thương mại điện tử đầu tiênn tại Việt Nam tập trung v&agrave;o h&agrave;ng thời trang thiết kế cao cấp. RENDER cung cấp c&aacute;c sản phẩm thời trang thiết kế trực tiếp từ c&aacute;c nh&agrave; thiết kế c&oacute; t&ecirc;n tuổi tại Việt Nam tới c&aacute;c kh&aacute;ch h&agrave;ng muốn khẳng định vị tr&iacute; v&agrave; tầm v&oacute;c của m&igrave;nh trong x&atilde; hội th&ocirc;ng qua c&aacute;ch ăn mặc. Ch&uacute;ng t&ocirc;i cũng hi vọng sẽ g&oacute;p phần củng cố hơn nữa gi&aacute; trị của thời trang trong cuộc sống của con người, đặc biệt đến th&agrave;nh c&ocirc;ng của người phụ nữ Việt Nam, đồng thời l&agrave; cầu nối vững chắc giữa đội ngũ c&aacute;c nh&agrave; thiết kế trẻ của Việt Nam v&agrave; c&aacute;c kh&aacute;ch h&agrave;ng tiềm năng." />
     <link href="signin.html" rel="canonical" />
     <meta property="og:locale" content="vi_VN" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Đăng nhập | Gym Store | Thời trang thiết kế cao cấp" />
-    <meta property="og:description" content="RENDER.VN - website thương mại điện tử đầu ti&ecirc;n tại Việt Nam tập trung v&agrave;o h&agrave;ng thời trang thiết kế cao cấp. RENDER cung cấp c&aacute;c sản phẩm thời trang thiết kế trực tiếp từ c&aacute;c nh&agrave; thiết kế c&oacute; t&ecirc;n tuổi tại Việt Nam tới c&aacute;c kh&aacute;ch h&agrave;ng muốn khẳng định vị tr&iacute; v&agrave; tầm v&oacute;c của m&igrave;nh trong x&atilde; hội th&ocirc;ng qua c&aacute;ch ăn mặc. Ch&uacute;ng t&ocirc;i cũng hi vọng sẽ g&oacute;p phần củng cố hơn nữa gi&aacute; trị của thời trang trong cuộc sống của con người, đặc biệt đến th&agrave;nh c&ocirc;ng của người phụ nữ Việt Nam, đồng thời l&agrave; cầu nối vững chắc giữa đội ngũ c&aacute;c nh&agrave; thiết kế trẻ của Việt Nam v&agrave; c&aacute;c kh&aacute;ch h&agrave;ng tiềm năng." />
+    <meta property="og:description" content="GYM STORE.VN - website thương mại điện tử đầu ti&ecirc;n tại Việt Nam tập trung v&agrave;o h&agrave;ng thời trang thiết kế cao cấp. RENDER cung cấp c&aacute;c sản phẩm thời trang thiết kế trực tiếp từ c&aacute;c nh&agrave; thiết kế c&oacute; t&ecirc;n tuổi tại Việt Nam tới c&aacute;c kh&aacute;ch h&agrave;ng muốn khẳng định vị tr&iacute; v&agrave; tầm v&oacute;c của m&igrave;nh trong x&atilde; hội th&ocirc;ng qua c&aacute;ch ăn mặc. Ch&uacute;ng t&ocirc;i cũng hi vọng sẽ g&oacute;p phần củng cố hơn nữa gi&aacute; trị của thời trang trong cuộc sống của con người, đặc biệt đến th&agrave;nh c&ocirc;ng của người phụ nữ Việt Nam, đồng thời l&agrave; cầu nối vững chắc giữa đội ngũ c&aacute;c nh&agrave; thiết kế trẻ của Việt Nam v&agrave; c&aacute;c kh&aacute;ch h&agrave;ng tiềm năng." />
     <meta property="og:url" content="signin.html" />
     <meta property="og:site_name" content="Gym Store | Thời trang thiết kế cao cấp" />
     <meta property="article:author" content="©2016 Gym Store | Số ĐKKD: 0107469891 do Sở kế hoạch và Đầu tư TP Hà Nội, cấp ngày 10/06/2016">
@@ -174,7 +174,7 @@
                                     <!-- Carousel items -->
                                     <div class="carousel-inner">
                                         <div class="detail item active">
-                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Thời trang Render - Đồng gi&aacute; chỉ từ 149K ">Thời trang Gym Store - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
+                                            <a style="color:#318f8f;" href="{{asset('product')}}" title="Thời trang GYM STORE - Đồng gi&aacute; chỉ từ 149K ">Thời trang Gym Store - Đồng gi&aacute; chỉ từ 149K  - <span>MUA NGAY</span></a>
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
@@ -293,14 +293,14 @@
                                 </ul>
                             </div>
                             <div class="col-md-3 col-sm-6 fisrt-box-hide">
-                                <h3 class="heading">RENDER</h3>
+                                <h3 class="heading">GYM STORE</h3>
                                 <ul>
                                     <li><a href="ve-chung-toi.html">Về ch&uacute;ng t&ocirc;i</a></li>
                                     <li><a href="hop-tac-ban-hang.html">Hợp t&aacute;c b&aacute;n h&agrave;ng</a></li>
                                     <li><a href="http://careers.RENDER.vn/">Tuyển dụng</a></li>
                                     <li><a href="chinh-sach-bao-mat.html">Ch&iacute;nh s&aacute;ch bảo mật</a></li>
                                     <li><a href="dieu-kien-dieu-khoan.html">Điều kiện &amp; Điều khoản</a></li>
-                                    <li><a href="do-you-know.html">#Gym Storedoyouknow</a></li>
+                                    <li><a href="do-you-know.html">#Gym Store doyouknow</a></li>
                                     <li><a href="chuong-trinh-quan-tri-thuc-tap-sinh.html">Ecommerce Graduate Programme</a></li>
                                 </ul>
                             </div>
@@ -344,7 +344,7 @@
                                 </div>
                                 <div class="col-md-8 fisrt-box-hide" style="padding-left:0;">
                                     <p class="heading margin-top5">Thông tin công ty</p>
-                                    <p>CÔNG TY TNHH FEROS<br>
+                                    <p>CÔNG TY TNHH GYM STORE<br>
                                         Địa chỉ: Tầng 3, Toà nhà Thăng Long. <br>
                                         99 Mạc Thái Tổ, Phố Trung Kính, Cầu Giấy, Hà Nội <br>
                                         P: <a href="tel:+84 24 710 86889">+84 24 710 86889</a> | CSKH: <a href="tel:1900 636 517">1900 636 517</a></p>
@@ -353,10 +353,6 @@
                                     <p class="heading margin-top5">Được chứng nhận</p>
                                     <ul class="list-inline">
                                         <li style="display:inherit;">
-                                            <a target="_blank"
-                                               href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=24501">
-                                                <img class="lazyload" data-src="images/BCT-seal-red.png">
-                                            </a>
                                         </li>
                                     </ul>
                                 </div>
