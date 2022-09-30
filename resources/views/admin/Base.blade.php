@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gym Store - Quản trị website</title>
+    <title>Visit Card - Quản trị website</title>
     <base href="{{asset('public/admin')}}/" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="{{asset('/')}}">Gym Store</a>
+            <a class="navbar-brand" href="{{asset('/')}}">Visit Card</a>
         </div>
     </div><!-- /.container-fluid -->
 </nav>

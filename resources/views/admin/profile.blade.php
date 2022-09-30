@@ -93,7 +93,7 @@
         </div><!-- /.panel-->
     </div><!-- /.col-->
     <div class="col-sm-12">
-        <p class="back-link">Gym Store Theme by <a href="https://kipo.vn">Gym Store</a></p>
+        <p class="back-link">Visit Card Theme by <a href="https://kipo.vn">Visit Card</a></p>
     </div>
     </div><!-- /.row -->
 @stop
