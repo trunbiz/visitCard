@@ -2,483 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188802ca-47c1-47d8-a8da-08e9a2b3bc87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/app.harasocial.com/widget/100107381884951.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backblue.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.11/cropper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.11/cropper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/connect.facebook.net/en_US/fbevents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cookies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/embedsocial.com/embedscript/stg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/fade.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/8d4566f2fc793f276668_61bb68d1180d4b659b5c85bd80c93349_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/8d4566f2fc793f276668_61bb68d1180d4b659b5c85bd80c93349_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/8d4566f2fc793f276668_61bb68d1180d4b659b5c85bd80c93349_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/9337dfe3b9337c6d2522_936c688d6f16443fa70ed720df7347b0_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/9337dfe3b9337c6d2522_936c688d6f16443fa70ed720df7347b0_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/9337dfe3b9337c6d2522_936c688d6f16443fa70ed720df7347b0_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/bai_1_copy_2_4303b9b30c70405ca784d575889bf26c_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/bai_1_copy_2_4303b9b30c70405ca784d575889bf26c_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/bai_1_copy_2_4303b9b30c70405ca784d575889bf26c_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/giai-ma-nhung-cong-nghe-bi-an-thong-the-otc_af47a7f7d9e346129118c7f5d92eb28e_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/giai-ma-nhung-cong-nghe-bi-an-thong-the-otc_af47a7f7d9e346129118c7f5d92eb28e_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/giai-ma-nhung-cong-nghe-bi-an-thong-the-otc_af47a7f7d9e346129118c7f5d92eb28e_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/the-ca-nhan-thong-minh-la-gi_ffb9bcf395994c6b926567f64ed196c1_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/the-ca-nhan-thong-minh-la-gi_ffb9bcf395994c6b926567f64ed196c1_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/the-ca-nhan-thong-minh-la-gi_ffb9bcf395994c6b926567f64ed196c1_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3551306816073_7a12c12a647209b2ad9519e12adbd954_98299a5dedf64bb0bf90156d283daa82_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3551306816073_7a12c12a647209b2ad9519e12adbd954_98299a5dedf64bb0bf90156d283daa82_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3551306816073_7a12c12a647209b2ad9519e12adbd954_98299a5dedf64bb0bf90156d283daa82_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3551307005703_a1c0171aabe5f548960df5829d2226a2_8b31dc677ea04e83930182918eb78459_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3551307005703_a1c0171aabe5f548960df5829d2226a2_8b31dc677ea04e83930182918eb78459_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3551307005703_a1c0171aabe5f548960df5829d2226a2_8b31dc677ea04e83930182918eb78459_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3560625197797_f17d2de70fd45e14e8352de19dab5872__1__afc8fad2d304454f91a09f0d7eb2b7aa_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3560625197797_f17d2de70fd45e14e8352de19dab5872__1__afc8fad2d304454f91a09f0d7eb2b7aa_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/article/z3560625197797_f17d2de70fd45e14e8352de19dab5872__1__afc8fad2d304454f91a09f0d7eb2b7aa_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/027807c0-4b5e-4c9d-901b-c0fb1d1aa7b7_5161fdd6df2f43d7bc335daf9693c168.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/61570a1b4d9a88c4d18b_78a5cc669f154110b6f23af7322a175e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/64eb19995e189b46c209_e251d08f0b8e4bad96ff9c4f244703ab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/b0b8d1f6967753290a66_e6839460c6594c41a3a1eab3541c3632.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/bai_1_4624d3b98d8143329f27a819d5b71bda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ban_co_the_chia_se_d48ae45a661144f4bc5a68cdc1ad7ed7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/banana-card-bg_9153f1f853b64a2da1b0e57b3c7f65cf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ca-nhan-hoa-the-ca-nhan-thong-minh-otc_7f1bbcbe1fbf4703995d6845bb457dd3_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/card-visit-thong-minh-chia-se-thong-tin-theo-cach-hien-dai_00cccf8ad6374fba87feaa303bc05d92_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/card-visit-thong-minh-chia-se-thong-tin-theo-cach-hien-dai_00cccf8ad6374fba87feaa303bc05d92_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/chinhsuatrangcanhan_2_96efc029071b4daa9e7ed818eb06a146.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/custom_link_33d3b258657a4dfb9fc9320186405edb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/dangki_c154cd1a814a4ea9810afb4093347fe0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/dangnhap_7772cab5d76c44e8b724f16abc9dad9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/dathongbao_7ecd2eecc7cc4ca2925046c7eb67a6c9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/fb_4dc4bc13c86843498e03b891c77f86be.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ggf3_28b8914f58af47f2aa20a624df2239ba_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/hoan_thanh_0009feb92d464777bf1bb1814f35e256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/huongdancachlaylink2-2_copy_9dd2eb7f25474fc5a28fa72017802626.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ig_1e7f099a8d2d41f68e469a688978caec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/linkedin_51162b9676124bf0bc99404f475f9f78.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/nfc_android_d16c7a43d08d4170a93bf1a548971c08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/nfc_ios_14_aa2a2287f14b4f5889c1fd011bfebc7c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/nhung_youtube_33b6d234935a4af8a902646fc698a7c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/onthecard-huongdansudung_491c3345087b445e9facde0461f91ef4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/qr_b822e505cd94448cbb5b24bbdb80f0de.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/quanlilink3_108878c5195b40fab737460f91c32cd8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/quanlilink4_fc9a18ea212a4cddbc23cb651755e5f5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/quanlilink5_711eb6cda86d4dc3a15d8f00019d88c0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/slide11_4232ab932bbc4e5e8ea64d20c7f2415a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/spotify_4d70f5d00af044ac866fa6efa879569b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ten_cua_ban_2adc5d7c7e7b4b35a552bca5e29980da_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/the-ca-nhan-thong-minh-chia-se-thong-tin-mot-cham_5d7dd2b4e0c84f778107939673e3a925_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/the-ca-nhan-thong-minh-on-the-card_c4d603b84bab40ec9e5148a7e0d17cb8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/the-thong-minh-otc_a42bc0c155d2433787681f527a9932a9_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/tik-tok_1_c532052889bf490b964e19ebd5a11b2e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/tiktok_d101100facff45dd888aef36bd66bc83.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/tinh-nang-cua-the-ca-nhan-thong-minh_5db24a71c050409d9beb0615be6401b2_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ung-dung-cong-nghe-nfc_8cff6e5bf2d14d958b96b7e7593f4572_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/ung-dung-cong-nghe-qr-code_2e65917f48474c269ebcede60e315ede_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/youtube_02fb9c47e1bc49d990e71f35e20c4d46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/youtube_b1a8aa5c42d24f1995455af1698c5e04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3511699582953_a61186d7d394fbe4a5981833911846f4_757aed5bddc84b59b7d276f4e46ddee2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3511699612064_54885288514fe03f6f39f01cba23f01a_d620895e5116429b8f08d760df6a2efb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3512144779978_b77d2dfcbf635543c2fd03ce2710d2ff_5561716238484dc1bbcdd5b2a0a527fe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3560640437952_a88075e2e4a91c21436b095d238fcb17_dd2bb4e5812c468fb32a568613553fff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3560702251648_3819bc04d15efa036b74d22159f6d8b5_bee808f0bfb245b884193a636bf0d6b3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3560714757877_5226791af88b183ef0e165fabdcd05d9_bb8169b8163c4eab9d7400e918a92e19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3563429839979_330a6c7c6e6570f50567ccf1f42d1ac6_1b56f7e25c62409395d2635f9f9db8ce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/file.hstatic.net/200000281647/file/z3627564638896_b27b07037f9203217bed79639895c695__1__5df84cfa7ba34322befd68ddd0a43684.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hstatic.net/0/0/global/api.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hstatic.net/0/0/global/option_selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-cache/doit.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-cache/new.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-cache/new.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-cache/new.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-cache/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-cache/winprofile.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/hts-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/Mua ngay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/POST.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/6-dieu-nen-tranh-khi-muon-mo-rong-mang-luoi-quan-he-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/8-loi-khuyen-giup-xay-dung-moi-quan-he-tot-noi-cong-so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/9-ly-do-cac-chuyen-gia-bat-dong-san-nen-so-huu-mot-danh-thiep-ky-thuat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/dieu-gi-xay-ra-moi-phut-tren-internet-nam-2021.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/instagram-loai-bo-igtv-va-se-hop-nhat-cac-video-tren-nguon-cap-du-lieu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/nen-lam-gi-khi-mot-cuoc-tro-chuyen-sap-di-vao-hoi-ket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/giai-ma-nhung-cong-nghe-bi-an-ben-trong-the-otc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/khac-phuc-loi-lien-ket-facebook-khong-chuyen-thang-sang-ung-dung-tren.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/the-ca-nhan-thong-minh-la-gi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all2679.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all4658.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/best-seller.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/popon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/thecanhanthongminh-onthecard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/index0c82.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/about-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-bao-hanh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-bao-mat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-giao-hang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/danh-sach-thiet-bi-tuong-thich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/huongdancaidat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/huongdansudung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/onthecard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-2-0-black-ver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-2-0-white-ver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-black.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-white.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-black.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-brown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-green.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-pink.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-red.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-white.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-yellow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-black-marble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-blossom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-daisy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-desert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-hologram.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-orange-teal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-pink.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-white-marble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-white.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/onthecard.vn/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black2_a0dffdc517a345379221ecba228eed2e_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black2_a0dffdc517a345379221ecba228eed2e_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black2_a0dffdc517a345379221ecba228eed2e_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black2_a0dffdc517a345379221ecba228eed2e_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_58e94abf4da64a5586ca352a0c2995d6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_58e94abf4da64a5586ca352a0c2995d6_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_58e94abf4da64a5586ca352a0c2995d6_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_58e94abf4da64a5586ca352a0c2995d6_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_58e94abf4da64a5586ca352a0c2995d6_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black__8190503cb80242a6981356013a1a1120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black__8190503cb80242a6981356013a1a1120_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black__8190503cb80242a6981356013a1a1120_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black__8190503cb80242a6981356013a1a1120_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black__8190503cb80242a6981356013a1a1120_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_kt_ee8127f0468443f8892eb9939d02705c_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble2_a9e829e33817427bb845c4027cf8fe13_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble2_a9e829e33817427bb845c4027cf8fe13_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble2_a9e829e33817427bb845c4027cf8fe13_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble2_a9e829e33817427bb845c4027cf8fe13_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble_1e0c29faa4384630a6b48fd1dfd47309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble_1e0c29faa4384630a6b48fd1dfd47309_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble_1e0c29faa4384630a6b48fd1dfd47309_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble_1e0c29faa4384630a6b48fd1dfd47309_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_marble_1e0c29faa4384630a6b48fd1dfd47309_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_8f508ae3e0ef4403acda9433c7f07720_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_8f508ae3e0ef4403acda9433c7f07720_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_8f508ae3e0ef4403acda9433c7f07720_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_8f508ae3e0ef4403acda9433c7f07720_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_copy_d77cab50fc6c4637957e7d305a6d9fe5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_copy_d77cab50fc6c4637957e7d305a6d9fe5_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_copy_d77cab50fc6c4637957e7d305a6d9fe5_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_copy_d77cab50fc6c4637957e7d305a6d9fe5_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/black_ms_copy_d77cab50fc6c4637957e7d305a6d9fe5_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/brown_3d332c1e1a254287831d05dae47e5441.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/brown_3d332c1e1a254287831d05dae47e5441_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/brown_3d332c1e1a254287831d05dae47e5441_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/brown_3d332c1e1a254287831d05dae47e5441_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/brown_3d332c1e1a254287831d05dae47e5441_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_7d126c88028a45e993698266611381e8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_7d126c88028a45e993698266611381e8_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_7d126c88028a45e993698266611381e8_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_7d126c88028a45e993698266611381e8_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_7d126c88028a45e993698266611381e8_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_copy_2813b570d156420cb49c781a48ec7e41_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_copy_2813b570d156420cb49c781a48ec7e41_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_copy_2813b570d156420cb49c781a48ec7e41_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/daisy_copy_2813b570d156420cb49c781a48ec7e41_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/den_co_ten_fbc262327f9f490d88bc83dcfb851f77.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/den_co_ten_fbc262327f9f490d88bc83dcfb851f77_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/den_co_ten_fbc262327f9f490d88bc83dcfb851f77_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/den_co_ten_fbc262327f9f490d88bc83dcfb851f77_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/den_co_ten_fbc262327f9f490d88bc83dcfb851f77_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_99a3c20736924f89881367c50bf96295.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_99a3c20736924f89881367c50bf96295_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_99a3c20736924f89881367c50bf96295_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_99a3c20736924f89881367c50bf96295_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_99a3c20736924f89881367c50bf96295_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_copy_3c0bcc3d7e5143f7a85e2a26effb4af9_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_copy_3c0bcc3d7e5143f7a85e2a26effb4af9_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_copy_3c0bcc3d7e5143f7a85e2a26effb4af9_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/desert_copy_3c0bcc3d7e5143f7a85e2a26effb4af9_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ezgif.com-gif-maker__74__1398212645c34b10999146a36beb1271.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ezgif.com-gif-maker__74__1398212645c34b10999146a36beb1271_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ezgif.com-gif-maker__74__1398212645c34b10999146a36beb1271_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ezgif.com-gif-maker__74__1398212645c34b10999146a36beb1271_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ezgif.com-gif-maker__74__1398212645c34b10999146a36beb1271_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_9acf9b2a3bd14baaaaed61c8d46a2896.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_9acf9b2a3bd14baaaaed61c8d46a2896_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_9acf9b2a3bd14baaaaed61c8d46a2896_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_9acf9b2a3bd14baaaaed61c8d46a2896_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_9acf9b2a3bd14baaaaed61c8d46a2896_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_kt_0e81342c44cf4ae3812209d3f08f5f39_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_ms_copy_5a09497c691c4a258630cb2641ddf691.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_ms_copy_5a09497c691c4a258630cb2641ddf691_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_ms_copy_5a09497c691c4a258630cb2641ddf691_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_ms_copy_5a09497c691c4a258630cb2641ddf691_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/green_ms_copy_5a09497c691c4a258630cb2641ddf691_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram2_959ea2b74d8a49bbbd033e2352990f99_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram2_959ea2b74d8a49bbbd033e2352990f99_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram2_959ea2b74d8a49bbbd033e2352990f99_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram2_959ea2b74d8a49bbbd033e2352990f99_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram__eec4abfe1d6d44b7b1f0f9dc2391524c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram__eec4abfe1d6d44b7b1f0f9dc2391524c_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram__eec4abfe1d6d44b7b1f0f9dc2391524c_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram__eec4abfe1d6d44b7b1f0f9dc2391524c_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/hologram__eec4abfe1d6d44b7b1f0f9dc2391524c_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten1__60f719f480544998891092de930575e0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten1__60f719f480544998891092de930575e0_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten1__60f719f480544998891092de930575e0_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten1__60f719f480544998891092de930575e0_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten1__60f719f480544998891092de930575e0_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten2__aad49ebe2f274ede9e20881917e06ef7_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten2__aad49ebe2f274ede9e20881917e06ef7_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten2__aad49ebe2f274ede9e20881917e06ef7_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten2__aad49ebe2f274ede9e20881917e06ef7_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten3__b0ec0adce18747ee88e37be1d1a03474.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten3__b0ec0adce18747ee88e37be1d1a03474_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten3__b0ec0adce18747ee88e37be1d1a03474_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten3__b0ec0adce18747ee88e37be1d1a03474_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten3__b0ec0adce18747ee88e37be1d1a03474_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten4__3cc6d924f04b4faf965c3c701535d328.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten4__3cc6d924f04b4faf965c3c701535d328_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten4__3cc6d924f04b4faf965c3c701535d328_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten4__3cc6d924f04b4faf965c3c701535d328_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/ko_ten4__3cc6d924f04b4faf965c3c701535d328_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/on2_den_ab4326adfc724d16a55714ed12807e9c_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_0963384b4508459ca1d375e9947068da.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_0963384b4508459ca1d375e9947068da_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_0963384b4508459ca1d375e9947068da_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_0963384b4508459ca1d375e9947068da_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_0963384b4508459ca1d375e9947068da_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_kt_48f69861178a4c2682ce1ad9872d10ef_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_ms_copy_1d0ae7570fef4a579b2d721c1c25bc89.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_ms_copy_1d0ae7570fef4a579b2d721c1c25bc89_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_ms_copy_1d0ae7570fef4a579b2d721c1c25bc89_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_ms_copy_1d0ae7570fef4a579b2d721c1c25bc89_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/pink_ms_copy_1d0ae7570fef4a579b2d721c1c25bc89_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_blossom_ff4fe5b1e9b34dbcb5008c1772d8a443.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_blossom_ff4fe5b1e9b34dbcb5008c1772d8a443_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_blossom_ff4fe5b1e9b34dbcb5008c1772d8a443_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_blossom_ff4fe5b1e9b34dbcb5008c1772d8a443_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_blossom_ff4fe5b1e9b34dbcb5008c1772d8a443_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_pink_4015f36af8a546a0b05b7c041dfc84b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_pink_4015f36af8a546a0b05b7c041dfc84b3_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_pink_4015f36af8a546a0b05b7c041dfc84b3_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_pink_4015f36af8a546a0b05b7c041dfc84b3_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/po_pink_4015f36af8a546a0b05b7c041dfc84b3_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_blossom_7b4a730a3ce0435e840400e9fa842ec6_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_blossom_7b4a730a3ce0435e840400e9fa842ec6_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_blossom_7b4a730a3ce0435e840400e9fa842ec6_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_blossom_7b4a730a3ce0435e840400e9fa842ec6_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_pink_f2698a3e002d4b83bc0d7086f8ea9189_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_pink_f2698a3e002d4b83bc0d7086f8ea9189_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_pink_f2698a3e002d4b83bc0d7086f8ea9189_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/popon_pink_f2698a3e002d4b83bc0d7086f8ea9189_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_3f6b2a4967ed4de2afa290413e109709.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_3f6b2a4967ed4de2afa290413e109709_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_3f6b2a4967ed4de2afa290413e109709_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_3f6b2a4967ed4de2afa290413e109709_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_3f6b2a4967ed4de2afa290413e109709_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_kt_2139132f50914012a909490663a4d6eb_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_ms_copy_e8e57922857b41c688e0d20c44cfc5a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_ms_copy_e8e57922857b41c688e0d20c44cfc5a8_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_ms_copy_e8e57922857b41c688e0d20c44cfc5a8_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_ms_copy_e8e57922857b41c688e0d20c44cfc5a8_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/red_ms_copy_e8e57922857b41c688e0d20c44cfc5a8_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/tan_kt_0e9310984c8b4e7787c86ef108950905_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/tan_ms_copy_7558e4cbe1f34cf6aec64643d6ce2a42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/tan_ms_copy_7558e4cbe1f34cf6aec64643d6ce2a42_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/tan_ms_copy_7558e4cbe1f34cf6aec64643d6ce2a42_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/tan_ms_copy_7558e4cbe1f34cf6aec64643d6ce2a42_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/tan_ms_copy_7558e4cbe1f34cf6aec64643d6ce2a42_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal2_572cde2c2b384cb4903f18bf392b5665_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal2_572cde2c2b384cb4903f18bf392b5665_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal2_572cde2c2b384cb4903f18bf392b5665_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal2_572cde2c2b384cb4903f18bf392b5665_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal__c9ce0dc5fb2b4258bc49b182e72ac854.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal__c9ce0dc5fb2b4258bc49b182e72ac854_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal__c9ce0dc5fb2b4258bc49b182e72ac854_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal__c9ce0dc5fb2b4258bc49b182e72ac854_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/teal__c9ce0dc5fb2b4258bc49b182e72ac854_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_2_409d9cf852314f2bbf0cb02d55de5dd9_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_2_409d9cf852314f2bbf0cb02d55de5dd9_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_2_409d9cf852314f2bbf0cb02d55de5dd9_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_2_409d9cf852314f2bbf0cb02d55de5dd9_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_9a1d0b5482e1401082a53e51e7ec3ca2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_9a1d0b5482e1401082a53e51e7ec3ca2_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_9a1d0b5482e1401082a53e51e7ec3ca2_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_9a1d0b5482e1401082a53e51e7ec3ca2_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/the_nang_cao_9a1d0b5482e1401082a53e51e7ec3ca2_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/trang_co_ten_d0442da150b8408c9317a2a8a290e47b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/trang_co_ten_d0442da150b8408c9317a2a8a290e47b_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/trang_co_ten_d0442da150b8408c9317a2a8a290e47b_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/trang_co_ten_d0442da150b8408c9317a2a8a290e47b_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/trang_co_ten_d0442da150b8408c9317a2a8a290e47b_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white2_256d7f7bbc43450d812da8128ae9b8fe_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white2_256d7f7bbc43450d812da8128ae9b8fe_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white2_256d7f7bbc43450d812da8128ae9b8fe_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white2_256d7f7bbc43450d812da8128ae9b8fe_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_181bbd6500dd47cdbf02df72d8511cfa.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_181bbd6500dd47cdbf02df72d8511cfa_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_181bbd6500dd47cdbf02df72d8511cfa_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_181bbd6500dd47cdbf02df72d8511cfa_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_181bbd6500dd47cdbf02df72d8511cfa_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_copy_d37bea949dab4575a4318426b7550865.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_copy_d37bea949dab4575a4318426b7550865_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_copy_d37bea949dab4575a4318426b7550865_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_copy_d37bea949dab4575a4318426b7550865_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_copy_d37bea949dab4575a4318426b7550865_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_kt_6062601da1f04972b712f426aaeb4803_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble2_613d92e44e694980b5ed142ed62bdd21_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble2_613d92e44e694980b5ed142ed62bdd21_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble2_613d92e44e694980b5ed142ed62bdd21_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble2_613d92e44e694980b5ed142ed62bdd21_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble_1fc32c950826487694bf5728b96b1a9f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble_1fc32c950826487694bf5728b96b1a9f_1024x1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble_1fc32c950826487694bf5728b96b1a9f_grande.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble_1fc32c950826487694bf5728b96b1a9f_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_marble_1fc32c950826487694bf5728b96b1a9f_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_2c1bc3d4f6c447d68d542cd3ab19796a_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_2c1bc3d4f6c447d68d542cd3ab19796a_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_2c1bc3d4f6c447d68d542cd3ab19796a_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_2c1bc3d4f6c447d68d542cd3ab19796a_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_5e10a8a7e9434d18847a1d12a6a178d5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_5e10a8a7e9434d18847a1d12a6a178d5_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_5e10a8a7e9434d18847a1d12a6a178d5_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_5e10a8a7e9434d18847a1d12a6a178d5_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/white_ms_copy_5e10a8a7e9434d18847a1d12a6a178d5_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_7cd08218debd4a67a6745bb69b99730d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_7cd08218debd4a67a6745bb69b99730d_1024x1024.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_7cd08218debd4a67a6745bb69b99730d_grande.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_7cd08218debd4a67a6745bb69b99730d_large.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_7cd08218debd4a67a6745bb69b99730d_medium.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_kt_7798442c0a2b4f52a0ff4774ccaac0d7_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_ms_copy_f1a9175f34004991902a35f81de6974f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_ms_copy_f1a9175f34004991902a35f81de6974f_1024x1024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_ms_copy_f1a9175f34004991902a35f81de6974f_grande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_ms_copy_f1a9175f34004991902a35f81de6974f_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/product.hstatic.net/200000281647/product/yellow_ms_copy_f1a9175f34004991902a35f81de6974f_medium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static.xx.fbcdn.net/images/emoji.php/v9/t5d/1/16/26a1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static.xx.fbcdn.net/images/emoji.php/v9/t83/1/16/1f60e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static.xx.fbcdn.net/images/emoji.php/v9/tc/1/16/1f449_1f3fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static.xx.fbcdn.net/images/emoji.php/v9/tc6/1/16/1f680.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static.xx.fbcdn.net/images/emoji.php/v9/td2/1/16/1f604.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/stats.hstatic.net/beacon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000695196/14/landing-logo7626.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000700123/14/checkoutec92.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/design.scss43da.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/design43da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/eight_img_banner43da.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/email43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f-cus.scss43da.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_eleven_use_img_143da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_eleven_use_img_243da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_eleven_use_img_343da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_five_use_href_right43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_night_img_143da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_night_img_243da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_night_img_343da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_three_img_143da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_three_img_243da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/f_three_img_343da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/facebook-ladi43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/favicon43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/fontawesome43da.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/fontawesome43da.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/fontawesome43da.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/fontawesome43da.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/futura.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_poster_slider_143da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_poster_slider_2x43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_poster_slider_3x43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_use_night_143da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_use_night_243da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_use_night_343da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_use_night_443da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_xxx_143da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_xxx_243da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/img_xxx_343da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/instagram-ladi43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/jquery.min.1.11.043da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/landing-logo43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/location43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/logo-footer-ladi43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/logo_dark43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/masothue43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/phone43da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/plugins43da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/plyr.min43da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/plyr43da.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/script-lading43da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/scripts43da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/styles43da.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/two_banner_right43da.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/theme.hstatic.net/200000281647/1000748372/14/two_banner_right_xx43da.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gymStore.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/Base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/Base.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/cart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/detailCart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/detailCart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/editBlog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/editBlog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/editProduct.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/editProduct.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/Base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/Base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/Mua ngay.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/Mua ngay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/POST.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/POST.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/b.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regulard41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/6-dieu-nen-tranh-khi-muon-mo-rong-mang-luoi-quan-he-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/6-dieu-nen-tranh-khi-muon-mo-rong-mang-luoi-quan-he-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/8-loi-khuyen-giup-xay-dung-moi-quan-he-tot-noi-cong-so.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/8-loi-khuyen-giup-xay-dung-moi-quan-he-tot-noi-cong-so.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/9-ly-do-cac-chuyen-gia-bat-dong-san-nen-so-huu-mot-danh-thiep-ky-thuat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/9-ly-do-cac-chuyen-gia-bat-dong-san-nen-so-huu-mot-danh-thiep-ky-thuat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/dieu-gi-xay-ra-moi-phut-tren-internet-nam-2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/dieu-gi-xay-ra-moi-phut-tren-internet-nam-2021.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/instagram-loai-bo-igtv-va-se-hop-nhat-cac-video-tren-nguon-cap-du-lieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/instagram-loai-bo-igtv-va-se-hop-nhat-cac-video-tren-nguon-cap-du-lieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/nen-lam-gi-khi-mot-cuoc-tro-chuyen-sap-di-vao-hoi-ket.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/nen-lam-gi-khi-mot-cuoc-tro-chuyen-sap-di-vao-hoi-ket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/giai-ma-nhung-cong-nghe-bi-an-ben-trong-the-otc.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/giai-ma-nhung-cong-nghe-bi-an-ben-trong-the-otc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/khac-phuc-loi-lien-ket-facebook-khong-chuyen-thang-sang-ung-dung-tren.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/khac-phuc-loi-lien-ket-facebook-khong-chuyen-thang-sang-ung-dung-tren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/the-ca-nhan-thong-minh-la-gi.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/the-ca-nhan-thong-minh-la-gi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/c.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all2679.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/all2679.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all4658.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/all4658.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/best-seller.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/best-seller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/popon.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/popon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/thecanhanthongminh-onthecard.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/thecanhanthongminh-onthecard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regulard41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/index0c82.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/index0c82.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-bao-hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/chinh-sach-bao-hanh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-bao-mat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/chinh-sach-bao-mat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-giao-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/chinh-sach-giao-hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/danh-sach-thiet-bi-tuong-thich.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/danh-sach-thiet-bi-tuong-thich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/huongdancaidat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/huongdancaidat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/huongdansudung.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/huongdansudung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/onthecard.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/onthecard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-2-0-black-ver.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-2-0-black-ver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-2-0-white-ver.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-2-0-white-ver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-black.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-black.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-white.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-black.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-black.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-brown.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-brown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-green.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-green.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-pink.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-pink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-red.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-red.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-white.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-yellow.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-yellow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regulard41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/owl.video.play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-black-marble.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-black-marble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-blossom.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-blossom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-daisy.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-daisy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-desert.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-desert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-hologram.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-hologram.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-orange-teal.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-orange-teal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-pink.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-pink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-white-marble.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-white-marble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-white.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -505,24 +124,26 @@
           <entry key="env" value="1" />
           <entry key="html" value="2" />
           <entry key="js" value="1" />
-          <entry key="php" value="3" />
+          <entry key="php" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="3" />
+          <entry key="PHP" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="10" />
+          <entry key="php" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PHP" value="25" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -557,14 +178,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/onthecard/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="60" column="50116" lean-forward="true" selection-start-line="60" selection-start-column="50116" selection-end-line="60" selection-end-column="50116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular.html">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/onthecard.vn/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -572,12 +206,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Gym Store</find>
+      <find>index.html</find>
     </findStrings>
     <replaceStrings>
       <replace>Visit Card</replace>
+      <replace>index.blade.php</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\visitCard\resources\views\admin</dir>
+      <dir>C:\xampp\htdocs\visitCard\resources\views</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -587,6 +224,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" />
+        <option value="$PROJECT_DIR$/resources/views/onthecard/index.blade.php" />
       </list>
     </option>
   </component>
@@ -728,13 +367,41 @@
             <path>
               <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
               <item name="visitCard" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
               <item name="visitCard" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
@@ -752,7 +419,7 @@
               <item name="visitCard" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="onthecard.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="onthecard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
@@ -771,12 +438,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="views/onthecard/index.blade.php&#9;FILE&#9;file://C:/xampp/htdocs/visitCard/resources/views/onthecard/index.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\visitCard\resources\views" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -802,22 +475,23 @@
       <updated>1664295757832</updated>
       <workItem from="1664295759456" duration="634000" />
       <workItem from="1664555647252" duration="50000" />
-      <workItem from="1664555762731" duration="2227000" />
+      <workItem from="1664555762731" duration="3294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2911000" />
+    <option name="totallyTimeSpent" value="3978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -858,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../onthecard_v2/app.harasocial.com/widget/100107381884951.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -872,11 +539,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular.html">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/onthecard.vn/index.html">
+    <entry file="file://$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/onthecard/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="60" column="50116" lean-forward="true" selection-start-line="60" selection-start-column="50116" selection-end-line="60" selection-end-column="50116" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

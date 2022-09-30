@@ -32,7 +32,7 @@ class indexController extends Controller
         $data['items4']=$this->product->searchCategoryProduct('SẢN PHẨM');
         $data['items5']=$this->product->searchCategoryProduct('Ghế Massage');
         $data['itemsBlog']=$this->blog->listAll();
-        return view('front.index',$data);
+        return view('onthecard.index',$data);
     }
     public function searchItem($search)
     {
