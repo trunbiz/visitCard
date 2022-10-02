@@ -4,100 +4,6 @@
     <list default="true" id="188802ca-47c1-47d8-a8da-08e9a2b3bc87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/Base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/Base.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/Mua ngay.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/Mua ngay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/POST.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/POST.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/b.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/fonts/glyphicons-halflings-regulard41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/6-dieu-nen-tranh-khi-muon-mo-rong-mang-luoi-quan-he-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/6-dieu-nen-tranh-khi-muon-mo-rong-mang-luoi-quan-he-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/8-loi-khuyen-giup-xay-dung-moi-quan-he-tot-noi-cong-so.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/8-loi-khuyen-giup-xay-dung-moi-quan-he-tot-noi-cong-so.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/9-ly-do-cac-chuyen-gia-bat-dong-san-nen-so-huu-mot-danh-thiep-ky-thuat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/9-ly-do-cac-chuyen-gia-bat-dong-san-nen-so-huu-mot-danh-thiep-ky-thuat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/dieu-gi-xay-ra-moi-phut-tren-internet-nam-2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/dieu-gi-xay-ra-moi-phut-tren-internet-nam-2021.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/instagram-loai-bo-igtv-va-se-hop-nhat-cac-video-tren-nguon-cap-du-lieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/instagram-loai-bo-igtv-va-se-hop-nhat-cac-video-tren-nguon-cap-du-lieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/nen-lam-gi-khi-mot-cuoc-tro-chuyen-sap-di-vao-hoi-ket.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/nen-lam-gi-khi-mot-cuoc-tro-chuyen-sap-di-vao-hoi-ket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/on-media/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/on-media/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/giai-ma-nhung-cong-nghe-bi-an-ben-trong-the-otc.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/giai-ma-nhung-cong-nghe-bi-an-ben-trong-the-otc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/khac-phuc-loi-lien-ket-facebook-khong-chuyen-thang-sang-ung-dung-tren.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/khac-phuc-loi-lien-ket-facebook-khong-chuyen-thang-sang-ung-dung-tren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/blogs/tin-tuc/the-ca-nhan-thong-minh-la-gi.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/blogs/tin-tuc/the-ca-nhan-thong-minh-la-gi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/c.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all2679.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/all2679.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/all4658.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/all4658.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/best-seller.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/best-seller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/popon.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/popon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/collections/thecanhanthongminh-onthecard.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/collections/thecanhanthongminh-onthecard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/fonts/glyphicons-halflings-regulard41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/index0c82.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/index0c82.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-bao-hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/chinh-sach-bao-hanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-bao-mat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/chinh-sach-bao-mat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/chinh-sach-giao-hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/chinh-sach-giao-hang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/danh-sach-thiet-bi-tuong-thich.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/danh-sach-thiet-bi-tuong-thich.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/huongdancaidat.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/huongdancaidat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/huongdansudung.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/huongdansudung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/onthecard.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/onthecard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/pages/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/pages/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-2-0-black-ver.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-2-0-black-ver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-2-0-white-ver.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-2-0-white-ver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-black.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-black.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danh-thiep-thong-minh-onthecard-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danh-thiep-thong-minh-onthecard-white.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-black.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-black.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-brown.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-brown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-green.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-green.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-pink.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-pink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-red.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-red.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-white.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/danhthiepthongminh-customize-yellow.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/danhthiepthongminh-customize-yellow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/dich-vu-thiet-ke-the-cao-cap/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/dich-vu-thiet-ke-the-cao-cap/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regular.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/fonts/glyphicons-halflings-regulard41d.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/isDSTShifted is deprecated. See http_/momentjs.com/guides/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/owl.video.play.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/owl.video.play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-black-marble.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-black-marble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-blossom.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-blossom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-daisy.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-daisy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-desert.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-desert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-hologram.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-hologram.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-orange-teal.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-orange-teal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-pink.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-pink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-white-marble.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-white-marble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon-white.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon-white.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/popon.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/popon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/onthecard.vn/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/onthecard/products/the-thiet-ke-nang-cao-thiet-ke-cua-ban/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,11 +18,11 @@
     <session id="-1449955125">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,11 +56,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="680">
               <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
             </state>
           </provider>
@@ -163,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
+            <state relative-caret-position="1513">
               <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="42" />
             </state>
           </provider>
@@ -178,25 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/onthecard/index.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="60" column="50116" lean-forward="true" selection-start-line="60" selection-start-column="50116" selection-end-line="60" selection-end-column="50116" />
+            <state relative-caret-position="85">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -224,8 +125,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" />
         <option value="$PROJECT_DIR$/resources/views/onthecard/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php" />
       </list>
     </option>
   </component>
@@ -356,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -368,35 +268,6 @@
               <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
               <item name="visitCard" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visitCard" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visitCard" type="b2602c69:ProjectViewProjectNode" />
@@ -435,12 +306,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="views/onthecard/index.blade.php&#9;FILE&#9;file://C:/xampp/htdocs/visitCard/resources/views/onthecard/index.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -475,18 +347,18 @@
       <updated>1664295757832</updated>
       <workItem from="1664295759456" duration="634000" />
       <workItem from="1664555647252" duration="50000" />
-      <workItem from="1664555762731" duration="3294000" />
+      <workItem from="1664555762731" duration="3367000" />
+      <workItem from="1664725418487" duration="523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3978000" />
+    <option name="totallyTimeSpent" value="4574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -498,7 +370,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295082" />
@@ -511,26 +383,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../onthecard_v2/app.harasocial.com/widget/100107381884951.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -539,11 +407,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/onthecard/blogs/fonts/glyphicons-halflings-regular.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/onthecard/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="60" column="50116" selection-start-line="60" selection-start-column="50116" selection-end-line="60" selection-end-column="50116" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,17 +438,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        <state relative-caret-position="85">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/onthecard/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Front/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="60" column="50116" lean-forward="true" selection-start-line="60" selection-start-column="50116" selection-end-line="60" selection-end-column="50116" />
+        <state relative-caret-position="238">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
