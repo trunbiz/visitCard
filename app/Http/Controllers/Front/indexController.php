@@ -26,11 +26,12 @@ class indexController extends Controller
     }
     public function indexShow()
     {
-        $data['items1']=$this->product->searchCategoryProduct('Máy chạy bộ');
-        $data['items2']=$this->product->searchCategoryProduct('Xe đạp tập');
-        $data['items3']=$this->product->searchCategoryProduct('Máy tập bụng');
+        return redirect()->intended('login');
+        $data['items1']=$this->product->searchCategoryProduct('Thẻ in tên');
+        $data['items2']=$this->product->searchCategoryProduct('Popon');
+        $data['items3']=$this->product->searchCategoryProduct('Phụ kiện');
         $data['items4']=$this->product->searchCategoryProduct('SẢN PHẨM');
-        $data['items5']=$this->product->searchCategoryProduct('Ghế Massage');
+        $data['items5']=$this->product->searchCategoryProduct('Thẻ in tên');
         $data['itemsBlog']=$this->blog->listAll();
         return view('front.index',$data);
     }

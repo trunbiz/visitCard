@@ -1,5 +1,5 @@
 @extends('front.Base')
-@section('title','Gym Store | Blog')
+@section('title','VisitCard | Blog')
 @section('main')
     <div class="main wrap container">
         <div class="ts-row cf">
@@ -35,7 +35,7 @@
                     <div class="post-meta">
 		<span class="posted-by">By
 			<span class="reviewer" itemprop="author"><a href="https://blog.ferosh.vn/author/hanhntn/"
-                                                        title="Posts by Ferosh Lady" rel="author">Gym Store Lady</a></span>
+                                                        title="Posts by Ferosh Lady" rel="author">VisitCard Lady</a></span>
 		</span>
 
                         <span class="posted-on">on<span class="dtreviewed">
@@ -153,12 +153,12 @@
                             <article>
 
                                 <a href="https://blog.ferosh.vn/cuoc-chien-day-lui-covid-19-cua-cac-ong-lon-nganh-thoi-trang/"
-                                   title="CUỘC CHIẾN ĐẨY LÙI COVID-19 CỦA CÁC “ÔNG LỚN” NGÀNH THỜI TRANG"
+                                   title="CUỘC CHIẾN ĐẨY LÙI COVID-19 CỦA CÁC “ÔNG LỚN” NGÀNH thẻ"
                                    class="image-link">
                                     <img width="252" height="167"
                                          src="https://blog.ferosh.vn/wp-content/uploads/2020/04/1200x630-4-252x167.jpg"
                                          class="image wp-post-image" alt="1200x630 (4)"
-                                         title="CUỘC CHIẾN ĐẨY LÙI COVID-19 CỦA CÁC “ÔNG LỚN” NGÀNH THỜI TRANG"
+                                         title="CUỘC CHIẾN ĐẨY LÙI COVID-19 CỦA CÁC “ÔNG LỚN” NGÀNH thẻ"
                                          srcset="https://blog.ferosh.vn/wp-content/uploads/2020/04/1200x630-4-252x167.jpg 252w, https://blog.ferosh.vn/wp-content/uploads/2020/04/1200x630-4-252x167@2x.jpg 504w"
                                          sizes="(max-width: 252px) 100vw, 252px">
                                     <span class="image-overlay"></span>

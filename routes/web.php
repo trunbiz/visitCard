@@ -38,10 +38,10 @@ Route::group(['namespace' => 'Front'], function () {
     Route::post('review', 'indexController@productReview');
 
     // page
-    Route::get('gioi-thieu', function (){
-       return view('front.gioi_thieu');
+    Route::get('gioi-thieu', function () {
+        return view('front.gioi_thieu');
     });
-    Route::get('lien-he', function (){
+    Route::get('lien-he', function () {
         return view('front.lien_he');
     });
 });

@@ -1,5 +1,5 @@
 @extends('front.Base')
-@section('title','Gym Store | Thế giới thời trang Gym Store')
+@section('title','VisitCard | Thế giới thẻ VisitCard')
 @section('main')
     <div class="box-content">
         <input type="hidden" id="txtRouteId" value="4"/>
@@ -43,8 +43,8 @@
                                     <div class="product-type">
                                         <ul>
                                             <li><a href="{{asset('search/Sale')}}">SALE</a></li>
-                                            <li><a href="{{asset('search/Máy chạy bộ')}}">MÁY CHẠY BỘ</a></li>
-                                            <li><a href="{{asset('search/Xe đạp tập')}}">XE ĐẠP TẬP</a></li>
+                                            <li><a href="{{asset('search/Thẻ in tên')}}">Thẻ in tên</a></li>
+                                            <li><a href="{{asset('search/Popon')}}">Popon</a></li>
                                             <li><a href="{{asset('search/Dụng cụ tập Gym')}}">DỤNG CỤ TẬP GYM</a></li>
                                         </ul>
                                     </div>

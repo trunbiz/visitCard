@@ -1,5 +1,5 @@
 @extends('front.Base')
-@section('title','Gym Store | Thế giới Gym Store')
+@section('title','VisitCard | Thế giới VisitCard')
 @section('main')
     <script type="text/javascript">
         var route = "sanpham.blade.php";
@@ -11,19 +11,19 @@
                 <div class="slider-carousel owl-carousel owl-theme">
                     <a href="bo-suu-tap/thoi-trang-tre.html">
                         <img class="owl-lazy" data-src="images/gym/banner_1.jpg" data-srcset="images/banner1.jpeg"
-                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
+                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
                     </a>
                     <a href="bo-suu-tap/dong-gia.html">
                         <img class="owl-lazy" data-src="images/gym/banner_2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
+                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
                     </a>
                     <a href="sale.html">
                         <img class="owl-lazy" data-src="images/gym/banner_3.jpg" data-srcset="images/banner3.jpg"
-                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
+                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
                     </a>
                     <a href="bo-suu-tap/my-pham-02.html">
                         <img class="owl-lazy" data-src="images/gym/banner_2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="Gym Store - Thiết bị tập gym"/>
+                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
                     </a>
                 </div>
             </div>
@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="text-center mtb-30">
                     <h3>
-                        <span class="upcase up-case box-title">MÁY CHẠY BỘ</span>
+                        <span class="upcase up-case box-title">Thẻ in tên</span>
                     </h3>
                 </div>
                 <!-------------------------------- slide show ------------------->
@@ -93,15 +93,15 @@
                         </a>
 
                         <div class="text-left">
-                            <a href="{{asset('product')}}" title="THỜI TRANG Gym Store - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
+                            <a href="{{asset('product')}}" title="thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
-                                    <span class="upcase up-case box-title-nondecoration">THỜI TRANG Gym Store - ĐỒNG GI&Aacute; CHỈ TỪ 149K</span>
+                                    <span class="upcase up-case box-title-nondecoration">thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>To&agrave;n bộ thiết kế thời thượng đến từ thương hiệu thời trang cao cấp Elise đồng gi&aacute; chỉ từ 149K - 549K <a
+                                <span>To&agrave;n bộ thiết kế thời thượng đến từ thương hiệu thẻ cao cấp Elise đồng gi&aacute; chỉ từ 149K - 549K <a
                                             href="nha-thiet-ke/elise.html"
-                                            title="THỜI TRANG Gym Store - ĐỒNG GI&Aacute; CHỈ TỪ 149K"
+                                            title="thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K"
                                             style="text-decoration:underline;"><strong>MUA NGAY</strong></a></span>
                             </h5>
                         </div>
@@ -154,7 +154,7 @@
             <div class="container">
                 <div class="text-center mtb-30">
                     <h3>
-                        <span class="upcase up-case box-title">XE ĐẠP TẬP</span>
+                        <span class="upcase up-case box-title">Popon</span>
                     </h3>
                 </div>
                 <div class="row prod_bestsale">
@@ -239,7 +239,7 @@
             <div class="container">
                 <div class="text-center mtb-30">
                     <h3>
-                        <span class="upcase up-case box-title">GHẾ MASSAGE</span>
+                        <span class="upcase up-case box-title">Thẻ in tên</span>
                     </h3>
                 </div>
 
