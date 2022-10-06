@@ -45,7 +45,6 @@
                                             <li><a href="{{asset('search/Sale')}}">SALE</a></li>
                                             <li><a href="{{asset('search/Thẻ in tên')}}">Thẻ in tên</a></li>
                                             <li><a href="{{asset('search/Popon')}}">Popon</a></li>
-                                            <li><a href="{{asset('search/Dụng cụ tập Gym')}}">DỤNG CỤ TẬP GYM</a></li>
                                         </ul>
                                     </div>
                                     <div class="product-price" id="product-price-tab">

@@ -257,9 +257,6 @@
                                     <li class=" " id="collection">
                                         <a href="{{asset('search/Phụ kiện')}}" id="collection_href">Phụ kiện</a>
                                     </li>
-                                    <li class=" " id="designer">
-                                        <a href="{{asset('search/Dụng cụ tập Gym')}}" id="designer_href">Dụng cụ tập Gym</a>
-                                    </li>
                                     <li class=" ">
                                         <a href="{{asset('gioi-thieu')}}">Giới thiệu</a>
                                     </li>
