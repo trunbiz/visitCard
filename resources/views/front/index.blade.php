@@ -10,20 +10,20 @@
             <div class="container">
                 <div class="slider-carousel owl-carousel owl-theme">
                     <a href="bo-suu-tap/thoi-trang-tre.html">
-                        <img class="owl-lazy" data-src="images/gym/banner_1.jpg" data-srcset="images/banner1.jpeg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
+                        <img class="owl-lazy" data-src="images/visitCard/banner_1.jpg" data-srcset="images/banner1.jpeg"
+                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
                     </a>
                     <a href="bo-suu-tap/dong-gia.html">
-                        <img class="owl-lazy" data-src="images/gym/banner_2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
+                        <img class="owl-lazy" data-src="images/visitCard/banner_2.jpeg" data-srcset="images/banner2.jpg"
+                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
                     </a>
                     <a href="sale.html">
-                        <img class="owl-lazy" data-src="images/gym/banner_3.jpg" data-srcset="images/banner3.jpg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
+                        <img class="owl-lazy" data-src="images/visitCard/banner_3.jpeg" data-srcset="images/banner3.jpg"
+                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
                     </a>
                     <a href="bo-suu-tap/my-pham-02.html">
-                        <img class="owl-lazy" data-src="images/gym/banner_2.jpg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập gym"/>
+                        <img class="owl-lazy" data-src="images/visitCard/banner_2.jpeg" data-srcset="images/banner2.jpg"
+                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
                     </a>
                 </div>
             </div>
@@ -86,61 +86,62 @@
         <div class="content-area home-content-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-xs-12 col-sm-6">
+                    <div class="col-md-4 col-xs-12 col-sm-4">
                         <a href="{{asset('product')}}">
-                            <img src="{{asset('public/images/gym/slide_1.jpg')}}"
+                            <img src="{{asset('public/images/visitCard/slide_1.webp')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
-                            <a href="{{asset('product')}}" title="thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K">
+                            <a href="{{asset('product')}}" title="Giao Hàng Nhanh Chóng 📦">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
-                                    <span class="upcase up-case box-title-nondecoration">thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K</span>
+                                    <span class="upcase up-case box-title-nondecoration">Giao Hàng Nhanh Chóng 📦</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>To&agrave;n bộ thiết kế thời thượng đến từ thương hiệu thẻ cao cấp Elise đồng gi&aacute; chỉ từ 149K - 549K <a
+                                <span>Giao hàng nhanh chóng trong vòng 2-3 ngày làm việc
+*Hỗ trợ giao hàng hoả tốc trong nội thành TPHCM<a
                                             href="nha-thiet-ke/elise.html"
                                             title="thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K"
-                                            style="text-decoration:underline;"><strong>MUA NGAY</strong></a></span>
+                                            style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xs-12 col-sm-6">
+                    <div class="col-md-4 col-xs-12 col-sm-4">
                         <a href="{{asset('product')}}">
-                            <img src="{{asset('public/images/gym/slide_2.jpg')}}"
+                            <img src="{{asset('public/images/visitCard/slide_2.webp')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
-                            <a href="{{asset('product')}}" title="BST GI&Agrave;Y: SALE UP TO 50%">
+                            <a href="{{asset('product')}}" title="Chính Sách Bảo Hành 📃">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
-                                    <span class="upcase up-case box-title-nondecoration">Tăng cơ khủng: SALE UP TO 50%</span>
+                                    <span class="upcase up-case box-title-nondecoration">Chính Sách Bảo Hành 📃</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>100+ nước tăng lực <a
-                                            href="bo-suu-tap/giay-2020.html" title="BST GI&Agrave;Y: SALE UP TO 50%"
-                                            style="text-decoration:underline;"><strong>MUA NGAY</strong></a></span>
+                                <span>Miễn phí bảo hành khi sản phẩm lỗi, không hoạt động.<a
+                                            href="bo-suu-tap/giay-2020.html" title="Miễn phí bảo hành khi sản phẩm lỗi, không hoạt động."
+                                            style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
                             </h5>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xs-12 col-sm-6">
+                    <div class="col-md-4 col-xs-12 col-sm-4">
                         <a href="{{asset('product')}}">
-                            <img src="{{asset('public/images/gym/slide_3.jpg')}}"
+                            <img src="{{asset('public/images/visitCard/slide_3.webp')}}"
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
                         <div class="text-left">
-                            <a href="{{asset('product')}}" title="ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF">
+                            <a href="{{asset('product')}}" title="Hỗ Trợ 24/7 ☎️">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
-                                    <span class="upcase up-case box-title-nondecoration">ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF</span>
+                                    <span class="upcase up-case box-title-nondecoration">Hỗ Trợ 24/7 ☎️</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>BST Xu&acirc;n - H&egrave; được thiết kế bởi NTK Lagu với chất liệu Linen chủ đạo gi&uacute;p n&agrave;ng dẫn đầu xu hướng <a
+                                <span>Giải đáp vấn đề nhanh chóng, tư vấn chi tiết nhiệt tình.<a
                                             href="nha-thiet-ke/lagu.html" title="ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF"
-                                            style="text-decoration:underline;"><strong>MUA NGAY</strong></a></span>
+                                            style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
                             </h5>
                         </div>
                     </div>

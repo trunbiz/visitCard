@@ -26,7 +26,6 @@ class indexController extends Controller
     }
     public function indexShow()
     {
-        return redirect()->intended('login');
         $data['items1']=$this->product->searchCategoryProduct('Thẻ in tên');
         $data['items2']=$this->product->searchCategoryProduct('Popon');
         $data['items3']=$this->product->searchCategoryProduct('Phụ kiện');
