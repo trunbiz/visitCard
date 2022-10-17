@@ -6,16 +6,14 @@
         <script type='text/javascript' src="js/jquery.slimscroll.min.js"></script>
         <script type='text/javascript' src="js/bootstrap-slider.js"></script>
         <div class="heading-area top-area">
-            <div class="container">
-                <div class="banner relative">
-                    <a href="hang-moi.html" target="_blank">
-                        <img class="lazyload" data-src="{{asset('public/images/gym/banner_3.jpg')}}">
-                        <div class="banner_body center">
-                            <div class="upcase banner_header"></div>
-                            <div class="banner_description text-justify"></div>
-                        </div>
-                    </a>
-                </div>
+            <div class="banner relative">
+                <a href="hang-moi.html" target="_blank">
+                    <img class="lazyload" data-src="{{asset('public/images/visitCard/banner_5.png')}}">
+                    <div class="banner_body center">
+                        <div class="upcase banner_header"></div>
+                        <div class="banner_description text-justify"></div>
+                    </div>
+                </a>
             </div>
         </div> <!-- End heading area -->
         <div class="content-area home-content-area">
@@ -73,32 +71,33 @@
 
                                 <div class="row" id="list-product-ajax">
                                     @foreach($items as $item)
-                                    <div class="col-sm-4  col-xs-6">
-                                        <div class="prod-img1">
-                                            <a href="{{asset('/product-render-'.$item->id)}}" class="">
-                                                <img data-src="{{asset('public/media/'.$item->coverimg)}}"
-                                                     class="lazyload"/>
-                                            </a>
-                                        </div>
-                                        <div class="content ">
-                                            <a href="{{asset('/product-render-'.$item->id)}}">
-                                                <div class="title"><span>{{$item->title}}</span></div>
-                                                <div class="desc"><span>{{$item->content}}
-                                                                                                    <br>
+                                        <div class="col-sm-4  col-xs-6">
+                                            <div class="prod-img1">
+                                                <a href="{{asset('/product-render-'.$item->id)}}" class="">
+                                                    <img data-src="{{asset('public/media/'.$item->coverimg)}}"
+                                                         class="lazyload"/>
+                                                </a>
+                                            </div>
+                                            <div class="content ">
+                                                <a href="{{asset('/product-render-'.$item->id)}}">
+                                                    <div class="title"><span>{{$item->title}}</span></div>
+                                                    <div class="desc"><span>{{$item->content}}
+                                                            <br>
                                                                                                         <strike class="color-red"><span
-                                                                                                                    class="color-black">{{number_format($item->price,0,',','.')}} VND</span></strike>
+                                                                                                                    class="color-black">{{number_format($item->price,0,',','.')}}
+                                                                                                                VND</span></strike>
                                                     <br>
                                                     <span class="color-red">
                                                         {{number_format($item->sale,0,',','.')}} VND | Giảm
-                                                        {{100-($item->sale/$item->price)*100}}%</span>
+                                                        {{number_format(100-($item->sale/$item->price)*100, 2)}}%</span>
                                                                                                         </span>
-                                                    </span>
-                                                </div>
-                                            </a>
+                                                        </span>
+                                                    </div>
+                                                </a>
 
-                                            <!-- <span class="status">Exclusive</span> -->
+                                                <!-- <span class="status">Exclusive</span> -->
+                                            </div>
                                         </div>
-                                    </div>
                                     @endforeach
                                 </div>
                             </div>

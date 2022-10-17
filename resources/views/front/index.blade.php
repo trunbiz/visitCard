@@ -1,31 +1,25 @@
 @extends('front.Base')
 @section('title','VisitCard | Thế giới VisitCard')
 @section('main')
-    <script type="text/javascript">
-        var route = "sanpham.blade.php";
-    </script>
-
     <div class="box-landing">
         <div class="heading-area top-area banner" style="margin-bottom:0;">
-            <div class="container">
-                <div class="slider-carousel owl-carousel owl-theme">
-                    <a href="bo-suu-tap/thoi-trang-tre.html">
-                        <img class="owl-lazy" data-src="images/visitCard/banner_1.jpg" data-srcset="images/banner1.jpeg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
-                    </a>
-                    <a href="bo-suu-tap/dong-gia.html">
-                        <img class="owl-lazy" data-src="images/visitCard/banner_2.jpeg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
-                    </a>
-                    <a href="sale.html">
-                        <img class="owl-lazy" data-src="images/visitCard/banner_3.jpeg" data-srcset="images/banner3.jpg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
-                    </a>
-                    <a href="bo-suu-tap/my-pham-02.html">
-                        <img class="owl-lazy" data-src="images/visitCard/banner_2.jpeg" data-srcset="images/banner2.jpg"
-                             sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
-                    </a>
-                </div>
+            <div class="slider-carousel owl-carousel owl-theme">
+                <a href="bo-suu-tap/thoi-trang-tre.html">
+                    <img class="owl-lazy" data-src="images/visitCard/banner_4.png" data-srcset="images/banner1.jpeg"
+                         sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
+                </a>
+                <a href="bo-suu-tap/dong-gia.html">
+                    <img class="owl-lazy" data-src="images/visitCard/banner_5.png" data-srcset="images/banner2.jpg"
+                         sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
+                </a>
+                <a href="sale.html">
+                    <img class="owl-lazy" data-src="images/visitCard/banner_4.png" data-srcset="images/banner3.jpg"
+                         sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
+                </a>
+                <a href="bo-suu-tap/my-pham-02.html">
+                    <img class="owl-lazy" data-src="images/visitCard/banner_5.png" data-srcset="images/banner2.jpg"
+                         sizes="50vw" alt="VisitCard - Thiết bị tập visitCard"/>
+                </a>
             </div>
         </div>
     </div>

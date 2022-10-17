@@ -12,7 +12,7 @@
                 </center>
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="{{asset('public/images/gym/gioi-thieu.jpg')}}">
+                        <img src="{{asset('public/images/visitCard/blog.webp')}}">
                     </div>
                     <div class="col-sm-6">
                         <h3>VisitCard VIỆT NAM</h3>

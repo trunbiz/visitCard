@@ -8,13 +8,18 @@
         <div class="content-area home-content-area top-area">
             <div class="container">
                 <center>
-                    <h3>CHÀO MỪNG BẠN ĐẾN VỚI PHÒNG GYM CHÚNG TÔI</h3><hr>
+                    <h3>CHÀO MỪNG BẠN ĐẾN VỚI VISIT CARD</h3><hr>
                     <div class="row">
                         <div class="col-sm-6">
-                            <img src="{{asset('public/images/gym/gioi-thieu.jpg')}}">
+                            <img src="{{asset('public/images/visitCard/blog.webp')}}">
                         </div>
                         <div class="col-sm-6">
-                            <p>GYM được tách ra từ từ gốc “gymnasium” của Hi Lạp cổ đại với ý nghĩa chỉ “các hoạt động, luyện tập, vận động cho cơ thể” và “không mặc quần áo”, bởi người Hi Lạp xưa rất coi trọng vẻ đẹp hình thể đó cũng là lý do bạn thường bắt gặp những bức tranh hay tượng Hy Lạp với hình tượng to lớn, cơ bụng 6 múi và không mặc quần áo. Trong tiếng Anh Gym là viết tắt của từ “Gymnastics” với nghĩa tương tự ( tập thể dục để giữ vóc dáng).</p>
+                            <p>
+                                👉🏻 Hầu hết các sản phẩm của VISIT CARD chỉ khác nhau về màu sắc cũng như kiểu dáng, còn về nền tảng bên trong và cách thức hoạt động đều như nhau ✔️
+                            </p>
+                            <p>
+                                👉🏻 Riêng ở sticker POPON thì không có in mã QR nhưng bạn vẫn có thể tải mã QR từ trang hiển thị về để chia sẻ thông tin một cách nhanh chóng chỉ qua 1 lần quét mã QR🥰
+                            </p>
                         </div>
                     </div>
                 </center>
