@@ -6,7 +6,7 @@
         <script type='text/javascript' src="js/jquery.slimscroll.min.js"></script>
         <script type='text/javascript' src="js/bootstrap-slider.js"></script>
         <div class="heading-area top-area">
-            <div class="banner relative">
+            <div class="banner relative container">
                 <a href="hang-moi.html" target="_blank">
                     <img class="lazyload" data-src="{{asset('public/images/visitCard/banner_5.png')}}">
                     <div class="banner_body center">

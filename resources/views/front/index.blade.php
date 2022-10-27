@@ -86,7 +86,7 @@
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
-                        <div class="text-left">
+                        <div class="text-center">
                             <a href="{{asset('product')}}" title="Giao Hàng Nhanh Chóng 📦">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
                                     <span class="upcase up-case box-title-nondecoration">Giao Hàng Nhanh Chóng 📦</span>
@@ -94,10 +94,7 @@
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
                                 <span>Giao hàng nhanh chóng trong vòng 2-3 ngày làm việc
-*Hỗ trợ giao hàng hoả tốc trong nội thành TPHCM<a
-                                            href="nha-thiet-ke/elise.html"
-                                            title="thẻ VisitCard - ĐỒNG GI&Aacute; CHỈ TỪ 149K"
-                                            style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
+*Hỗ trợ giao hàng hoả tốc trong nội thành TPHCM</span>
                             </h5>
                         </div>
                     </div>
@@ -107,16 +104,14 @@
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
-                        <div class="text-left">
+                        <div class="text-center">
                             <a href="{{asset('product')}}" title="Chính Sách Bảo Hành 📃">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
                                     <span class="upcase up-case box-title-nondecoration">Chính Sách Bảo Hành 📃</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>Miễn phí bảo hành khi sản phẩm lỗi, không hoạt động.<a
-                                            href="bo-suu-tap/giay-2020.html" title="Miễn phí bảo hành khi sản phẩm lỗi, không hoạt động."
-                                            style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
+                                <span>Miễn phí bảo hành khi sản phẩm lỗi, không hoạt động.</span>
                             </h5>
                         </div>
                     </div>
@@ -126,16 +121,14 @@
                                  style="width: 100%" class="lazyload"/>
                         </a>
 
-                        <div class="text-left">
+                        <div class="text-center">
                             <a href="{{asset('product')}}" title="Hỗ Trợ 24/7 ☎️">
                                 <h3 style="margin-top: 10px; margin-bottom: 10px;">
                                     <span class="upcase up-case box-title-nondecoration">Hỗ Trợ 24/7 ☎️</span>
                                 </h3>
                             </a>
                             <h5 class="box-description-non-padding-bottom" style="line-height: 18px;">
-                                <span>Giải đáp vấn đề nhanh chóng, tư vấn chi tiết nhiệt tình.<a
-                                            href="nha-thiet-ke/lagu.html" title="ĐỘC QUYỀN TỪ NTK LAGU: UP TO 30% OFF"
-                                            style="text-decoration:underline;"><strong>XEM THÊM</strong></a></span>
+                                <span>Giải đáp vấn đề nhanh chóng, tư vấn chi tiết nhiệt tình.</span>
                             </h5>
                         </div>
                     </div>
