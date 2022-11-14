@@ -3,6 +3,7 @@
 @section('main')
     <script type="text/javascript">
         $('select').picker();
+
         function changeImg(input) {
             //Nếu như tồn thuộc tính file, đồng nghĩa người dùng đã chọn file mới
             if (input.files && input.files[0]) {
@@ -45,43 +46,68 @@
                         {{csrf_field()}}
                         <input class="form-control" placeholder="id" name="id" type="hidden"
                                value="{{isset($item->id)?$item->id:''}}">
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>Username</label>
                             <input class="form-control" placeholder="username" name="username" disabled
                                    value="{{isset($item->username)?$item->username:''}}">
                         </div>
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>Email</label>
                             <input class="form-control" type="text" placeholder="email" name="email"
                                    value="{{isset($item->email)?$item->email:''}}">
                         </div>
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>Phone</label>
                             <input class="form-control" type="text" placeholder="Phone" name="phone"
                                    value="{{isset($item->phone)?$item->phone:''}}">
                         </div>
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>City</label>
                             <input class="form-control" type="text" placeholder="city" name="city"
                                    value="{{isset($item->city)?$item->city:''}}">
                         </div>
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>Address</label>
                             <input class="form-control" type="text" placeholder="address" name="address"
                                    value="{{isset($item->address)?$item->address:''}}">
                         </div>
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>Password</label>
-                            <input class="form-control" type="text" placeholder="Nhập để thay password mới" name="password"
+                            <input class="form-control" type="text" placeholder="Nhập để thay password mới"
+                                   name="password"
                                    value="">
                         </div>
-                        <div class="form-group col-sm-8">
+                        <div class="form-group col-sm-6">
                             <label>Avatar</label>
                             <input id="img" type="file" name="img" value="" class="form-control"
                                    onchange="changeImg(this)">
                             <img id="avatar" class="thumbnail" width="300px"
                                  src="{{isset($item->img)?asset('public/media/'.$item->img):asset('public/images/logo.png')}}">
                             <p class="help-block">Avatar.</p>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label>Facebook</label>
+                            <input class="form-control" type="text" placeholder="url facebook" name="facebook"
+                                   value="{{isset($item->facebook)?$item->facebook:''}}">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label>Instagram</label>
+                            <input class="form-control" type="text" placeholder="url instagram" name="instagram"
+                                   value="{{isset($item->instagram)?$item->instagram:''}}">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label>Youtube</label>
+                            <input class="form-control" type="text" placeholder="url Youtube" name="Youtube"
+                                   value="{{isset($item->youtube)?$item->youtube:''}}">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label>Tiktok</label>
+                            <input class="form-control" type="text" placeholder="url Tiktok" name="Tiktok"
+                                   value="{{isset($item->tiktok)?$item->tiktok:''}}">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label>QR CODE</label>
+                            {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->generate('www.google.com'); !!}
                         </div>
                         <br>
                         <div class="col-sm-12">

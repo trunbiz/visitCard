@@ -9,6 +9,7 @@ use App\Model\productModel;
 use App\Model\usersModel;
 use Illuminate\Http\Request;
 use Auth; //use thư viện auth
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class indexController extends Controller
 {
@@ -84,6 +85,7 @@ class indexController extends Controller
     public function profileInfo(Request $request)
     {
         $data['item'] = usersModel::find(\Illuminate\Support\Facades\Auth::user()->id);
+        $qrCode = QrCode::size(250)->generate('test qr code');
         return view('admin.profile', $data);
     }
 
@@ -96,6 +98,10 @@ class indexController extends Controller
         $userInfo->city = $request['city'] ?? null;
         $userInfo->address = $request['address'] ?? null;
         $userInfo->email = $request['email'] ?? null;
+        $userInfo->url_facebook = $request['url_facebook'] ?? null;
+        $userInfo->url_instagram = $request['url_instagram'] ?? null;
+        $userInfo->url_youtube = $request['url_youtube'] ?? null;
+        $userInfo->url_tiktok = $request['url_tiktok'] ?? null;
         if (!empty($request['password']))
         {
             $userInfo->password = bcrypt($request['password']) ?? null;

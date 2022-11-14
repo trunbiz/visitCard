@@ -8,6 +8,20 @@ class usersModel extends Model
 {
     //
     protected $table='users';
+    protected $fillable = [
+        'username',
+        'email',
+        'phone',
+        'city',
+        'address',
+        'lever',
+        'status',
+        'img',
+        'url_facebook',
+        'url_instagram',
+        'url_youtube',
+        'url_tiktok',
+    ];
     public function listAll()
     {
         $item=usersModel::orderBy('created_at','DESC')->get();
