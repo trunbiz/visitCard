@@ -44,6 +44,9 @@ Route::group(['namespace' => 'Front'], function () {
     Route::get('lien-he', function () {
         return view('front.lien_he');
     });
+
+    // Link QR code
+    Route::get('user/qr/{id}', 'indexController@qrUser');
 });
 Route::group(['namespace' => 'Admin'], function () {
     Route::group(['prefix' => 'admin', 'middleware' => 'checklogin'], function () {

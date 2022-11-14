@@ -8,6 +8,7 @@ use App\Model\mediaModel;
 use App\Model\productModel;
 use App\Model\productRateModel;
 use App\Model\productReviewModel;
+use App\Model\usersModel;
 use Illuminate\Http\Request;
 
 class indexController extends Controller
@@ -81,6 +82,12 @@ class indexController extends Controller
         $request = $request->all();
         $data = $this->productReviewModel->insertData($request);
         return back();
+    }
+
+    public function qrUser($id)
+    {
+        $data['userInfo'] = usersModel::find($id);
+        return view('front.qrUser', $data);
     }
 
 }
