@@ -85,7 +85,7 @@ class indexController extends Controller
     public function profileInfo(Request $request)
     {
         $data['item'] = usersModel::find(\Illuminate\Support\Facades\Auth::user()->id);
-        $qrCode = QrCode::size(250)->generate('test qr code');
+//        $qrCode = QrCode::size(250)->generate('test qr code');
         return view('admin.profile', $data);
     }
 
@@ -102,6 +102,8 @@ class indexController extends Controller
         $userInfo->url_instagram = $request['url_instagram'] ?? null;
         $userInfo->url_youtube = $request['url_youtube'] ?? null;
         $userInfo->url_tiktok = $request['url_tiktok'] ?? null;
+        $userInfo->short_description = $request['short_description'] ?? null;
+        $userInfo->description = $request['description'] ?? null;
         if (!empty($request['password']))
         {
             $userInfo->password = bcrypt($request['password']) ?? null;

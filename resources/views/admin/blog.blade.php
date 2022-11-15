@@ -57,7 +57,7 @@
         </div><!-- /.panel-->
     </div><!-- /.col-->
     <div class="col-sm-12">
-        <p class="back-link">Visit Card Theme by <a href="https://kipo.vn">Kipo</a></p>
+        <p class="back-link">Visit Card Theme by <a href="https://visitCard.vn">visitCard</a></p>
     </div>
     </div><!-- /.row -->
 @stop

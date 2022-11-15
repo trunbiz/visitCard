@@ -86,7 +86,7 @@ class indexController extends Controller
 
     public function qrUser($id)
     {
-        $data['userInfo'] = usersModel::find($id);
+        $data['item'] = usersModel::find($id);
         return view('front.qrUser', $data);
     }
 

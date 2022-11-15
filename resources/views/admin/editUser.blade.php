@@ -28,19 +28,19 @@
             <li><a href="#">
                     <em class="fa fa-home"></em>
                 </a></li>
-            <li class="active">Blog/Profile</li>
+            <li class="active">Users/add</li>
         </ol>
     </div><!--/.row-->
 
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Profile</h1>
+            <h1 class="page-header">User</h1>
         </div>
     </div><!--/.row-->
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Profile</div>
+                <div class="panel-heading">User</div>
                 <div class="panel-body">
                     <form method="POST" role="form" enctype="multipart/form-data">
                         {{csrf_field()}}
@@ -48,7 +48,7 @@
                                value="{{isset($item->id)?$item->id:''}}">
                         <div class="form-group col-sm-6">
                             <label>Username</label>
-                            <input class="form-control" placeholder="username" name="username" disabled
+                            <input class="form-control" placeholder="username" name="username"
                                    value="{{isset($item->username)?$item->username:''}}">
                         </div>
                         <div class="form-group col-sm-6">

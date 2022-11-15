@@ -20,6 +20,8 @@ class usersModel extends Model
         'url_facebook',
         'url_instagram',
         'url_youtube',
+        'description',
+        'short_description',
         'url_tiktok',
     ];
     public function listAll()
