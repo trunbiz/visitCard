@@ -114,10 +114,11 @@
                                  src="{{isset($item->img)?asset('public/media/'.$item->img):asset('public/images/logo.png')}}">
                             <p class="help-block">Avatar.</p>
                         </div>
-                        {{--<div class="form-group col-sm-6">--}}
-                            {{--<label>QR CODE</label>--}}
+                        <div class="form-group col-sm-6">
+                            <label>QR CODE</label>
+                            {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->generate('www.google.com'); !!}
                             {{--{!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->generate('www.google.com'); !!}--}}
-                        {{--</div>--}}
+                        </div>
                         <br>
                         <div class="col-sm-12">
                             <button class="btn btn-lg btn-primary">Update</button>
