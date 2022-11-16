@@ -29,6 +29,7 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
+                                <th>Qr</th>
                                 <th>Username</th>
                                 <th>Avatar</th>
                                 <th>Email</th>
@@ -40,6 +41,7 @@
                             @foreach($items as $item)
                                 <tr class="onRow">
                                     <td scope="row">{{$item->id}}</td>
+                                    <td>{!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(50)->generate(asset('user/qr/' . $item->id)); !!}</td>
                                     <td>{{$item->username}}</td>
                                     <td><img class="thumbnail" width="100px" src="{{isset($item->img)?asset('public/media/'.$item->img):asset('public/images/logo.png')}}" ></td>
                                     <td>{{$item->email}}</td>

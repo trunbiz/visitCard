@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Theme Made By www.w3schools.com - No Copyright -->
-    <title>Bootstrap Theme Simply Me</title>
+    <title>Social Network</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -61,6 +61,7 @@
 <div class="container-fluid bg-1 text-center">
     <h3 class="margin">{{$item->username}}</h3>
     <img src="{{isset($item->img)?asset('public/media/'.$item->img):asset('public/images/logo.png')}}" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+    <p>{!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(50)->generate(asset('user/qr/' . $item->id)); !!}</p>
     <h3>{{$item->short_description ?? ''}}</h3>
 </div>
 

@@ -115,9 +115,8 @@
                             <p class="help-block">Avatar.</p>
                         </div>
                         <div class="form-group col-sm-6">
-                            <label>QR CODE</label>
-                            {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->generate('www.google.com'); !!}
-                            {{--{!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->generate('www.google.com'); !!}--}}
+                            <label>QR CODE</label><br>
+                            {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->generate(asset('user/qr/' . $item->id)); !!}
                         </div>
                         <br>
                         <div class="col-sm-12">

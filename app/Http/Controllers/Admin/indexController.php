@@ -85,9 +85,6 @@ class indexController extends Controller
     public function profileInfo(Request $request)
     {
         $data['item'] = usersModel::find(\Illuminate\Support\Facades\Auth::user()->id);
-        QrCode::size(500)
-            ->format('png')
-            ->generate('www.google.com', public_path('images/qrcode.png'));
         return view('admin.profile', $data);
     }
 
