@@ -52,7 +52,9 @@
             <li class="{{ (request()->is('admin')) ? 'active' : '' }}"><a href="{{asset('admin')}}"><em
                             class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>@endif
         @if(Auth::user()->lever == 0)
-            <li class="{{ (request()->is('admin/users')) ? 'active' : '' }}"><a href="{{asset('admin/users')}}"><i class="fa fa-users" aria-hidden="true"></i> Manager user</a></li>@endif
+            <li class="{{ (request()->is('admin/users')) ? 'active' : '' }}"><a href="{{asset('admin/users')}}"><i
+                            class="fa fa-users" aria-hidden="true"></i> Manager user</a></li>@endif
+        <li class="{{ (request()->is('user/qr')) ? 'active' : '' }}"><a href="{{asset('user/qr/' . Auth::user()->id)}}"><i class="fa fa-id-card" aria-hidden="true"></i> My Social Network</a></li>
         <li class="{{ (request()->is('admin/profile')) ? 'active' : '' }}"><a href="{{asset('admin/profile')}}"><i
                         class="fa fa-address-card-o"></i> Profile</a></li>
         @if(Auth::user()->lever == 0)
