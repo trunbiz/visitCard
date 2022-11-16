@@ -175,7 +175,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         // QR code
-//        \SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class
+//        SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class
 
     ],
 

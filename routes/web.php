@@ -84,6 +84,14 @@ Route::group(['namespace' => 'Admin'], function () {
             Route::get('detail/{id}', 'cartController@detailItem');
             Route::get('update/{id}/{status}', 'cartController@updateStatus');
         });
+        Route::group(['prefix' => 'users'], function () {
+            Route::get('/', 'userController@listAll');
+            Route::get('store', 'userController@showStore');
+            Route::post('store', 'userController@storeItem');
+            Route::get('update/{id}', 'userController@showItem');
+            Route::post('update/{id}', 'userController@updateItem');
+            Route::get('delete/{id}', 'userController@deleteItem');
+        });
     });
 
     //-------------------------------------------
